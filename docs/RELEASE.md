@@ -1,7 +1,7 @@
 # Release information
 * update files
-* update release notes in `release-notes`
+* update release notes in `release-notes` for version
+* replace version in files for release
 * commit changes
-* make github release
-* check/update zenodo information in README.md
+* make github release (add omex as supplement)
 * build and push docker container
