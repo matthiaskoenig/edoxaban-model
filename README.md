@@ -5,28 +5,19 @@
 # edoxaban model
 This repository provides the edoxaban physiologically based pharmacokinetics/ pharmacodynamics (PBPK/PD) model.
 
-The model is distributed as [SBML](http://sbml.org) available from [`edoxaban_body_flat.xml`](./models/edoxaban_body_flat.xml) with 
-corresponding SBML4humans model report at [https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/edoxaban-model/main/models/edoxaban_body_flat.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/edoxaban-model/main/models/edoxaban_body_flat.xml) and equations from [`edoxaban_body_flat.md`](./models/edoxaban_body_flat.md).
+The model is distributed in [SBML](http://sbml.org) format available from [`edoxaban_body_flat.xml`](./models/edoxaban_body_flat.xml) with 
+corresponding [SBML4humans model report](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/edoxaban-model/main/models/edoxaban_body_flat.xml) and [model equations](./models/edoxaban_body_flat.md).
 
 The COMBINE archive is available from [`edoxaban_model.omex`](./edoxaban_model.omex).
 
 ![model overview](./figures/edoxaban_model.png)
 
 ### Comp submodels
-The liver submodel is available from [`edoxaban_liver.xml`](./models/edoxaban_liver.xml) with corresponding SBML4humans report at
-[https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/edoxaban-model/main/models/edoxaban_liver.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/edoxaban-model/main/models/edoxaban_liver.xml) and equations from [`edoxaban_liver.md`](./models/edoxaban_liver.md).
-
-The kidney submodel is available from [`edoxaban_kidney.xml`](./models/edoxaban_kidney.xml) with corresponding SBML4humans report at
-[https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/edoxaban-model/main/models/edoxaban_kidney.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/edoxaban-model/main/models/edoxaban_kidney.xml) and equations from [`edoxaban_kidney.md`](./models/edoxaban_kidney.md).
-
-The intestine submodel is available from [`edoxaban_intestine.xml`](./models/edoxaban_intestine.xml) with corresponding SBML4humans report at
-[https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/edoxaban-model/main/models/edoxaban_intestine.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/edoxaban-model/main/models/edoxaban_intestine.xml) and equations from [`edoxaban_intestine.md`](./models/edoxaban_intestine.md).
-
-The whole-body submodel is available from [`edoxaban_body.xml`](./models/edoxaban_body.xml) with corresponding SBML4humans report at
-[https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/edoxaban-model/main/models/edoxaban_body.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/edoxaban-model/main/models/edoxaban_body.xml) and equations from [`edoxaban_body.md`](./models/edoxaban_body.md).
-
-The coagulation submodel is available from [`edoxaban_coagulation.xml`](./models/edoxaban_body.xml) with corresponding SBML4humans report at
-[https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/edoxaban-model/main/models/edoxaban_coagulation.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/edoxaban-model/main/models/edoxaban_body.xml) and equations from [`edoxaban_coagulation.md`](./models/edoxaban_body.md).
+* **liver** submodel [`edoxaban_liver.xml`](./models/edoxaban_liver.xml) with [SBML4humans report](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/edoxaban-model/main/models/edoxaban_liver.xml) and [equations](./models/edoxaban_liver.md).
+* **kidney** submodel [`edoxaban_kidney.xml`](./models/edoxaban_kidney.xml) with [SBML4humans report](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/edoxaban-model/main/models/edoxaban_kidney.xml) and [equations](./models/edoxaban_kidney.md).
+* **intestine** submodel [`edoxaban_intestine.xml`](./models/edoxaban_intestine.xml) with [SBML4humans report](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/edoxaban-model/main/models/edoxaban_intestine.xml) and [equations](./models/edoxaban_intestine.md).
+* **whole-body** submodel [`edoxaban_body.xml`](./models/edoxaban_body.xml) with [SBML4humans report](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/edoxaban-model/main/models/edoxaban_body.xml) and [equations](./models/edoxaban_body.md).
+* **coagulation** submodel [`edoxaban_coagulation.xml`](./models/edoxaban_body.xml) with [SBML4humans report](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/edoxaban-model/main/models/edoxaban_coagulation.xml) and [equations](./models/edoxaban_coagulation.md).
 
 
 ## How to cite
