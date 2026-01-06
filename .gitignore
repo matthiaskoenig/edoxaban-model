@@ -1,5 +1,6 @@
+.venv
 .idea
 *.pyc
 __pycache__
-results/
-src/pkdb_models/models/edoxaban/results/
+./results/
+src/pkdb_models/models/edoxaban/models/results/edoxaban_model.omex
