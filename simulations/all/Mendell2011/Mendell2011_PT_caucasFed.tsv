@@ -1,0 +1,7 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Mendell2011		caucasFed	16.0	ED60	prothrombin time		plasma	coagulation assay	PT_caucasFed	0.0	hr		12.5					sec	sec
+Mendell2011		caucasFed	16.0	ED60	prothrombin time		plasma	coagulation assay	PT_caucasFed	1.5	hr		18.4					sec	sec
+Mendell2011		caucasFed	16.0	ED60	prothrombin time		plasma	coagulation assay	PT_caucasFed	3.0	hr		17.2					sec	sec
+Mendell2011		caucasFed	16.0	ED60	prothrombin time		plasma	coagulation assay	PT_caucasFed	6.0	hr		15.1					sec	sec
+Mendell2011		caucasFed	16.0	ED60	prothrombin time		plasma	coagulation assay	PT_caucasFed	12.0	hr		13.7					sec	sec
+Mendell2011		caucasFed	16.0	ED60	prothrombin time		plasma	coagulation assay	PT_caucasFed	24.0	hr		12.9					sec	sec

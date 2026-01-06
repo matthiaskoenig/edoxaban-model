@@ -1,0 +1,16 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	mean_pm	mean_sd	mean_se	comments	mean_unit
+Brown2015		cohort2	12.0	ED180	PT (change relative)		plasma	coagulation assay	PT_ED180	0.0	hr	0.0					sec
+Brown2015		cohort2	12.0	ED180	PT (change relative)		plasma	coagulation assay	PT_ED180	0.5	hr	4.76	7.93	3.17			sec
+Brown2015		cohort2	12.0	ED180	PT (change relative)		plasma	coagulation assay	PT_ED180	1.0	hr	10.49	13.54	3.049999999999999			sec
+Brown2015		cohort2	12.0	ED180	PT (change relative)		plasma	coagulation assay	PT_ED180	1.5	hr	11.83	14.27	2.4399999999999995			sec
+Brown2015		cohort2	12.0	ED180	PT (change relative)		plasma	coagulation assay	PT_ED180	2.0	hr	12.69	15.25	2.5600000000000005			sec
+Brown2015		cohort2	12.0	ED180	PT (change relative)		plasma	coagulation assay	PT_ED180	3.0	hr	12.2	14.64	2.4400000000000013			sec
+Brown2015		cohort2	12.0	ED180	PT (change relative)		plasma	coagulation assay	PT_ED180	4.0	hr	10.98	13.66	2.68			sec
+Brown2015		cohort2	12.0	ED180	PT (change relative)		plasma	coagulation assay	PT_ED180	6.0	hr	10.13	13.3	3.17			sec
+Brown2015		cohort2	12.0	ED180	PT (change relative)		plasma	coagulation assay	PT_ED180	8.0	hr	9.15	12.69	3.539999999999999			sec
+Brown2015		cohort2	12.0	ED180	PT (change relative)		plasma	coagulation assay	PT_ED180	12.0	hr	6.47	11.23	4.760000000000001			sec
+Brown2015		cohort2	12.0	ED180	PT (change relative)		plasma	coagulation assay	PT_ED180	24.0	hr	4.65	10.25	5.6			sec
+Brown2015		cohort2	12.0	ED180	PT (change relative)		plasma	coagulation assay	PT_ED180	36.0	hr	2.7	7.57	4.87			sec
+Brown2015		cohort2	12.0	ED180	PT (change relative)		plasma	coagulation assay	PT_ED180	48.0	hr	1.63	5.01	3.38			sec
+Brown2015		cohort2	12.0	ED180	PT (change relative)		plasma	coagulation assay	PT_ED180	60.0	hr	0.79					sec
+Brown2015		cohort2	12.0	ED180	PT (change relative)		plasma	coagulation assay	PT_ED180	72.0	hr	0.0					sec

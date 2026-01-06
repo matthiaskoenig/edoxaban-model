@@ -1,0 +1,23 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Ogata2010		all	9.0	mplacebo	prothrombin time		plasma	coagulation assay	PT_mplacebo	0.5	hr		14.35					sec	sec
+Ogata2010		all	9.0	mplacebo	prothrombin time		plasma	coagulation assay	PT_mplacebo	1.0	hr		14.54					sec	sec
+Ogata2010		all	9.0	mplacebo	prothrombin time		plasma	coagulation assay	PT_mplacebo	2.0	hr		13.99					sec	sec
+Ogata2010		all	9.0	mplacebo	prothrombin time		plasma	coagulation assay	PT_mplacebo	3.0	hr		14.2					sec	sec
+Ogata2010		all	9.0	mplacebo	prothrombin time		plasma	coagulation assay	PT_mplacebo	4.0	hr		14.03					sec	sec
+Ogata2010		all	9.0	mplacebo	prothrombin time		plasma	coagulation assay	PT_mplacebo	6.0	hr		14.81					sec	sec
+Ogata2010		all	9.0	mplacebo	prothrombin time		plasma	coagulation assay	PT_mplacebo	8.0	hr		14.28					sec	sec
+Ogata2010		all	9.0	mplacebo	prothrombin time		plasma	coagulation assay	PT_mplacebo	12.0	hr		14.3					sec	sec
+Ogata2010		all	9.0	mplacebo	prothrombin time		plasma	coagulation assay	PT_mplacebo	24.0	hr		14.32					sec	sec
+Ogata2010		all	9.0	mplacebo	prothrombin time		plasma	coagulation assay	PT_mplacebo	36.0	hr		14.34					sec	sec
+Ogata2010		all	9.0	mplacebo	prothrombin time		plasma	coagulation assay	PT_mplacebo	40.0	hr							sec	sec
+Ogata2010		all	9.0	mplacebo	prothrombin time		plasma	coagulation assay	PT_mplacebo	216.0	hr		14.75	15.13	0.38		0.0	sec	sec
+Ogata2010		all	9.0	mplacebo	prothrombin time		plasma	coagulation assay	PT_mplacebo	217.0	hr		14.18	14.56	0.38		1.0	sec	sec
+Ogata2010		all	9.0	mplacebo	prothrombin time		plasma	coagulation assay	PT_mplacebo	218.0	hr		14.37	14.75	0.38		2.0	sec	sec
+Ogata2010		all	9.0	mplacebo	prothrombin time		plasma	coagulation assay	PT_mplacebo	219.0	hr		14.56	14.94	0.38		3.0	sec	sec
+Ogata2010		all	9.0	mplacebo	prothrombin time		plasma	coagulation assay	PT_mplacebo	220.0	hr		13.99	14.37	0.38		4.0	sec	sec
+Ogata2010		all	9.0	mplacebo	prothrombin time		plasma	coagulation assay	PT_mplacebo	222.0	hr		14.56	14.94	0.38		6.0	sec	sec
+Ogata2010		all	9.0	mplacebo	prothrombin time		plasma	coagulation assay	PT_mplacebo	224.0	hr		14.37	14.75	0.38		8.0	sec	sec
+Ogata2010		all	9.0	mplacebo	prothrombin time		plasma	coagulation assay	PT_mplacebo	228.0	hr		14.37	14.75	0.38		12.0	sec	sec
+Ogata2010		all	9.0	mplacebo	prothrombin time		plasma	coagulation assay	PT_mplacebo	240.0	hr		14.18				24.0	sec	sec
+Ogata2010		all	9.0	mplacebo	prothrombin time		plasma	coagulation assay	PT_mplacebo	252.0	hr		14.18				36.0	sec	sec
+Ogata2010		all	9.0	mplacebo	prothrombin time		plasma	coagulation assay	PT_mplacebo	264.0	hr		14.18				48.0	sec	sec

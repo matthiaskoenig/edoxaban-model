@@ -1,0 +1,12 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	timeraw	comments	mean_unit	value_unit
+Parasrampuria2016b		all	23.0	ED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_ED60	0.0	hr		0.07						IU/mL	IU/mL
+Parasrampuria2016b		all	23.0	ED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_ED60	0.5	hr		1.35	2.57	1.22				IU/mL	IU/mL
+Parasrampuria2016b		all	23.0	ED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_ED60	1.0	hr		2.55	3.46	0.91				IU/mL	IU/mL
+Parasrampuria2016b		all	23.0	ED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_ED60	1.5	hr		2.87	3.83	0.96				IU/mL	IU/mL
+Parasrampuria2016b		all	23.0	ED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_ED60	2.0	hr		2.8	3.74	0.94				IU/mL	IU/mL
+Parasrampuria2016b		all	23.0	ED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_ED60	3.0	hr		2.16	2.83	0.67				IU/mL	IU/mL
+Parasrampuria2016b		all	23.0	ED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_ED60	4.0	hr		1.68	2.13	0.45				IU/mL	IU/mL
+Parasrampuria2016b		all	23.0	ED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_ED60	6.0	hr		1.06	1.29	0.23				IU/mL	IU/mL
+Parasrampuria2016b		all	23.0	ED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_ED60	10.0	hr		0.48	0.57	0.09				IU/mL	IU/mL
+Parasrampuria2016b		all	23.0	ED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_ED60	14.0	hr		0.27	0.37	0.1				IU/mL	IU/mL
+Parasrampuria2016b		all	23.0	ED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_ED60	24.0	hr		0.09						IU/mL	IU/mL

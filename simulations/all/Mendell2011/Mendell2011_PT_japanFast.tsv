@@ -1,0 +1,7 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Mendell2011		japanFast	16.0	ED60	prothrombin time		plasma	coagulation assay	PT_japanFast	0.0	hr		12.8					sec	sec
+Mendell2011		japanFast	16.0	ED60	prothrombin time		plasma	coagulation assay	PT_japanFast	1.5	hr		18.1					sec	sec
+Mendell2011		japanFast	16.0	ED60	prothrombin time		plasma	coagulation assay	PT_japanFast	3.0	hr		16.7					sec	sec
+Mendell2011		japanFast	16.0	ED60	prothrombin time		plasma	coagulation assay	PT_japanFast	6.0	hr		15.5					sec	sec
+Mendell2011		japanFast	16.0	ED60	prothrombin time		plasma	coagulation assay	PT_japanFast	12.0	hr		13.6					sec	sec
+Mendell2011		japanFast	16.0	ED60	prothrombin time		plasma	coagulation assay	PT_japanFast	24.0	hr		12.8					sec	sec

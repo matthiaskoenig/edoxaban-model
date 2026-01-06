@@ -1,0 +1,61 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "edoxaban-model"
+version = "0.7.0"
+description = "Python utilities for computational models in SBML."
+readme = "README.md"
+requires-python = ">=3.13"
+authors = [
+    {name="Mariia Babaeva", email="mariia.babaeva@charite.de"},
+    {name="Mariia Myshkina", email="mariia.myshkina@hu-berlin.de"},
+    {name="Michelle Elias", email="eliasmic@hu-berlin.de"},
+	{name="Matthias König", email="konigmatt@googlemail.com"},
+]
+maintainers = [
+	{name="Matthias König", email="konigmatt@googlemail.com"}
+]
+classifiers = [
+	"Development Status :: 5 - Production/Stable",
+	"Intended Audience :: Science/Research",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.13",
+	"Programming Language :: Python :: Implementation :: CPython",
+	"Topic :: Scientific/Engineering",
+	"Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+keywords = [
+    "SBML",
+    "physiologically based pharmacokinetic/pharmacodynamic model",
+    "coagulation",
+    "PBPK/PD",
+    "edoxaban",
+    "computational modeling",
+]
+dependencies = [
+    "pkdb_analysis>=0.2.2",
+    "statsmodels",
+    "sbmlutils @ git+https://github.com/matthiaskoenig/sbmlutils.git@f560466f0c2e3613eaba7ecb217ce4cbab9fe636",
+    "sbmlsim @ git+https://github.com/matthiaskoenig/sbmlsim.git@b42df60231ec25c2c886931ca9c98cb33c1303ef"
+]
+
+[project.scripts]
+run_edoxaban = "pkdb_models.models.edoxaban.run_edoxaban:main"
+fit_edoxaban = "pkdb_models.models.edoxaban.fitting.fitting:main"
+
+[project_urls]
+Homepage = "https://github.com/matthiaskoenig/edoxaban-model"
+Repository = "https://github.com/matthiaskoenig/edoxaban-model"
+Documentation = "https://github.com/matthiaskoenig/edoxaban-model"
+Issues = "https://github.com/matthiaskoenig/edoxaban-model/issues"
+# Download = "https://pypi.org/project/pkdb_models"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pkdb_models"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+

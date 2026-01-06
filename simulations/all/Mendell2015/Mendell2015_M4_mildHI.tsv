@@ -1,0 +1,15 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Mendell2015		mildHI	8.0	ED15	concentration	edoxaban-M4	plasma	LC MS/MS	M4_mildHI	0.0	hr		0.0					mole/meter^3	ng/ml
+Mendell2015		mildHI	8.0	ED15	concentration	edoxaban-M4	plasma	LC MS/MS	M4_mildHI	0.5	hr		2.8790786948176584e-06	0.9	1.1516314779270634e-06			mole/meter^3	ng/ml
+Mendell2015		mildHI	8.0	ED15	concentration	edoxaban-M4	plasma	LC MS/MS	M4_mildHI	1.0	hr		1.0172744721689058e-05	3.3	3.838771593090211e-06			mole/meter^3	ng/ml
+Mendell2015		mildHI	8.0	ED15	concentration	edoxaban-M4	plasma	LC MS/MS	M4_mildHI	2.0	hr		1.4203454894433781e-05	3.2	8.061420345489444e-06			mole/meter^3	ng/ml
+Mendell2015		mildHI	8.0	ED15	concentration	edoxaban-M4	plasma	LC MS/MS	M4_mildHI	3.0	hr		1.343570057581574e-05	2.2	9.213051823416507e-06			mole/meter^3	ng/ml
+Mendell2015		mildHI	8.0	ED15	concentration	edoxaban-M4	plasma	LC MS/MS	M4_mildHI	6.0	hr		1.2476007677543186e-05	1.7	9.213051823416507e-06			mole/meter^3	ng/ml
+Mendell2015		mildHI	8.0	ED15	concentration	edoxaban-M4	plasma	LC MS/MS	M4_mildHI	8.0	hr		6.90978886756238e-06	1.4	4.222648752399232e-06			mole/meter^3	ng/ml
+Mendell2015		mildHI	8.0	ED15	concentration	edoxaban-M4	plasma	LC MS/MS	M4_mildHI	10.0	hr		4.606525911708254e-06	1.0	2.6871401151631474e-06			mole/meter^3	ng/ml
+Mendell2015		mildHI	8.0	ED15	concentration	edoxaban-M4	plasma	LC MS/MS	M4_mildHI	12.0	hr		3.2629558541266794e-06	0.7	1.9193857965451054e-06			mole/meter^3	ng/ml
+Mendell2015		mildHI	8.0	ED15	concentration	edoxaban-M4	plasma	LC MS/MS	M4_mildHI	24.0	hr		2.111324376199616e-06	0.3	1.5355086372360846e-06			mole/meter^3	ng/ml
+Mendell2015		mildHI	8.0	ED15	concentration	edoxaban-M4	plasma	LC MS/MS	M4_mildHI	36.0	hr		1.3435700575815737e-06					mole/meter^3	ng/ml
+Mendell2015		mildHI	8.0	ED15	concentration	edoxaban-M4	plasma	LC MS/MS	M4_mildHI	48.0	hr		9.596928982725527e-07					mole/meter^3	ng/ml
+Mendell2015		mildHI	8.0	ED15	concentration	edoxaban-M4	plasma	LC MS/MS	M4_mildHI	60.0	hr		5.758157389635317e-07					mole/meter^3	ng/ml
+Mendell2015		mildHI	8.0	ED15	concentration	edoxaban-M4	plasma	LC MS/MS	M4_mildHI	72.0	hr		0.0					mole/meter^3	ng/ml

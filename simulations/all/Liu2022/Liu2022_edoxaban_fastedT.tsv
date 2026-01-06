@@ -1,0 +1,21 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Liu2022		fasting	32.0	test	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fastedT	0.0	hr		0.0					mole/meter^3	ng/ml
+Liu2022		fasting	32.0	test	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fastedT	0.25	hr		0.0001460429370614059	90.19	1.8519937670830443e-05			mole/meter^3	ng/ml
+Liu2022		fasting	32.0	test	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fastedT	0.5	hr		0.00034770042586733526	201.84	2.0581763244036215e-05			mole/meter^3	ng/ml
+Liu2022		fasting	32.0	test	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fastedT	0.75	hr		0.0004094457155994439	234.55	1.851993767083047e-05			mole/meter^3	ng/ml
+Liu2022		fasting	32.0	test	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fastedT	1.0	hr		0.0004196636122454193	234.52	8.247302292823042e-06			mole/meter^3	ng/ml
+Liu2022		fasting	32.0	test	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fastedT	1.25	hr		0.00040933623813537985	226.19	3.3755551419740143e-06			mole/meter^3	ng/ml
+Liu2022		fasting	32.0	test	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fastedT	1.5	hr		0.0003949034591229396	218.38	3.5580175820807084e-06			mole/meter^3	ng/ml
+Liu2022		fasting	32.0	test	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fastedT	1.75	hr		0.0003660743935860803	201.6	1.769885669035027e-06			mole/meter^3	ng/ml
+Liu2022		fasting	32.0	test	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fastedT	2.0	hr		0.0003557652657200515					mole/meter^3	ng/ml
+Liu2022		fasting	32.0	test	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fastedT	2.5	hr		0.00031246692868273066					mole/meter^3	ng/ml
+Liu2022		fasting	32.0	test	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fastedT	3.0	hr		0.0002794777195114386					mole/meter^3	ng/ml
+Liu2022		fasting	32.0	test	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fastedT	3.5	hr		0.0002588229712913597					mole/meter^3	ng/ml
+Liu2022		fasting	32.0	test	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fastedT	4.0	hr		0.00022791383393728403					mole/meter^3	ng/ml
+Liu2022		fasting	32.0	test	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fastedT	4.5	hr		0.00020317192705881492					mole/meter^3	ng/ml
+Liu2022		fasting	32.0	test	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fastedT	5.0	hr		0.00019076448113155908					mole/meter^3	ng/ml
+Liu2022		fasting	32.0	test	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fastedT	6.0	hr		0.00015768404074021364					mole/meter^3	ng/ml
+Liu2022		fasting	32.0	test	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fastedT	8.0	hr		0.00010188702655558355					mole/meter^3	ng/ml
+Liu2022		fasting	32.0	test	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fastedT	12.0	hr		5.813253341799591e-05					mole/meter^3	ng/ml
+Liu2022		fasting	32.0	test	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fastedT	24.0	hr		1.9541727335428005e-05					mole/meter^3	ng/ml
+Liu2022		fasting	32.0	test	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fastedT	48.0	hr		0.0					mole/meter^3	ng/ml

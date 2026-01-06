@@ -1,0 +1,7 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	mean_sd	mean_se	lower_quartile	median	upper_quartile	min	max	comments	mean_unit	median_unit
+Mendell2015		healthyA	8.0	ED15	aPTT		plasma	coagulation assay	aPTT_healthyA	0.0	hr				29.2	29.9	31.5	25.2	34.2		sec	sec
+Mendell2015		healthyA	8.0	ED15	aPTT		plasma	coagulation assay	aPTT_healthyA	2.0	hr				33.5	35.1	38.8	32.1	39.2		sec	sec
+Mendell2015		healthyA	8.0	ED15	aPTT		plasma	coagulation assay	aPTT_healthyA	4.0	hr				32.5	33.2	35.9	31.1	38.2		sec	sec
+Mendell2015		healthyA	8.0	ED15	aPTT		plasma	coagulation assay	aPTT_healthyA	24.0	hr				29.4	31.4	34.4	27.3	35.2		sec	sec
+Mendell2015		healthyA	8.0	ED15	aPTT		plasma	coagulation assay	aPTT_healthyA	48.0	hr				28.2	29.3	31.9	26.3	34.4		sec	sec
+Mendell2015		healthyA	8.0	ED15	aPTT		plasma	coagulation assay	aPTT_healthyA	72.0	hr				29.2	29.9	31.3	26.2	32.2		sec	sec

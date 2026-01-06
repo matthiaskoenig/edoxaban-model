@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	cv	median	min	max	mean_sd	mean_se	comments	mean_unit	median_unit
+Matsushima2013	all	29.0	ED30_IV, Q300	cumulative amount	edoxaban	urine	LC MS/MS	edoxaban_urine_ED30_IV, Q300	0.0	hr	0.0								mole	mg
+Matsushima2013	all	29.0	ED30_IV, Q300	cumulative amount	edoxaban	urine	LC MS/MS	edoxaban_urine_ED30_IV, Q300	72.0	hr	2.4632429414405046e-05					3.229585189888662e-06			mole	mg

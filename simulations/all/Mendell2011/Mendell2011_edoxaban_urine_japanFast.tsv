@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	cv	median	min	max	mean_sd	mean_se	comments	mean_unit	median_unit
+Mendell2011	japanFast	16.0	ED60	cumulative amount	edoxaban	urine	LC MS/MS	edoxaban_urine_japanFast	0.0	hr	0.0								mole	mg
+Mendell2011	japanFast	16.0	ED60	cumulative amount	edoxaban	urine	LC MS/MS	edoxaban_urine_japanFast	24.0	hr	4.0689124143795005e-05	24.8				1.0090902787661163e-05			mole	mg

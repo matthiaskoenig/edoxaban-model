@@ -1,0 +1,22 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Ogata2010		all	9.0	mED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED60	0.5	hr		0.58	0.87	0.29			IU/mL	IU/mL
+Ogata2010		all	9.0	mED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED60	1.0	hr		1.73	2.53	0.8			IU/mL	IU/mL
+Ogata2010		all	9.0	mED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED60	2.0	hr		1.87	2.38	0.51			IU/mL	IU/mL
+Ogata2010		all	9.0	mED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED60	3.0	hr		2.52					IU/mL	IU/mL
+Ogata2010		all	9.0	mED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED60	4.0	hr		2.16					IU/mL	IU/mL
+Ogata2010		all	9.0	mED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED60	6.0	hr		1.5					IU/mL	IU/mL
+Ogata2010		all	9.0	mED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED60	8.0	hr		0.92					IU/mL	IU/mL
+Ogata2010		all	9.0	mED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED60	12.0	hr		0.19					IU/mL	IU/mL
+Ogata2010		all	9.0	mED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED60	24.0	hr		0.05					IU/mL	IU/mL
+Ogata2010		all	9.0	mED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED60	36.0	hr		0.0					IU/mL	IU/mL
+Ogata2010		all	9.0	mED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED60	216.0	hr		1.05	2.06	1.01		0.0	IU/mL	IU/mL
+Ogata2010		all	9.0	mED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED60	217.0	hr		2.42	3.22	0.8		1.0	IU/mL	IU/mL
+Ogata2010		all	9.0	mED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED60	218.0	hr		3.79	4.66	0.87		2.0	IU/mL	IU/mL
+Ogata2010		all	9.0	mED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED60	219.0	hr		4.01	4.59	0.58		3.0	IU/mL	IU/mL
+Ogata2010		all	9.0	mED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED60	220.0	hr		3.43	3.86	0.43		4.0	IU/mL	IU/mL
+Ogata2010		all	9.0	mED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED60	222.0	hr		2.05				6.0	IU/mL	IU/mL
+Ogata2010		all	9.0	mED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED60	224.0	hr		1.54				8.0	IU/mL	IU/mL
+Ogata2010		all	9.0	mED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED60	228.0	hr		0.74				12.0	IU/mL	IU/mL
+Ogata2010		all	9.0	mED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED60	240.0	hr		0.23				24.0	IU/mL	IU/mL
+Ogata2010		all	9.0	mED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED60	252.0	hr		0.08				36.0	IU/mL	IU/mL
+Ogata2010		all	9.0	mED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED60	264.0	hr		0.0				48.0	IU/mL	IU/mL

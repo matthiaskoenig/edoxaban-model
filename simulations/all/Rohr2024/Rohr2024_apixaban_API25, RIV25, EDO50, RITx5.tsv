@@ -1,0 +1,12 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Rohr2024		all	8.0	API25, RIV25, EDO50, RITx5	concentration	apixaban	plasma	LC MS/MS	apixaban_API25, RIV25, EDO50, RITx5	0.5	hr		672.97	997.3	324.33			pg/ml	pg/ml
+Rohr2024		all	8.0	API25, RIV25, EDO50, RITx5	concentration	apixaban	plasma	LC MS/MS	apixaban_API25, RIV25, EDO50, RITx5	1.0	hr		827.03	981.08	154.05			pg/ml	pg/ml
+Rohr2024		all	8.0	API25, RIV25, EDO50, RITx5	concentration	apixaban	plasma	LC MS/MS	apixaban_API25, RIV25, EDO50, RITx5	1.5	hr		802.7	997.3	194.6			pg/ml	pg/ml
+Rohr2024		all	8.0	API25, RIV25, EDO50, RITx5	concentration	apixaban	plasma	LC MS/MS	apixaban_API25, RIV25, EDO50, RITx5	2.0	hr		802.7	956.76	154.06			pg/ml	pg/ml
+Rohr2024		all	8.0	API25, RIV25, EDO50, RITx5	concentration	apixaban	plasma	LC MS/MS	apixaban_API25, RIV25, EDO50, RITx5	2.5	hr		802.7	981.08	178.38			pg/ml	pg/ml
+Rohr2024		all	8.0	API25, RIV25, EDO50, RITx5	concentration	apixaban	plasma	LC MS/MS	apixaban_API25, RIV25, EDO50, RITx5	3.0	hr		745.95	891.89	145.94			pg/ml	pg/ml
+Rohr2024		all	8.0	API25, RIV25, EDO50, RITx5	concentration	apixaban	plasma	LC MS/MS	apixaban_API25, RIV25, EDO50, RITx5	4.0	hr		705.41	818.92	113.51			pg/ml	pg/ml
+Rohr2024		all	8.0	API25, RIV25, EDO50, RITx5	concentration	apixaban	plasma	LC MS/MS	apixaban_API25, RIV25, EDO50, RITx5	6.0	hr		478.38	575.68	97.3			pg/ml	pg/ml
+Rohr2024		all	8.0	API25, RIV25, EDO50, RITx5	concentration	apixaban	plasma	LC MS/MS	apixaban_API25, RIV25, EDO50, RITx5	8.0	hr		332.43	397.3	64.87			pg/ml	pg/ml
+Rohr2024		all	8.0	API25, RIV25, EDO50, RITx5	concentration	apixaban	plasma	LC MS/MS	apixaban_API25, RIV25, EDO50, RITx5	23.0	hr		81.08	113.51	32.43			pg/ml	pg/ml
+Rohr2024		all	8.0	API25, RIV25, EDO50, RITx5	concentration	apixaban	plasma	LC MS/MS	apixaban_API25, RIV25, EDO50, RITx5	24.0	hr		72.97	105.41	32.44			pg/ml	pg/ml

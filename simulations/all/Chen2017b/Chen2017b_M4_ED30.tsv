@@ -1,0 +1,14 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Chen2017b		all	12.0	ED30	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED30	0.0	hr		0.0					mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED30	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED30	0.5	hr		8.061420345489444e-06	7.7	5.758157389635317e-06			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED30	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED30	1.0	hr		2.8982725527831093e-05	18.3	6.142034548944339e-06			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED30	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED30	1.5	hr		3.435700575815739e-05	25.7	1.4971209213051822e-05			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED30	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED30	2.0	hr		3.781190019193858e-05	30.6	2.092130518234165e-05			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED30	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED30	3.0	hr		4.126679462571977e-05	31.0	1.82341650671785e-05			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED30	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED30	4.0	hr		3.723608445297504e-05	25.3	1.1324376199616123e-05			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED30	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED30	6.0	hr		3.051823416506718e-05	19.7	7.293666026871401e-06			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED30	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED30	8.0	hr		1.4971209213051822e-05	9.5	3.2629558541266794e-06			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED30	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED30	12.0	hr		9.596928982725528e-06	6.4	2.6871401151631474e-06			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED30	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED30	24.0	hr		3.45489443378119e-06	2.9	2.111324376199616e-06			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED30	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED30	36.0	hr		1.727447216890595e-06	0.9				mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED30	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED30	48.0	hr		0.0					mole/meter^3	ng/ml

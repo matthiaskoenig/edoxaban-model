@@ -1,0 +1,7 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	mean_sd	mean_se	lower_quartile	median	upper_quartile	min	max	comments	mean_unit	median_unit
+Mendell2015		mildHI	8.0	ED15	aPTT		plasma	coagulation assay	aPTT_mildHI	0.0	hr				30.8	31.7	33.6	30.1	39.1		sec	sec
+Mendell2015		mildHI	8.0	ED15	aPTT		plasma	coagulation assay	aPTT_mildHI	2.0	hr				32.3	34.2	35.8	31.0	43.2		sec	sec
+Mendell2015		mildHI	8.0	ED15	aPTT		plasma	coagulation assay	aPTT_mildHI	4.0	hr				31.6	34.3	37.8	30.2	42.4		sec	sec
+Mendell2015		mildHI	8.0	ED15	aPTT		plasma	coagulation assay	aPTT_mildHI	24.0	hr				30.4	32.6	34.2	30.3	37.3		sec	sec
+Mendell2015		mildHI	8.0	ED15	aPTT		plasma	coagulation assay	aPTT_mildHI	48.0	hr				30.5	33.7	34.2	29.3	35.4		sec	sec
+Mendell2015		mildHI	8.0	ED15	aPTT		plasma	coagulation assay	aPTT_mildHI	72.0	hr				30.0	32.9	33.9	29.3	39.4		sec	sec

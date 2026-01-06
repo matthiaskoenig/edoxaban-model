@@ -1,0 +1,16 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Matsushima2013		all	35.0	ED30_IV, Q300	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED30_IV, Q300	0.0	hr		0.0012056899087322874					mole/meter^3	ng/ml
+Matsushima2013		all	35.0	ED30_IV, Q300	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED30_IV, Q300	0.5	hr		0.0008824011327268283					mole/meter^3	ng/ml
+Matsushima2013		all	35.0	ED30_IV, Q300	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED30_IV, Q300	1.0	hr		0.0008279634637209931					mole/meter^3	ng/ml
+Matsushima2013		all	35.0	ED30_IV, Q300	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED30_IV, Q300	1.5	hr		0.0007751405873101023					mole/meter^3	ng/ml
+Matsushima2013		all	35.0	ED30_IV, Q300	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED30_IV, Q300	2.0	hr		0.0007216006335095921					mole/meter^3	ng/ml
+Matsushima2013		all	35.0	ED30_IV, Q300	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED30_IV, Q300	3.0	hr		0.0005335183502476015					mole/meter^3	ng/ml
+Matsushima2013		all	35.0	ED30_IV, Q300	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED30_IV, Q300	4.0	hr		0.0003992770838122973					mole/meter^3	ng/ml
+Matsushima2013		all	35.0	ED30_IV, Q300	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED30_IV, Q300	6.0	hr		0.00017208215188903368					mole/meter^3	ng/ml
+Matsushima2013		all	35.0	ED30_IV, Q300	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED30_IV, Q300	8.0	hr		0.00014832189293833865					mole/meter^3	ng/ml
+Matsushima2013		all	35.0	ED30_IV, Q300	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED30_IV, Q300	12.0	hr		9.813924803579185e-05					mole/meter^3	ng/ml
+Matsushima2013		all	35.0	ED30_IV, Q300	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED30_IV, Q300	24.0	hr		1.4162734601082368e-05					mole/meter^3	ng/ml
+Matsushima2013		all	35.0	ED30_IV, Q300	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED30_IV, Q300	36.0	hr		6.138036485189523e-06					mole/meter^3	ng/ml
+Matsushima2013		all	35.0	ED30_IV, Q300	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED30_IV, Q300	48.0	hr		1.6275649657518001e-06					mole/meter^3	ng/ml
+Matsushima2013		all	35.0	ED30_IV, Q300	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED30_IV, Q300	60.0	hr		9.323830689452577e-07					mole/meter^3	ng/ml
+Matsushima2013		all	35.0	ED30_IV, Q300	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED30_IV, Q300	72.0	hr		6.404431647745312e-07					mole/meter^3	ng/ml

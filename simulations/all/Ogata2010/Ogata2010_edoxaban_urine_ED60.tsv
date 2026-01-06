@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	cv	median	min	max	mean_sd	mean_se	comments	mean_unit	median_unit
+Ogata2010	all	10.0	ED60	cumulative amount	edoxaban	urine	LC MS/MS	edoxaban_urine_ED60	0.0	hr	0.0								mole	µg
+Ogata2010	all	10.0	ED60	cumulative amount	edoxaban	urine	LC MS/MS	edoxaban_urine_ED60	24.0	hr	4.084239259348463e-05	18.5				7.555842629794656e-06			mole	µg

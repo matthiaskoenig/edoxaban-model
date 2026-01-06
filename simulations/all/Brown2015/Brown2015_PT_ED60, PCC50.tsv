@@ -1,0 +1,16 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	mean_pm	mean_sd	mean_se	comments	mean_unit
+Brown2015		cohort1	12.0	ED60, PCC50	PT (change relative)		plasma	coagulation assay	PT_ED60, PCC50	0.0	hr	0.0					sec
+Brown2015		cohort1	12.0	ED60, PCC50	PT (change relative)		plasma	coagulation assay	PT_ED60, PCC50	0.5	hr	4.25	8.28	4.029999999999999			sec
+Brown2015		cohort1	12.0	ED60, PCC50	PT (change relative)		plasma	coagulation assay	PT_ED60, PCC50	1.0	hr	5.06	9.31	4.250000000000001			sec
+Brown2015		cohort1	12.0	ED60, PCC50	PT (change relative)		plasma	coagulation assay	PT_ED60, PCC50	1.5	hr	4.94	8.27	3.329999999999999			sec
+Brown2015		cohort1	12.0	ED60, PCC50	PT (change relative)		plasma	coagulation assay	PT_ED60, PCC50	2.0	hr	4.25	7.24	2.99			sec
+Brown2015		cohort1	12.0	ED60, PCC50	PT (change relative)		plasma	coagulation assay	PT_ED60, PCC50	3.0	hr	3.44	6.55	3.11			sec
+Brown2015		cohort1	12.0	ED60, PCC50	PT (change relative)		plasma	coagulation assay	PT_ED60, PCC50	4.0	hr	2.87	5.74	2.87			sec
+Brown2015		cohort1	12.0	ED60, PCC50	PT (change relative)		plasma	coagulation assay	PT_ED60, PCC50	6.0	hr	2.52	4.82	2.3000000000000003			sec
+Brown2015		cohort1	12.0	ED60, PCC50	PT (change relative)		plasma	coagulation assay	PT_ED60, PCC50	8.0	hr	1.83	3.55	1.7199999999999998			sec
+Brown2015		cohort1	12.0	ED60, PCC50	PT (change relative)		plasma	coagulation assay	PT_ED60, PCC50	12.0	hr	1.25	2.4	1.15			sec
+Brown2015		cohort1	12.0	ED60, PCC50	PT (change relative)		plasma	coagulation assay	PT_ED60, PCC50	24.0	hr	0.33	1.48	1.15			sec
+Brown2015		cohort1	12.0	ED60, PCC50	PT (change relative)		plasma	coagulation assay	PT_ED60, PCC50	36.0	hr	0.25	0.88	0.63			sec
+Brown2015		cohort1	12.0	ED60, PCC50	PT (change relative)		plasma	coagulation assay	PT_ED60, PCC50	48.0	hr	0.17	2.34	2.17			sec
+Brown2015		cohort1	12.0	ED60, PCC50	PT (change relative)		plasma	coagulation assay	PT_ED60, PCC50	60.0	hr	0.08					sec
+Brown2015		cohort1	12.0	ED60, PCC50	PT (change relative)		plasma	coagulation assay	PT_ED60, PCC50	72.0	hr	0.0					sec

@@ -1,0 +1,12 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Ogata2010		all	9.0	ED120	prothrombin time		plasma	coagulation assay	PT_ED120	0.5	hr		24.72	27.55	2.83			sec	sec
+Ogata2010		all	9.0	ED120	prothrombin time		plasma	coagulation assay	PT_ED120	1.0	hr		29.06	32.45	3.39			sec	sec
+Ogata2010		all	9.0	ED120	prothrombin time		plasma	coagulation assay	PT_ED120	2.0	hr		32.08	32.45	0.37			sec	sec
+Ogata2010		all	9.0	ED120	prothrombin time		plasma	coagulation assay	PT_ED120	3.0	hr		29.06	30.0	0.94			sec	sec
+Ogata2010		all	9.0	ED120	prothrombin time		plasma	coagulation assay	PT_ED120	4.0	hr		26.04	26.23	0.19			sec	sec
+Ogata2010		all	9.0	ED120	prothrombin time		plasma	coagulation assay	PT_ED120	6.0	hr		23.02	22.45	0.57			sec	sec
+Ogata2010		all	9.0	ED120	prothrombin time		plasma	coagulation assay	PT_ED120	8.0	hr		20.38	19.43	0.95			sec	sec
+Ogata2010		all	9.0	ED120	prothrombin time		plasma	coagulation assay	PT_ED120	12.0	hr		17.74					sec	sec
+Ogata2010		all	9.0	ED120	prothrombin time		plasma	coagulation assay	PT_ED120	24.0	hr		15.66					sec	sec
+Ogata2010		all	9.0	ED120	prothrombin time		plasma	coagulation assay	PT_ED120	36.0	hr		15.09					sec	sec
+Ogata2010		all	9.0	ED120	prothrombin time		plasma	coagulation assay	PT_ED120	48.0	hr		15.28					sec	sec

@@ -1,0 +1,12 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Ogata2010		all	9.0	ED90	prothrombin time		plasma	coagulation assay	PT_ED90	0.5	hr		23.58	27.55	3.97			sec	sec
+Ogata2010		all	9.0	ED90	prothrombin time		plasma	coagulation assay	PT_ED90	1.0	hr		30.75	32.45	1.7			sec	sec
+Ogata2010		all	9.0	ED90	prothrombin time		plasma	coagulation assay	PT_ED90	2.0	hr		30.0	34.15	4.15			sec	sec
+Ogata2010		all	9.0	ED90	prothrombin time		plasma	coagulation assay	PT_ED90	3.0	hr		27.92	30.0	2.08			sec	sec
+Ogata2010		all	9.0	ED90	prothrombin time		plasma	coagulation assay	PT_ED90	4.0	hr		24.34	27.55	3.21			sec	sec
+Ogata2010		all	9.0	ED90	prothrombin time		plasma	coagulation assay	PT_ED90	6.0	hr		21.51	24.53	3.02			sec	sec
+Ogata2010		all	9.0	ED90	prothrombin time		plasma	coagulation assay	PT_ED90	8.0	hr		18.49	21.32	2.83			sec	sec
+Ogata2010		all	9.0	ED90	prothrombin time		plasma	coagulation assay	PT_ED90	12.0	hr		16.42					sec	sec
+Ogata2010		all	9.0	ED90	prothrombin time		plasma	coagulation assay	PT_ED90	24.0	hr		14.72					sec	sec
+Ogata2010		all	9.0	ED90	prothrombin time		plasma	coagulation assay	PT_ED90	36.0	hr		13.58					sec	sec
+Ogata2010		all	9.0	ED90	prothrombin time		plasma	coagulation assay	PT_ED90	48.0	hr		13.21					sec	sec

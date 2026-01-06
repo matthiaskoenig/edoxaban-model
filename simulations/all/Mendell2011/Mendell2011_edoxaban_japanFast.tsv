@@ -1,0 +1,17 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Mendell2011		japanFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFast	0.0	hr		0.0					mole/meter^3	ng/ml
+Mendell2011		japanFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFast	0.5	hr		0.00033609581467654884					mole/meter^3	ng/ml
+Mendell2011		japanFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFast	1.0	hr		0.0004433837294592908					mole/meter^3	ng/ml
+Mendell2011		japanFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFast	1.5	hr		0.00041911622492509914					mole/meter^3	ng/ml
+Mendell2011		japanFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFast	2.0	hr		0.0004019647555550691					mole/meter^3	ng/ml
+Mendell2011		japanFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFast	2.5	hr		0.00034302938740060363					mole/meter^3	ng/ml
+Mendell2011		japanFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFast	3.0	hr		0.0003014279510562751					mole/meter^3	ng/ml
+Mendell2011		japanFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFast	3.5	hr		0.00028756080560816554					mole/meter^3	ng/ml
+Mendell2011		japanFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFast	4.0	hr		0.0002459593692638371					mole/meter^3	ng/ml
+Mendell2011		japanFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFast	4.5	hr		0.00022862543745370015					mole/meter^3	ng/ml
+Mendell2011		japanFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFast	5.0	hr		0.00021129150564356327					mole/meter^3	ng/ml
+Mendell2011		japanFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFast	6.0	hr		0.00018702400110937165					mole/meter^3	ng/ml
+Mendell2011		japanFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFast	8.0	hr		0.0001317378817570403					mole/meter^3	ng/ml
+Mendell2011		japanFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFast	12.0	hr		6.586894087852016e-05					mole/meter^3	ng/ml
+Mendell2011		japanFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFast	16.0	hr		3.813464998230114e-05					mole/meter^3	ng/ml
+Mendell2011		japanFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFast	24.0	hr		0.0					mole/meter^3	ng/ml

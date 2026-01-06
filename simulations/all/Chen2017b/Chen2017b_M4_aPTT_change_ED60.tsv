@@ -1,0 +1,7 @@
+study	individual	group	count	intervention	time	time_unit	x_measurement_type	x_substance	x_tissue	x_method	x_label	x	x_sd	x_unit	y_measurement_type	y_substance	y_tissue	y_method	y_label	y	y_sd	y_unit	label	comments
+Chen2017b		all	12.0	ED60	0.0	hr	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED60	0.0		mole/meter^3	aPTT (change)		plasma	coagulation assay	aPTT_change_ED60	0.0		sec	M4_aPTT_change_ED60	
+Chen2017b		all	12.0	ED60	1.0	hr	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED60	3.3781190019193855e-05	1.6122840690978887e-05	mole/meter^3	aPTT (change)		plasma	coagulation assay	aPTT_change_ED60	17.4	5.3	sec	M4_aPTT_change_ED60	
+Chen2017b		all	12.0	ED60	2.0	hr	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED60	5.738963531669866e-05	2.1689059500959693e-05	mole/meter^3	aPTT (change)		plasma	coagulation assay	aPTT_change_ED60	17.1	6.3	sec	M4_aPTT_change_ED60	
+Chen2017b		all	12.0	ED60	6.0	hr	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED60	5.0095969289827256e-05	1.6890595009596928e-05	mole/meter^3	aPTT (change)		plasma	coagulation assay	aPTT_change_ED60	8.8	2.7	sec	M4_aPTT_change_ED60	
+Chen2017b		all	12.0	ED60	12.0	hr	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED60	1.6314779270633397e-05	8.061420345489444e-06	mole/meter^3	aPTT (change)		plasma	coagulation assay	aPTT_change_ED60	2.2	0.8	sec	M4_aPTT_change_ED60	
+Chen2017b		all	12.0	ED60	24.0	hr	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED60	8.253358925143954e-06	4.030710172744722e-06	mole/meter^3	aPTT (change)		plasma	coagulation assay	aPTT_change_ED60	2.2	1.0	sec	M4_aPTT_change_ED60	

@@ -1,0 +1,7 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Chen2017b		all	12.0	ED90	prothrombin time (change)		plasma	coagulation assay	PT_change_ED90	0.0	hr		0.0					sec	sec
+Chen2017b		all	12.0	ED90	prothrombin time (change)		plasma	coagulation assay	PT_change_ED90	1.0	hr		5.3	8.9	3.6			sec	sec
+Chen2017b		all	12.0	ED90	prothrombin time (change)		plasma	coagulation assay	PT_change_ED90	2.0	hr		8.0	9.4	1.4			sec	sec
+Chen2017b		all	12.0	ED90	prothrombin time (change)		plasma	coagulation assay	PT_change_ED90	6.0	hr		3.9	4.7	0.8			sec	sec
+Chen2017b		all	12.0	ED90	prothrombin time (change)		plasma	coagulation assay	PT_change_ED90	12.0	hr		1.5	2.1	0.6			sec	sec
+Chen2017b		all	12.0	ED90	prothrombin time (change)		plasma	coagulation assay	PT_change_ED90	24.0	hr		0.5	1.0	0.5			sec	sec

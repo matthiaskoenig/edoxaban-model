@@ -1,0 +1,23 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Ogata2010		all	9.0	mED120	aPTT		plasma	coagulation assay	aPTT_mED120	0.5	hr		38.88	40.6	1.72			sec	sec
+Ogata2010		all	9.0	mED120	aPTT		plasma	coagulation assay	aPTT_mED120	1.0	hr		45.75	48.84	3.09			sec	sec
+Ogata2010		all	9.0	mED120	aPTT		plasma	coagulation assay	aPTT_mED120	2.0	hr		49.01	50.9	1.89			sec	sec
+Ogata2010		all	9.0	mED120	aPTT		plasma	coagulation assay	aPTT_mED120	3.0	hr		48.84	50.56	1.72			sec	sec
+Ogata2010		all	9.0	mED120	aPTT		plasma	coagulation assay	aPTT_mED120	4.0	hr		44.72	46.44	1.72			sec	sec
+Ogata2010		all	9.0	mED120	aPTT		plasma	coagulation assay	aPTT_mED120	6.0	hr		41.8	43.0	1.2			sec	sec
+Ogata2010		all	9.0	mED120	aPTT		plasma	coagulation assay	aPTT_mED120	8.0	hr		39.57	40.94	1.37			sec	sec
+Ogata2010		all	9.0	mED120	aPTT		plasma	coagulation assay	aPTT_mED120	12.0	hr		36.14	37.68	1.54			sec	sec
+Ogata2010		all	9.0	mED120	aPTT		plasma	coagulation assay	aPTT_mED120	24.0	hr		33.05	34.42	1.37			sec	sec
+Ogata2010		all	9.0	mED120	aPTT		plasma	coagulation assay	aPTT_mED120	36.0	hr		32.02	33.39	1.37			sec	sec
+Ogata2010		all	9.0	mED120	aPTT		plasma	coagulation assay	aPTT_mED120	40.0	hr							sec	sec
+Ogata2010		all	9.0	mED120	aPTT		plasma	coagulation assay	aPTT_mED120	216.0	hr		38.99	41.87	2.88		0.0	sec	sec
+Ogata2010		all	9.0	mED120	aPTT		plasma	coagulation assay	aPTT_mED120	217.0	hr		43.74	46.45	2.71		1.0	sec	sec
+Ogata2010		all	9.0	mED120	aPTT		plasma	coagulation assay	aPTT_mED120	218.0	hr		45.79	47.99	2.2		2.0	sec	sec
+Ogata2010		all	9.0	mED120	aPTT		plasma	coagulation assay	aPTT_mED120	219.0	hr		47.32	50.04	2.72		3.0	sec	sec
+Ogata2010		all	9.0	mED120	aPTT		plasma	coagulation assay	aPTT_mED120	220.0	hr		47.51	49.54	2.03		4.0	sec	sec
+Ogata2010		all	9.0	mED120	aPTT		plasma	coagulation assay	aPTT_mED120	222.0	hr		44.31	45.33	1.02		6.0	sec	sec
+Ogata2010		all	9.0	mED120	aPTT		plasma	coagulation assay	aPTT_mED120	224.0	hr		41.28	42.47	1.19		8.0	sec	sec
+Ogata2010		all	9.0	mED120	aPTT		plasma	coagulation assay	aPTT_mED120	228.0	hr		38.25	39.1	0.85		12.0	sec	sec
+Ogata2010		all	9.0	mED120	aPTT		plasma	coagulation assay	aPTT_mED120	240.0	hr		33.86	35.05	1.19		24.0	sec	sec
+Ogata2010		all	9.0	mED120	aPTT		plasma	coagulation assay	aPTT_mED120	252.0	hr		31.68	33.03	1.35		36.0	sec	sec
+Ogata2010		all	9.0	mED120	aPTT		plasma	coagulation assay	aPTT_mED120	264.0	hr		31.36	32.54	1.18		48.0	sec	sec

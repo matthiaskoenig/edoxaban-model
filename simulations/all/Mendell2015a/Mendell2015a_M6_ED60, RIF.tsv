@@ -1,0 +1,12 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Mendell2015a		all	32.0	ED60, RIF	concentration	edoxaban-M6	plasma	LC MS/MS	M6_ED60, RIF	0.0	hr		0.0					mole/meter^3	ng/ml
+Mendell2015a		all	32.0	ED60, RIF	concentration	edoxaban-M6	plasma	LC MS/MS	M6_ED60, RIF	0.5	hr		3.099250936329588e-05	30.62	2.6348314606741577e-05			mole/meter^3	ng/ml
+Mendell2015a		all	32.0	ED60, RIF	concentration	edoxaban-M6	plasma	LC MS/MS	M6_ED60, RIF	1.0	hr		7.593632958801499e-05	53.79	2.479400749063671e-05			mole/meter^3	ng/ml
+Mendell2015a		all	32.0	ED60, RIF	concentration	edoxaban-M6	plasma	LC MS/MS	M6_ED60, RIF	1.5	hr		7.516853932584269e-05	51.31	2.0917602996254684e-05			mole/meter^3	ng/ml
+Mendell2015a		all	32.0	ED60, RIF	concentration	edoxaban-M6	plasma	LC MS/MS	M6_ED60, RIF	2.0	hr		6.50936329588015e-05	44.28	1.7827715355805253e-05			mole/meter^3	ng/ml
+Mendell2015a		all	32.0	ED60, RIF	concentration	edoxaban-M6	plasma	LC MS/MS	M6_ED60, RIF	3.0	hr		5.2696629213483154e-05	35.59	1.3951310861423226e-05			mole/meter^3	ng/ml
+Mendell2015a		all	32.0	ED60, RIF	concentration	edoxaban-M6	plasma	LC MS/MS	M6_ED60, RIF	4.0	hr		4.49438202247191e-05	29.79	1.0842696629213483e-05			mole/meter^3	ng/ml
+Mendell2015a		all	32.0	ED60, RIF	concentration	edoxaban-M6	plasma	LC MS/MS	M6_ED60, RIF	6.0	hr		3.099250936329588e-05	20.28	6.9850187265917605e-06			mole/meter^3	ng/ml
+Mendell2015a		all	32.0	ED60, RIF	concentration	edoxaban-M6	plasma	LC MS/MS	M6_ED60, RIF	8.0	hr		2.0149812734082396e-05	13.66	5.430711610486892e-06			mole/meter^3	ng/ml
+Mendell2015a		all	32.0	ED60, RIF	concentration	edoxaban-M6	plasma	LC MS/MS	M6_ED60, RIF	12.0	hr		9.307116104868913e-06	6.21	2.322097378277154e-06			mole/meter^3	ng/ml
+Mendell2015a		all	32.0	ED60, RIF	concentration	edoxaban-M6	plasma	LC MS/MS	M6_ED60, RIF	24.0	hr		2.3220973782771536e-06					mole/meter^3	ng/ml

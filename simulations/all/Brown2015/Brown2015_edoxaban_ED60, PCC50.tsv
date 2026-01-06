@@ -1,0 +1,18 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Brown2015		cohort1	12.0	ED60, PCC50	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60, PCC50	0.0	hr		0.0					mole/meter^3	ng/ml
+Brown2015		cohort1	12.0	ED60, PCC50	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60, PCC50	0.5	hr		0.00031493017162417114	243.84	0.00012998624233201598			mole/meter^3	ng/ml
+Brown2015		cohort1	12.0	ED60, PCC50	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60, PCC50	1.0	hr		0.00044491641395618715	361.64	0.00021494075444569732			mole/meter^3	ng/ml
+Brown2015		cohort1	12.0	ED60, PCC50	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60, PCC50	1.5	hr		0.0004349174722383398	323.29	0.00015496535038262376			mole/meter^3	ng/ml
+Brown2015		cohort1	12.0	ED60, PCC50	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60, PCC50	2.0	hr		0.0003699243510723318	295.89	0.00016996376295939477			mole/meter^3	ng/ml
+Brown2015		cohort1	12.0	ED60, PCC50	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60, PCC50	2.5	hr		0.00032992858420094224	257.53	0.00013996693780585264			mole/meter^3	ng/ml
+Brown2015		cohort1	12.0	ED60, PCC50	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60, PCC50	3.0	hr		0.00028993281732955274	252.05	0.00016996376295939483			mole/meter^3	ng/ml
+Brown2015		cohort1	12.0	ED60, PCC50	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60, PCC50	3.5	hr		0.00026495370927894494	232.88	0.0001599648212415474			mole/meter^3	ng/ml
+Brown2015		cohort1	12.0	ED60, PCC50	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60, PCC50	4.0	hr		0.00019496111725401328	219.18	0.00020496005897186064			mole/meter^3	ng/ml
+Brown2015		cohort1	12.0	ED60, PCC50	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60, PCC50	6.0	hr		0.00014996587952370005	202.74	0.0002199584715486317			mole/meter^3	ng/ml
+Brown2015		cohort1	12.0	ED60, PCC50	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60, PCC50	8.0	hr		8.499100460170274e-05	139.73	0.00016996376295939483			mole/meter^3	ng/ml
+Brown2015		cohort1	12.0	ED60, PCC50	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60, PCC50	12.0	hr		2.9996825153542146e-05	38.63	4.048841545967763e-05			mole/meter^3	ng/ml
+Brown2015		cohort1	12.0	ED60, PCC50	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60, PCC50	24.0	hr		2.561772659098125e-05					mole/meter^3	ng/ml
+Brown2015		cohort1	12.0	ED60, PCC50	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60, PCC50	36.0	hr		1.6823036977838117e-05					mole/meter^3	ng/ml
+Brown2015		cohort1	12.0	ED60, PCC50	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60, PCC50	48.0	hr		9.998941717847382e-06					mole/meter^3	ng/ml
+Brown2015		cohort1	12.0	ED60, PCC50	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60, PCC50	60.0	hr		4.999470858923691e-06					mole/meter^3	ng/ml
+Brown2015		cohort1	12.0	ED60, PCC50	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60, PCC50	72.0	hr		0.0					mole/meter^3	ng/ml

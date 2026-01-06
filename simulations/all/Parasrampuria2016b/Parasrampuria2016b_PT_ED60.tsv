@@ -1,0 +1,12 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	timeraw	comments	mean_unit	value_unit
+Parasrampuria2016b		all	23.0	ED60	prothrombin time		plasma	coagulation assay	PT_ED60	0.0	hr		13.25	12.73	0.52				sec	sec
+Parasrampuria2016b		all	23.0	ED60	prothrombin time		plasma	coagulation assay	PT_ED60	0.5	hr		16.72	13.78	2.94				sec	sec
+Parasrampuria2016b		all	23.0	ED60	prothrombin time		plasma	coagulation assay	PT_ED60	1.0	hr		19.73	17.02	2.71				sec	sec
+Parasrampuria2016b		all	23.0	ED60	prothrombin time		plasma	coagulation assay	PT_ED60	1.5	hr		20.4	18.07	2.33				sec	sec
+Parasrampuria2016b		all	23.0	ED60	prothrombin time		plasma	coagulation assay	PT_ED60	2.0	hr		20.55	17.99	2.56				sec	sec
+Parasrampuria2016b		all	23.0	ED60	prothrombin time		plasma	coagulation assay	PT_ED60	3.0	hr		19.19	17.08	2.11				sec	sec
+Parasrampuria2016b		all	23.0	ED60	prothrombin time		plasma	coagulation assay	PT_ED60	4.0	hr		17.83	16.48	1.35				sec	sec
+Parasrampuria2016b		all	23.0	ED60	prothrombin time		plasma	coagulation assay	PT_ED60	6.0	hr		16.1	15.42	0.680000000000002				sec	sec
+Parasrampuria2016b		all	23.0	ED60	prothrombin time		plasma	coagulation assay	PT_ED60	10.0	hr		14.65	14.05	0.6				sec	sec
+Parasrampuria2016b		all	23.0	ED60	prothrombin time		plasma	coagulation assay	PT_ED60	14.0	hr		14.26	13.66	0.6				sec	sec
+Parasrampuria2016b		all	23.0	ED60	prothrombin time		plasma	coagulation assay	PT_ED60	24.0	hr		13.71	13.25	0.460000000000001				sec	sec

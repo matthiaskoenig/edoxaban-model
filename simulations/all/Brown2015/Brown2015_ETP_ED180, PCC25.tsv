@@ -1,0 +1,13 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	mean_pm	mean_sd	mean_se	comments	mean_unit
+Brown2015		cohort2	12.0	ED180, PCC25	ETP (change relative)		plasma	coagulation assay	ETP_ED180, PCC25	0.0	hr	0.0					percent
+Brown2015		cohort2	12.0	ED180, PCC25	ETP (change relative)		plasma	coagulation assay	ETP_ED180, PCC25	0.5	hr	-21.14	-12.04	9.1			percent
+Brown2015		cohort2	12.0	ED180, PCC25	ETP (change relative)		plasma	coagulation assay	ETP_ED180, PCC25	1.0	hr	-23.88	-9.89	13.989999999999998			percent
+Brown2015		cohort2	12.0	ED180, PCC25	ETP (change relative)		plasma	coagulation assay	ETP_ED180, PCC25	1.5	hr	-19.63	-5.63	14.0			percent
+Brown2015		cohort2	12.0	ED180, PCC25	ETP (change relative)		plasma	coagulation assay	ETP_ED180, PCC25	2.0	hr	-10.47	11.94	22.41			percent
+Brown2015		cohort2	12.0	ED180, PCC25	ETP (change relative)		plasma	coagulation assay	ETP_ED180, PCC25	2.5	hr	-14.61	2.89	17.5			percent
+Brown2015		cohort2	12.0	ED180, PCC25	ETP (change relative)		plasma	coagulation assay	ETP_ED180, PCC25	3.0	hr	2.95	19.75	16.8			percent
+Brown2015		cohort2	12.0	ED180, PCC25	ETP (change relative)		plasma	coagulation assay	ETP_ED180, PCC25	3.5	hr	2.3	13.5	11.2			percent
+Brown2015		cohort2	12.0	ED180, PCC25	ETP (change relative)		plasma	coagulation assay	ETP_ED180, PCC25	4.0	hr	9.37	31.77	22.4			percent
+Brown2015		cohort2	12.0	ED180, PCC25	ETP (change relative)		plasma	coagulation assay	ETP_ED180, PCC25	6.0	hr	11.7	22.9	11.2			percent
+Brown2015		cohort2	12.0	ED180, PCC25	ETP (change relative)		plasma	coagulation assay	ETP_ED180, PCC25	8.0	hr	14.03	28.73	14.7			percent
+Brown2015		cohort2	12.0	ED180, PCC25	ETP (change relative)		plasma	coagulation assay	ETP_ED180, PCC25	12.0	hr	11.7	25.0	13.3			percent

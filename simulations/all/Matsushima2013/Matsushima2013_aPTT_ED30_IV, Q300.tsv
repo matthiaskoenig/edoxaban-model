@@ -1,0 +1,8 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Matsushima2013		all	28.0	ED30_IV, Q300	aPTT		plasma	coagulation assay	aPTT_ED30_IV, Q300	0.0	hr		28.27					sec	sec
+Matsushima2013		all	28.0	ED30_IV, Q300	aPTT		plasma	coagulation assay	aPTT_ED30_IV, Q300	2.0	hr		36.19					sec	sec
+Matsushima2013		all	28.0	ED30_IV, Q300	aPTT		plasma	coagulation assay	aPTT_ED30_IV, Q300	4.0	hr		34.28					sec	sec
+Matsushima2013		all	28.0	ED30_IV, Q300	aPTT		plasma	coagulation assay	aPTT_ED30_IV, Q300	8.0	hr		31.16					sec	sec
+Matsushima2013		all	28.0	ED30_IV, Q300	aPTT		plasma	coagulation assay	aPTT_ED30_IV, Q300	12.0	hr		30.11					sec	sec
+Matsushima2013		all	28.0	ED30_IV, Q300	aPTT		plasma	coagulation assay	aPTT_ED30_IV, Q300	24.0	hr		28.61					sec	sec
+Matsushima2013		all	28.0	ED30_IV, Q300	aPTT		plasma	coagulation assay	aPTT_ED30_IV, Q300	72.0	hr		28.6					sec	sec

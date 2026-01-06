@@ -1,0 +1,17 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Mendell2011		japanFed	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFed	0.0	hr		0.0					mole/meter^3	ng/ml
+Mendell2011		japanFed	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFed	0.5	hr		8.666965905068442e-05					mole/meter^3	ng/ml
+Mendell2011		japanFed	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFed	1.0	hr		0.0003256954555904667					mole/meter^3	ng/ml
+Mendell2011		japanFed	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFed	1.5	hr		0.0003707636782968226					mole/meter^3	ng/ml
+Mendell2011		japanFed	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFed	2.0	hr		0.0004849851658036194					mole/meter^3	ng/ml
+Mendell2011		japanFed	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFed	2.5	hr		0.00045378408854537296					mole/meter^3	ng/ml
+Mendell2011		japanFed	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFed	3.0	hr		0.000426049797649154					mole/meter^3	ng/ml
+Mendell2011		japanFed	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFed	3.5	hr		0.0003950311828310142					mole/meter^3	ng/ml
+Mendell2011		japanFed	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFed	4.0	hr		0.00036383010557276786					mole/meter^3	ng/ml
+Mendell2011		japanFed	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFed	4.5	hr		0.00033609581467654884					mole/meter^3	ng/ml
+Mendell2011		japanFed	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFed	5.0	hr		0.0003048947374183024					mole/meter^3	ng/ml
+Mendell2011		japanFed	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFed	6.0	hr		0.00023209222381572755					mole/meter^3	ng/ml
+Mendell2011		japanFed	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFed	8.0	hr		0.00015582292385112525					mole/meter^3	ng/ml
+Mendell2011		japanFed	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFed	12.0	hr		7.280251360257491e-05					mole/meter^3	ng/ml
+Mendell2011		japanFed	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFed	16.0	hr		3.813464998230114e-05					mole/meter^3	ng/ml
+Mendell2011		japanFed	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_japanFed	24.0	hr		0.0					mole/meter^3	ng/ml

@@ -1,0 +1,12 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Ogata2010		all	10.0	ED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_ED60	0.5	hr		1.46	5.93	4.47			IU/mL	IU/mL
+Ogata2010		all	10.0	ED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_ED60	1.0	hr		2.66	7.86	5.2			IU/mL	IU/mL
+Ogata2010		all	10.0	ED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_ED60	2.0	hr		2.46	8.32	5.86			IU/mL	IU/mL
+Ogata2010		all	10.0	ED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_ED60	3.0	hr		2.25	6.59	4.34			IU/mL	IU/mL
+Ogata2010		all	10.0	ED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_ED60	4.0	hr		2.05	5.05	3.0			IU/mL	IU/mL
+Ogata2010		all	10.0	ED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_ED60	6.0	hr		1.7	3.24	1.54			IU/mL	IU/mL
+Ogata2010		all	10.0	ED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_ED60	8.0	hr		1.36	2.56	1.2			IU/mL	IU/mL
+Ogata2010		all	10.0	ED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_ED60	12.0	hr		1.09					IU/mL	IU/mL
+Ogata2010		all	10.0	ED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_ED60	24.0	hr		0.95					IU/mL	IU/mL
+Ogata2010		all	10.0	ED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_ED60	36.0	hr		0.94					IU/mL	IU/mL
+Ogata2010		all	10.0	ED60	Anti-factor Xa activity		plasma	coagulation assay	Xa_ED60	48.0	hr		0.87					IU/mL	IU/mL

@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	cv	median	min	max	mean_sd	mean_se	comments	mean_unit	median_unit
+Chen2017b	all	12.0	ED60	cumulative amount	edoxaban	urine	LC MS/MS	edoxaban_urine_ED60	0.0	hr	0.0								mole	mg
+Chen2017b	all	12.0	ED60	cumulative amount	edoxaban	urine	LC MS/MS	edoxaban_urine_ED60	48.0	hr	3.740480022187433e-05					7.845884924588273e-06			mole	mg

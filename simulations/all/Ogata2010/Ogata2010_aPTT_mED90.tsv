@@ -1,0 +1,23 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Ogata2010		all	9.0	mED90	aPTT		plasma	coagulation assay	aPTT_mED90	0.5	hr		44.72	49.01	4.29			sec	sec
+Ogata2010		all	9.0	mED90	aPTT		plasma	coagulation assay	aPTT_mED90	1.0	hr		53.82	58.28	4.46			sec	sec
+Ogata2010		all	9.0	mED90	aPTT		plasma	coagulation assay	aPTT_mED90	2.0	hr		51.07	53.65	2.58			sec	sec
+Ogata2010		all	9.0	mED90	aPTT		plasma	coagulation assay	aPTT_mED90	3.0	hr		48.33	50.73	2.4			sec	sec
+Ogata2010		all	9.0	mED90	aPTT		plasma	coagulation assay	aPTT_mED90	4.0	hr		46.27	48.33	2.06			sec	sec
+Ogata2010		all	9.0	mED90	aPTT		plasma	coagulation assay	aPTT_mED90	6.0	hr		43.86	45.24	1.38			sec	sec
+Ogata2010		all	9.0	mED90	aPTT		plasma	coagulation assay	aPTT_mED90	8.0	hr		39.91	41.12	1.21			sec	sec
+Ogata2010		all	9.0	mED90	aPTT		plasma	coagulation assay	aPTT_mED90	12.0	hr		36.14	37.68	1.54			sec	sec
+Ogata2010		all	9.0	mED90	aPTT		plasma	coagulation assay	aPTT_mED90	24.0	hr		34.42	35.97	1.55			sec	sec
+Ogata2010		all	9.0	mED90	aPTT		plasma	coagulation assay	aPTT_mED90	36.0	hr		34.76	36.31	1.55			sec	sec
+Ogata2010		all	9.0	mED90	aPTT		plasma	coagulation assay	aPTT_mED90	40.0	hr							sec	sec
+Ogata2010		all	9.0	mED90	aPTT		plasma	coagulation assay	aPTT_mED90	216.0	hr		34.24				0.0	sec	sec
+Ogata2010		all	9.0	mED90	aPTT		plasma	coagulation assay	aPTT_mED90	217.0	hr		39.5				1.0	sec	sec
+Ogata2010		all	9.0	mED90	aPTT		plasma	coagulation assay	aPTT_mED90	218.0	hr		46.96	51.55	4.59		2.0	sec	sec
+Ogata2010		all	9.0	mED90	aPTT		plasma	coagulation assay	aPTT_mED90	219.0	hr		50.02	53.6	3.58		3.0	sec	sec
+Ogata2010		all	9.0	mED90	aPTT		plasma	coagulation assay	aPTT_mED90	220.0	hr		51.39	51.24	0.15		4.0	sec	sec
+Ogata2010		all	9.0	mED90	aPTT		plasma	coagulation assay	aPTT_mED90	222.0	hr		48.86	48.38	0.48		6.0	sec	sec
+Ogata2010		all	9.0	mED90	aPTT		plasma	coagulation assay	aPTT_mED90	224.0	hr		45.84	47.05	1.21		8.0	sec	sec
+Ogata2010		all	9.0	mED90	aPTT		plasma	coagulation assay	aPTT_mED90	228.0	hr		45.01	42.66	2.35		12.0	sec	sec
+Ogata2010		all	9.0	mED90	aPTT		plasma	coagulation assay	aPTT_mED90	240.0	hr		40.62	36.74	3.88		24.0	sec	sec
+Ogata2010		all	9.0	mED90	aPTT		plasma	coagulation assay	aPTT_mED90	252.0	hr		35.22	36.59	1.37		36.0	sec	sec
+Ogata2010		all	9.0	mED90	aPTT		plasma	coagulation assay	aPTT_mED90	264.0	hr		33.56	34.74	1.18		48.0	sec	sec

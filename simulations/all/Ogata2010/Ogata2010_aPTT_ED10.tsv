@@ -1,0 +1,10 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Ogata2010		all	10.0	ED10	aPTT		plasma	coagulation assay	aPTT_ED10	0.5	hr		24.8	26.3	1.5			sec	sec
+Ogata2010		all	10.0	ED10	aPTT		plasma	coagulation assay	aPTT_ED10	1.0	hr		23.5	25.4	1.9			sec	sec
+Ogata2010		all	10.0	ED10	aPTT		plasma	coagulation assay	aPTT_ED10	2.0	hr		26.0	27.9	1.9			sec	sec
+Ogata2010		all	10.0	ED10	aPTT		plasma	coagulation assay	aPTT_ED10	3.0	hr		25.7	27.9	2.2			sec	sec
+Ogata2010		all	10.0	ED10	aPTT		plasma	coagulation assay	aPTT_ED10	4.0	hr		25.1	26.7	1.6			sec	sec
+Ogata2010		all	10.0	ED10	aPTT		plasma	coagulation assay	aPTT_ED10	6.0	hr		26.3	27.9	1.6			sec	sec
+Ogata2010		all	10.0	ED10	aPTT		plasma	coagulation assay	aPTT_ED10	8.0	hr		22.2	23.5	1.3			sec	sec
+Ogata2010		all	10.0	ED10	aPTT		plasma	coagulation assay	aPTT_ED10	12.0	hr		21.0	22.2	1.2			sec	sec
+Ogata2010		all	10.0	ED10	aPTT		plasma	coagulation assay	aPTT_ED10	24.0	hr		19.7	21.3	1.6			sec	sec

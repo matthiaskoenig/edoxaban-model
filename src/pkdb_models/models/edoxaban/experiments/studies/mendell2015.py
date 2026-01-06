@@ -1,0 +1,255 @@
+from typing import Dict
+
+from sbmlsim.data import DataSet, load_pkdb_dataframe
+from sbmlsim.fit import FitMapping, FitData
+from sbmlutils.console import console
+
+from pkdb_models.models.edoxaban.experiments.base_experiment import (
+    EdoxabanSimulationExperiment,
+)
+from pkdb_models.models.edoxaban.experiments.metadata import Tissue, Route, Dosing, ApplicationForm, Health, Health, \
+    Fasting, EdoxabanMappingMetaData, Coadministration
+
+from sbmlsim.plot import Axis, Figure
+from sbmlsim.simulation import Timecourse, TimecourseSim
+
+from pkdb_models.models.edoxaban.helpers import run_experiments
+
+
+class Mendell2015(EdoxabanSimulationExperiment):
+    """Simulation experiment of Mendell2015."""
+
+    colors = {
+        "healthyA": "black",
+        "mildHI": "tab:blue",
+        "healthyB": "black",
+        "moderateHI": "darkblue",
+    }
+    groups = list(colors.keys())
+
+    bodyweights = {
+        "mildHI": 65.9,
+        "healthyA": 68.5,
+        "moderateHI": 82.3,
+        "healthyB": 79.6,
+    }
+
+    cirrhosis = {
+        "healthyA": 0,
+        "mildHI": 0.3994897959183674,  # CPT A
+        "healthyB": 0,
+        "moderateHI": 0.6979591836734694,  # CPT B
+    }
+
+    pts = {
+        "healthyA": 11,
+        "mildHI": 12.5,
+        "healthyB": 11,
+        "moderateHI": 13,
+    }
+    aptts = {
+        "healthyA": 29.8,
+        "mildHI": 31.5,
+        "healthyB": 28.9,
+        "moderateHI": 33.1,
+    }
+
+    infos_pk = {
+        "[Cve_edo]": "edoxaban",
+        "[Cve_m4]": "M4",
+        "Aurine_edo": "edoxaban_urine",
+    }
+    infos_pd = {
+        "aPTT": "aPTT",
+        "PT": "PT"
+    }
+
+    def datasets(self) -> Dict[str, DataSet]:
+        dsets = {}
+        for fig_id in ["Fig1", "Fig2", "Tab3A"]:
+            df = load_pkdb_dataframe(f"{self.sid}_{fig_id}", data_path=self.data_path)
+            for label, df_label in df.groupby("label"):
+                dset = DataSet.from_df(df_label, self.ureg)
+                if label.startswith("edoxaban"):
+                        dset.unit_conversion("mean", 1 / self.Mr.edo)
+                if label.startswith("M4_"):
+                    dset.unit_conversion("mean", 1 / self.Mr.m4)
+                dsets[label] = dset
+        return dsets
+
+
+    def simulations(self) -> Dict[str, TimecourseSim]:
+        Q_ = self.Q_
+        tcsims = {}
+
+        for group in self.groups:
+            bw = self.bodyweights[group]
+
+            tcsims[group] = TimecourseSim([
+                Timecourse(
+                    start=0,
+                    end=80 * 60,
+                    steps=2000,
+                    changes={
+                        **self.default_changes(),
+                        "BW": Q_(bw, "kg"),
+                        "PODOSE_edo": Q_(15, "mg"),
+                        "f_cirrhosis": Q_(self.cirrhosis[group], "dimensionless"),
+                        "PT_ref": Q_(self.pts[group], "s"),
+                        "aPTT_ref": Q_(self.aptts[group], "s")
+                    },
+                )
+            ])
+
+        return tcsims
+
+
+    def fit_mappings(self) -> Dict[str, FitMapping]:
+        mappings = {}
+        for group in self.groups:
+            # PK
+            for k, sid in enumerate(self.infos_pk.keys()):
+                name = self.infos_pk[sid]
+                mappings[f"fm_{name}_{group}"] = FitMapping(
+                    self,
+                    reference=FitData(
+                        self,
+                        dataset=f"{name}_{group}",
+                        xid="time",
+                        yid="mean",
+                        yid_sd="mean_sd" if "urine" in name else None,
+                        count="count",
+                    ),
+                    observable=FitData(
+                        self,
+                        task=f"task_{group}",
+                        xid="time",
+                        yid=sid,
+                    ),
+                    metadata=EdoxabanMappingMetaData(
+                        tissue=Tissue.URINE if "urine" in name else Tissue.PLASMA,
+                        route=Route.PO,
+                        application_form=ApplicationForm.TABLET,
+                        dosing=Dosing.SINGLE,
+                        health=Health.HEALTHY if "healthy" in group else Health.HEPATIC_IMPAIRMENT,
+                        fasting=Fasting.FASTED,
+                    ),
+                )
+            # PD
+            for ks, sid in enumerate(self.infos_pd):
+                name = self.infos_pd[sid]
+                mappings[f"fm_{group}_{name}"] = FitMapping(
+                    self,
+                    reference=FitData(
+                        self,
+                        dataset=f"{name}_{group}",
+                        xid="time",
+                        yid="median",
+                        yid_sd=None,
+                        count="count",
+                    ),
+                    observable=FitData(
+                        self, task=f"task_{group}", xid="time", yid=sid,
+                    ),
+                    metadata=EdoxabanMappingMetaData(
+                        tissue=Tissue.PLASMA,
+                        route=Route.PO,
+                        application_form=ApplicationForm.TABLET,
+                        dosing=Dosing.SINGLE,
+                        health=Health.HEALTHY if "healthy" in group else Health.HEPATIC_IMPAIRMENT,
+                        fasting=Fasting.FASTED,
+                        coadministration=Coadministration.NONE
+                    ),
+                )
+
+        return mappings
+
+    def figures(self) -> Dict[str, Figure]:
+        return {
+            **self.figure_pk(),
+            **self.figure_pd(),
+        }
+
+    def figure_pk(self) -> Dict[str, Figure]:
+
+        fig = Figure(
+            experiment=self,
+            sid="Fig_PK",
+            num_cols=3,
+            name=f"{self.__class__.__name__} (hepatic impairment)",
+        )
+        plots = fig.create_plots(
+            xaxis=Axis(self.label_time, unit=self.unit_time), legend=True
+        )
+        plots[0].set_yaxis(self.label_edo_plasma, unit=self.unit_edo)
+        plots[1].set_yaxis(self.label_m4_plasma, unit=self.unit_m4)
+        plots[2].set_yaxis(self.label_edo_urine, unit=self.unit_edo_urine)
+
+        for group in self.groups:
+            for ks, sid in enumerate(self.infos_pk):
+                name = self.infos_pk[sid]
+                # simulation
+                plots[ks].add_data(
+                    task=f"task_{group}",
+                    xid="time",
+                    yid=sid,
+                    label=group,
+                    color=self.colors[group],
+                )
+
+                # data
+                plots[ks].add_data(
+                    dataset=f"{name}_{group}",
+                    xid="time",
+                    yid="mean",
+                    yid_sd="mean_sd" if "urine" in name else None,
+                    count="count",
+                    label=group,
+                    color=self.colors[group],
+                    linestyle="" if "urine" in name else "--",
+                )
+
+        return {
+            fig.sid: fig,
+        }
+
+    def figure_pd(self) -> Dict[str, Figure]:
+        fig = Figure(
+            experiment=self,
+            sid="Fig_PD",
+            num_cols=2,
+            name=f"{self.__class__.__name__} (hepatic impairment)",
+        )
+        plots = fig.create_plots(
+            xaxis=Axis(self.label_time, unit=self.unit_time),
+            legend=True,
+        )
+        plots[0].set_yaxis(self.labels["aPTT"], unit=self.units["aPTT"])
+        plots[1].set_yaxis(self.labels["PT"], unit=self.units["PT"])
+
+        for group in self.groups:
+            for ks, sid in enumerate(self.infos_pd):
+                name = self.infos_pd[sid]
+                plots[ks].add_data(
+                    task=f"task_{group}",
+                    xid="time",
+                    yid=sid,
+                    label=f"{group}",
+                    color=self.colors[group],
+                )
+                plots[ks].add_data(
+                    dataset=f"{name}_{group}",
+                    xid="time",
+                    yid="median",
+                    yid_sd=None,
+                    count="count",
+                    label=f"{group}",
+                    color=self.colors[group],
+                )
+
+        return {
+            fig.sid: fig,
+        }
+
+if __name__ == "__main__":
+    run_experiments(Mendell2015, output_dir=Mendell2015.__name__)

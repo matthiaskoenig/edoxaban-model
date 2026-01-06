@@ -1,0 +1,9 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Bathala2012		all	6.0	ED60	recovery	edoxaban+metabolites	feces	scintillation counting	recovery_edoxaban_metabolites_feces_ED60	0.0	hr		0.0					percent	percent
+Bathala2012		all	6.0	ED60	recovery	edoxaban+metabolites	feces	scintillation counting	recovery_edoxaban_metabolites_feces_ED60	24.0	hr		2.54					percent	percent
+Bathala2012		all	6.0	ED60	recovery	edoxaban+metabolites	feces	scintillation counting	recovery_edoxaban_metabolites_feces_ED60	48.0	hr		27.97					percent	percent
+Bathala2012		all	6.0	ED60	recovery	edoxaban+metabolites	feces	scintillation counting	recovery_edoxaban_metabolites_feces_ED60	72.0	hr		49.58					percent	percent
+Bathala2012		all	6.0	ED60	recovery	edoxaban+metabolites	feces	scintillation counting	recovery_edoxaban_metabolites_feces_ED60	96.0	hr		56.78					percent	percent
+Bathala2012		all	6.0	ED60	recovery	edoxaban+metabolites	feces	scintillation counting	recovery_edoxaban_metabolites_feces_ED60	120.0	hr		62.71					percent	percent
+Bathala2012		all	6.0	ED60	recovery	edoxaban+metabolites	feces	scintillation counting	recovery_edoxaban_metabolites_feces_ED60	144.0	hr		62.71					percent	percent
+Bathala2012		all	6.0	ED60	recovery	edoxaban+metabolites	feces	scintillation counting	recovery_edoxaban_metabolites_feces_ED60	168.0	hr		62.71					percent	percent

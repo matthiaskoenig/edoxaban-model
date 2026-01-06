@@ -1,0 +1,22 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Ogata2010		all	9.0	mED120	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED120	0.5	hr		4.41	7.01	2.6			IU/mL	IU/mL
+Ogata2010		all	9.0	mED120	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED120	1.0	hr		8.09	10.62	2.53			IU/mL	IU/mL
+Ogata2010		all	9.0	mED120	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED120	2.0	hr		10.33	11.92	1.59			IU/mL	IU/mL
+Ogata2010		all	9.0	mED120	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED120	3.0	hr		10.11	10.98	0.87			IU/mL	IU/mL
+Ogata2010		all	9.0	mED120	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED120	4.0	hr		7.72	8.74	1.02			IU/mL	IU/mL
+Ogata2010		all	9.0	mED120	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED120	6.0	hr		2.59					IU/mL	IU/mL
+Ogata2010		all	9.0	mED120	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED120	8.0	hr		2.0					IU/mL	IU/mL
+Ogata2010		all	9.0	mED120	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED120	12.0	hr		0.77					IU/mL	IU/mL
+Ogata2010		all	9.0	mED120	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED120	24.0	hr		0.19					IU/mL	IU/mL
+Ogata2010		all	9.0	mED120	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED120	36.0	hr		0.0					IU/mL	IU/mL
+Ogata2010		all	9.0	mED120	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED120	216.0	hr		1.12	6.54	5.42		0.0	IU/mL	IU/mL
+Ogata2010		all	9.0	mED120	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED120	217.0	hr		3.58	7.92	4.34		1.0	IU/mL	IU/mL
+Ogata2010		all	9.0	mED120	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED120	218.0	hr		5.68	9.72	4.04		2.0	IU/mL	IU/mL
+Ogata2010		all	9.0	mED120	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED120	219.0	hr		7.77	10.95	3.18		3.0	IU/mL	IU/mL
+Ogata2010		all	9.0	mED120	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED120	220.0	hr		9.36	12.46	3.1		4.0	IU/mL	IU/mL
+Ogata2010		all	9.0	mED120	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED120	222.0	hr		11.23	6.09	5.14		6.0	IU/mL	IU/mL
+Ogata2010		all	9.0	mED120	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED120	224.0	hr		5.16	3.13	2.03		8.0	IU/mL	IU/mL
+Ogata2010		all	9.0	mED120	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED120	228.0	hr		2.84				12.0	IU/mL	IU/mL
+Ogata2010		all	9.0	mED120	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED120	240.0	hr		1.46				24.0	IU/mL	IU/mL
+Ogata2010		all	9.0	mED120	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED120	252.0	hr		0.37				36.0	IU/mL	IU/mL
+Ogata2010		all	9.0	mED120	Anti-factor Xa activity		plasma	coagulation assay	Xa_mED120	264.0	hr		0.08				48.0	IU/mL	IU/mL

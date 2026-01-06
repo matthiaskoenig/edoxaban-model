@@ -1,0 +1,14 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Chen2017b		all	12.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	0.0	hr		0.0					mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	0.5	hr		0.00023209222381572755	214.1	0.00015855986045272582			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	1.0	hr		0.0004990347736918356	379.5	0.0001934101865131063			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	1.5	hr		0.0005377168109944567	351.9	0.00010436851574103472			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	2.0	hr		0.00055304365596342	396.4	0.00017023745661955486			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	3.0	hr		0.00047951129260041824	351.9	0.0001625740341350733			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	4.0	hr		0.00036346518069255444	264.9	0.00011987782315010456			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	6.0	hr		0.0003014279510562751	220.3	0.00010053680449879393			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	8.0	hr		0.00020070868411737445	137.5	5.017717102934361e-05			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	12.0	hr		0.00013483974323885432	95.1	3.868203730262126e-05			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	24.0	hr		6.878833992022743e-05	46.1	1.532684496896314e-05			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	36.0	hr		2.1348105492484373e-05	20.2	1.5509307409069845e-05			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	48.0	hr		0.0					mole/meter^3	ng/ml

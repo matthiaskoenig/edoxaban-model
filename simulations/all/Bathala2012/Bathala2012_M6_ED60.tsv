@@ -1,0 +1,13 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Bathala2012		all	6.0	ED60	concentration	edoxaban-M6	plasma	LC MS/MS	M6_ED60	0.0	hr		0.0					mole/meter^3	ng/ml
+Bathala2012		all	6.0	ED60	concentration	edoxaban-M6	plasma	LC MS/MS	M6_ED60	0.5	hr		1.189138576779026e-05					mole/meter^3	ng/ml
+Bathala2012		all	6.0	ED60	concentration	edoxaban-M6	plasma	LC MS/MS	M6_ED60	1.0	hr		1.3258426966292135e-05					mole/meter^3	ng/ml
+Bathala2012		all	6.0	ED60	concentration	edoxaban-M6	plasma	LC MS/MS	M6_ED60	1.5	hr		1.099250936329588e-05					mole/meter^3	ng/ml
+Bathala2012		all	6.0	ED60	concentration	edoxaban-M6	plasma	LC MS/MS	M6_ED60	2.0	hr		1.0093632958801498e-05					mole/meter^3	ng/ml
+Bathala2012		all	6.0	ED60	concentration	edoxaban-M6	plasma	LC MS/MS	M6_ED60	4.0	hr		7.996254681647939e-06					mole/meter^3	ng/ml
+Bathala2012		all	6.0	ED60	concentration	edoxaban-M6	plasma	LC MS/MS	M6_ED60	8.0	hr		4.550561797752809e-06					mole/meter^3	ng/ml
+Bathala2012		all	6.0	ED60	concentration	edoxaban-M6	plasma	LC MS/MS	M6_ED60	12.0	hr		2.752808988764045e-06					mole/meter^3	ng/ml
+Bathala2012		all	6.0	ED60	concentration	edoxaban-M6	plasma	LC MS/MS	M6_ED60	15.0	hr		1.853932584269663e-06					mole/meter^3	ng/ml
+Bathala2012		all	6.0	ED60	concentration	edoxaban-M6	plasma	LC MS/MS	M6_ED60	24.0	hr		5.243445692883896e-07					mole/meter^3	ng/ml
+Bathala2012		all	6.0	ED60	concentration	edoxaban-M6	plasma	LC MS/MS	M6_ED60	36.0	hr		2.621722846441948e-07					mole/meter^3	ng/ml
+Bathala2012		all	6.0	ED60	concentration	edoxaban-M6	plasma	LC MS/MS	M6_ED60	48.0	hr		0.0					mole/meter^3	ng/ml

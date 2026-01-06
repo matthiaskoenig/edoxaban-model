@@ -1,0 +1,32 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	0.0	hr		0.0				panel a (panel b same data in semilog)	mole/meter^3	ng/ml
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	0.5	hr		7.168949271792402e-05				panel a (panel b same data in semilog)	mole/meter^3	ng/ml
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	1.0	hr		0.0003029971280411927				panel a (panel b same data in semilog)	mole/meter^3	ng/ml
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	1.5	hr		0.0004170361531078828	274.99	8.471731094154268e-05		panel a (panel b same data in semilog)	mole/meter^3	ng/ml
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	2.0	hr		0.0005897186064248674	339.27	2.9321714125147338e-05		panel a (panel b same data in semilog)	mole/meter^3	ng/ml
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	3.0	hr		0.0004723770111922461				panel a (panel b same data in semilog)	mole/meter^3	ng/ml
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	4.0	hr		0.00040395359615223204	249.97	5.2147765382496016e-05		panel a (panel b same data in semilog)	mole/meter^3	ng/ml
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	6.0	hr		0.0003224293779125567				panel a (panel b same data in semilog)	mole/meter^3	ng/ml
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	8.0	hr		0.00022466600250338467	151.7	5.212951913848535e-05		panel a (panel b same data in semilog)	mole/meter^3	ng/ml
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	12.0	hr		0.00016268351159913732	110.59	3.910170091486668e-05		panel a (panel b same data in semilog)	mole/meter^3	ng/ml
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	24.0	hr		8.114104711545129e-05	55.19	1.9559973579438677e-05		panel a (panel b same data in semilog)	mole/meter^3	ng/ml
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	36.0	hr		2.215094022895387e-05				panel a (panel b same data in semilog)	mole/meter^3	ng/ml
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	48.0	hr		8.812935857153806e-06				panel a (panel b same data in semilog)	mole/meter^3	ng/ml
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	72.0	hr		8.50274970897241e-06				panel a (panel b same data in semilog)	mole/meter^3	ng/ml
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	96.0	hr		2.7351119771994937e-05				panel a (panel b same data in semilog)	mole/meter^3	ng/ml
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	120.0	hr		4.2988150889139476e-05	28.93	9.798233033730006e-06		panel a (panel b same data in semilog)	mole/meter^3	ng/ml
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	144.0	hr		3.9065208426845335e-05	28.57	1.306431071164001e-05		panel a (panel b same data in semilog)	mole/meter^3	ng/ml
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	168.0	hr		3.842658988647187e-05	26.41	9.761740545708665e-06		panel a (panel b same data in semilog)	mole/meter^3	ng/ml
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	192.0	hr		3.775147885807706e-05	26.06	9.798233033730006e-06		panel a (panel b same data in semilog)	mole/meter^3	ng/ml
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	192.5	hr		3.388327512781495e-05				panel a (panel b same data in semilog)	mole/meter^3	ng/ml
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	193.0	hr		7.621456123257029e-05	88.23	8.47720496735747e-05		panel a (panel b same data in semilog)	mole/meter^3	ng/ml
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	193.5	hr		0.00022284137810231765	266.77	0.0002639136733703367		panel a (panel b same data in semilog)	mole/meter^3	ng/ml
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	194.0	hr		0.00036620211729415495	307.84	0.00019549025833032272		panel a (panel b same data in semilog)	mole/meter^3	ng/ml
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	195.0	hr		0.0005128289341639024	343.56	0.00011403902506669003		panel a (panel b same data in semilog)	mole/meter^3	ng/ml
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	196.0	hr		0.00046389250772728435	311.37	0.00010424079203296003		panel a (panel b same data in semilog)	mole/meter^3	ng/ml
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	198.0	hr		0.00037260654894190033	248.87	8.148772575165402e-05		panel a (panel b same data in semilog)	mole/meter^3	ng/ml
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	200.0	hr		0.000255264953709279	170.26	5.539559681639535e-05		panel a (panel b same data in semilog)	mole/meter^3	ng/ml
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	204.0	hr		0.00018678679993723295	125.59	4.236777859277668e-05		panel a (panel b same data in semilog)	mole/meter^3	ng/ml
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	216.0	hr		9.54461024198169e-05	68.4	2.935820661316868e-05		panel a (panel b same data in semilog)	mole/meter^3	ng/ml
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	228.0	hr		2.34281773097008e-05	21.8	1.6348634633560683e-05		panel a (panel b same data in semilog)	mole/meter^3	ng/ml
+Chen2017a		all	12.0	mED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_mED60	240.0	hr		3.5397713380700585e-06				panel a (panel b same data in semilog)	mole/meter^3	ng/ml

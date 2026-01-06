@@ -1,0 +1,17 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Mendell2011		caucasFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_caucasFast	0.0	hr		0.0					mole/meter^3	ng/ml
+Mendell2011		caucasFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_caucasFast	0.5	hr		0.00018136766546606383					mole/meter^3	ng/ml
+Mendell2011		caucasFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_caucasFast	1.0	hr		0.0004464855909411048					mole/meter^3	ng/ml
+Mendell2011		caucasFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_caucasFast	1.5	hr		0.0004640019851913484					mole/meter^3	ng/ml
+Mendell2011		caucasFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_caucasFast	2.0	hr		0.0004464855909411048					mole/meter^3	ng/ml
+Mendell2011		caucasFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_caucasFast	2.5	hr		0.00039776811943261484					mole/meter^3	ng/ml
+Mendell2011		caucasFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_caucasFast	3.0	hr		0.0003525174342861522					mole/meter^3	ng/ml
+Mendell2011		caucasFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_caucasFast	3.5	hr		0.0003213163570279058					mole/meter^3	ng/ml
+Mendell2011		caucasFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_caucasFast	4.0	hr		0.000282999244605498					mole/meter^3	ng/ml
+Mendell2011		caucasFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_caucasFast	4.5	hr		0.0002656653127953611					mole/meter^3	ng/ml
+Mendell2011		caucasFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_caucasFast	5.0	hr		0.0002483313809852242					mole/meter^3	ng/ml
+Mendell2011		caucasFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_caucasFast	6.0	hr		0.00020654748220078897					mole/meter^3	ng/ml
+Mendell2011		caucasFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_caucasFast	8.0	hr		0.00014761211404632358					mole/meter^3	ng/ml
+Mendell2011		caucasFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_caucasFast	12.0	hr		7.499206288385537e-05					mole/meter^3	ng/ml
+Mendell2011		caucasFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_caucasFast	16.0	hr		3.722233778176763e-05					mole/meter^3	ng/ml
+Mendell2011		caucasFast	16.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_caucasFast	24.0	hr		0.0					mole/meter^3	ng/ml

@@ -1,0 +1,12 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	timeraw	comments	mean_unit	value_unit
+Parasrampuria2016b		all	23.0	multiED60	aPTT		plasma	coagulation assay	aPTT_multiED60_2	72.0	hr		28.17				0.0		sec	sec
+Parasrampuria2016b		all	23.0	multiED60	aPTT		plasma	coagulation assay	aPTT_multiED60_2	72.5	hr		32.11	35.77	3.66		0.5		sec	sec
+Parasrampuria2016b		all	23.0	multiED60	aPTT		plasma	coagulation assay	aPTT_multiED60_2	73.0	hr		33.79	37.45	3.66		1.0		sec	sec
+Parasrampuria2016b		all	23.0	multiED60	aPTT		plasma	coagulation assay	aPTT_multiED60_2	73.5	hr		34.91	38.01	3.1		1.5		sec	sec
+Parasrampuria2016b		all	23.0	multiED60	aPTT		plasma	coagulation assay	aPTT_multiED60_2	74.0	hr		35.19	38.01	2.82		2.0		sec	sec
+Parasrampuria2016b		all	23.0	multiED60	aPTT		plasma	coagulation assay	aPTT_multiED60_2	75.0	hr		33.77	37.15	3.38		3.0		sec	sec
+Parasrampuria2016b		all	23.0	multiED60	aPTT		plasma	coagulation assay	aPTT_multiED60_2	76.0	hr		33.19	36.01	2.82		4.0		sec	sec
+Parasrampuria2016b		all	23.0	multiED60	aPTT		plasma	coagulation assay	aPTT_multiED60_2	78.0	hr		31.76	34.02	2.26		6.0		sec	sec
+Parasrampuria2016b		all	23.0	multiED60	aPTT		plasma	coagulation assay	aPTT_multiED60_2	82.0	hr		30.03	32.0	1.97		10.0		sec	sec
+Parasrampuria2016b		all	23.0	multiED60	aPTT		plasma	coagulation assay	aPTT_multiED60_2	86.0	hr		28.85	30.54	1.69		14.0		sec	sec
+Parasrampuria2016b		all	23.0	multiED60	aPTT		plasma	coagulation assay	aPTT_multiED60_2	96.0	hr		27.89	29.58	1.69		24.0		sec	sec

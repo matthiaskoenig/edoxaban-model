@@ -1,0 +1,7 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Mendell2011		caucasFast	16.0	ED60	aPTT		plasma	coagulation assay	aPTT_caucasFast	0.0	hr		33.7					sec	sec
+Mendell2011		caucasFast	16.0	ED60	aPTT		plasma	coagulation assay	aPTT_caucasFast	1.5	hr		45.4					sec	sec
+Mendell2011		caucasFast	16.0	ED60	aPTT		plasma	coagulation assay	aPTT_caucasFast	3.0	hr		42.7					sec	sec
+Mendell2011		caucasFast	16.0	ED60	aPTT		plasma	coagulation assay	aPTT_caucasFast	6.0	hr		40.5					sec	sec
+Mendell2011		caucasFast	16.0	ED60	aPTT		plasma	coagulation assay	aPTT_caucasFast	12.0	hr		36.0					sec	sec
+Mendell2011		caucasFast	16.0	ED60	aPTT		plasma	coagulation assay	aPTT_caucasFast	24.0	hr		34.3					sec	sec

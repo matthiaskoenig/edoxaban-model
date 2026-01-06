@@ -1,0 +1,19 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	timeraw	mean_unit	value_unit
+Ogata2010		all	10.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	0.0	hr		0.0				fasted		mole/meter^3	ng/ml
+Ogata2010		all	10.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	0.5	hr		0.0002070948695211091				fasted		mole/meter^3	ng/ml
+Ogata2010		all	10.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	1.0	hr		0.00048407285360308584				fasted		mole/meter^3	ng/ml
+Ogata2010		all	10.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	1.5	hr		0.00048078852968116515				fasted		mole/meter^3	ng/ml
+Ogata2010		all	10.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	2.0	hr		0.0004280568844903277				fasted		mole/meter^3	ng/ml
+Ogata2010		all	10.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	2.5	hr		0.000387185297906426				fasted		mole/meter^3	ng/ml
+Ogata2010		all	10.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	3.0	hr		0.0003512401972054053				fasted		mole/meter^3	ng/ml
+Ogata2010		all	10.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	3.5	hr		0.00033135179123377454				fasted		mole/meter^3	ng/ml
+Ogata2010		all	10.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	4.0	hr		0.0002908451295300862				fasted		mole/meter^3	ng/ml
+Ogata2010		all	10.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	4.5	hr		0.00025435264150874544				fasted		mole/meter^3	ng/ml
+Ogata2010		all	10.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	5.0	hr		0.000255264953709279				fasted		mole/meter^3	ng/ml
+Ogata2010		all	10.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	6.0	hr		0.00019486988603395993				fasted		mole/meter^3	ng/ml
+Ogata2010		all	10.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	8.0	hr		0.0001401311540019487				fasted		mole/meter^3	ng/ml
+Ogata2010		all	10.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	12.0	hr		6.550401599830675e-05				fasted		mole/meter^3	ng/ml
+Ogata2010		all	10.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	16.0	hr		4.1236511464115116e-05				fasted		mole/meter^3	ng/ml
+Ogata2010		all	10.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	24.0	hr		2.572720405504527e-05				fasted		mole/meter^3	ng/ml
+Ogata2010		all	10.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	36.0	hr		1.605669472938996e-05				fasted		mole/meter^3	ng/ml
+Ogata2010		all	10.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	48.0	hr		1.4596995208536324e-05				fasted		mole/meter^3	ng/ml

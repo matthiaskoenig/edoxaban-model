@@ -1,0 +1,12 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Ogata2010		all	9.0	ED150	prothrombin time		plasma	coagulation assay	PT_ED150	0.5	hr		30.38	33.21	2.83			sec	sec
+Ogata2010		all	9.0	ED150	prothrombin time		plasma	coagulation assay	PT_ED150	1.0	hr		35.85	38.49	2.64			sec	sec
+Ogata2010		all	9.0	ED150	prothrombin time		plasma	coagulation assay	PT_ED150	2.0	hr		37.92	41.13	3.21			sec	sec
+Ogata2010		all	9.0	ED150	prothrombin time		plasma	coagulation assay	PT_ED150	3.0	hr		35.09	37.92	2.83			sec	sec
+Ogata2010		all	9.0	ED150	prothrombin time		plasma	coagulation assay	PT_ED150	4.0	hr		30.94	33.21	2.27			sec	sec
+Ogata2010		all	9.0	ED150	prothrombin time		plasma	coagulation assay	PT_ED150	6.0	hr		26.98	28.68	1.7			sec	sec
+Ogata2010		all	9.0	ED150	prothrombin time		plasma	coagulation assay	PT_ED150	8.0	hr		23.02	24.34	1.32			sec	sec
+Ogata2010		all	9.0	ED150	prothrombin time		plasma	coagulation assay	PT_ED150	12.0	hr		20.57	21.7	1.13			sec	sec
+Ogata2010		all	9.0	ED150	prothrombin time		plasma	coagulation assay	PT_ED150	24.0	hr		17.17					sec	sec
+Ogata2010		all	9.0	ED150	prothrombin time		plasma	coagulation assay	PT_ED150	36.0	hr		16.04					sec	sec
+Ogata2010		all	9.0	ED150	prothrombin time		plasma	coagulation assay	PT_ED150	48.0	hr		15.47					sec	sec

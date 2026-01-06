@@ -1,0 +1,9 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Bathala2012		all	6.0	ED60	cumulative amount	edoxaban+metabolites	feces	scintillation counting	edoxaban_metabolites_feces_ED60	0.0	hr		0.0					µmole	µmole
+Bathala2012		all	6.0	ED60	cumulative amount	edoxaban+metabolites	feces	scintillation counting	edoxaban_metabolites_feces_ED60	24.0	hr		2.78072758722617					µmole	µmole
+Bathala2012		all	6.0	ED60	cumulative amount	edoxaban+metabolites	feces	scintillation counting	edoxaban_metabolites_feces_ED60	48.0	hr		30.6208466987071					µmole	µmole
+Bathala2012		all	6.0	ED60	cumulative amount	edoxaban+metabolites	feces	scintillation counting	edoxaban_metabolites_feces_ED60	72.0	hr		54.2789266829423					µmole	µmole
+Bathala2012		all	6.0	ED60	cumulative amount	edoxaban+metabolites	feces	scintillation counting	edoxaban_metabolites_feces_ED60	96.0	hr		62.1613040955519					µmole	µmole
+Bathala2012		all	6.0	ED60	cumulative amount	edoxaban+metabolites	feces	scintillation counting	edoxaban_metabolites_feces_ED60	120.0	hr		68.6533177145485					µmole	µmole
+Bathala2012		all	6.0	ED60	cumulative amount	edoxaban+metabolites	feces	scintillation counting	edoxaban_metabolites_feces_ED60	144.0	hr		68.6533177145485					µmole	µmole
+Bathala2012		all	6.0	ED60	cumulative amount	edoxaban+metabolites	feces	scintillation counting	edoxaban_metabolites_feces_ED60	168.0	hr		68.6533177145485					µmole	µmole

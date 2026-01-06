@@ -1,0 +1,7 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Mendell2011		japanFast	16.0	ED60	aPTT		plasma	coagulation assay	aPTT_japanFast	0.0	hr		35.5					sec	sec
+Mendell2011		japanFast	16.0	ED60	aPTT		plasma	coagulation assay	aPTT_japanFast	1.5	hr		45.8					sec	sec
+Mendell2011		japanFast	16.0	ED60	aPTT		plasma	coagulation assay	aPTT_japanFast	3.0	hr		46.7					sec	sec
+Mendell2011		japanFast	16.0	ED60	aPTT		plasma	coagulation assay	aPTT_japanFast	6.0	hr		43.0					sec	sec
+Mendell2011		japanFast	16.0	ED60	aPTT		plasma	coagulation assay	aPTT_japanFast	12.0	hr		40.6					sec	sec
+Mendell2011		japanFast	16.0	ED60	aPTT		plasma	coagulation assay	aPTT_japanFast	24.0	hr		38.5					sec	sec

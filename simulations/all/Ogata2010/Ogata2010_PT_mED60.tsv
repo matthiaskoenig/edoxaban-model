@@ -1,0 +1,23 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Ogata2010		all	9.0	mED60	prothrombin time		plasma	coagulation assay	PT_mED60	0.5	hr		16.42	17.55	1.13			sec	sec
+Ogata2010		all	9.0	mED60	prothrombin time		plasma	coagulation assay	PT_mED60	1.0	hr		20.58	22.66	2.08			sec	sec
+Ogata2010		all	9.0	mED60	prothrombin time		plasma	coagulation assay	PT_mED60	2.0	hr		21.54	23.24	1.7			sec	sec
+Ogata2010		all	9.0	mED60	prothrombin time		plasma	coagulation assay	PT_mED60	3.0	hr		22.88	22.69	0.19			sec	sec
+Ogata2010		all	9.0	mED60	prothrombin time		plasma	coagulation assay	PT_mED60	4.0	hr		21.76	22.33	0.57			sec	sec
+Ogata2010		all	9.0	mED60	prothrombin time		plasma	coagulation assay	PT_mED60	6.0	hr		19.91	21.04	1.13			sec	sec
+Ogata2010		all	9.0	mED60	prothrombin time		plasma	coagulation assay	PT_mED60	8.0	hr		17.11					sec	sec
+Ogata2010		all	9.0	mED60	prothrombin time		plasma	coagulation assay	PT_mED60	12.0	hr		15.62					sec	sec
+Ogata2010		all	9.0	mED60	prothrombin time		plasma	coagulation assay	PT_mED60	24.0	hr		14.51					sec	sec
+Ogata2010		all	9.0	mED60	prothrombin time		plasma	coagulation assay	PT_mED60	36.0	hr		13.77					sec	sec
+Ogata2010		all	9.0	mED60	prothrombin time		plasma	coagulation assay	PT_mED60	40.0	hr							sec	sec
+Ogata2010		all	9.0	mED60	prothrombin time		plasma	coagulation assay	PT_mED60	216.0	hr		14.56	20.06	5.5		0.0	sec	sec
+Ogata2010		all	9.0	mED60	prothrombin time		plasma	coagulation assay	PT_mED60	217.0	hr		19.49	24.81	5.32		1.0	sec	sec
+Ogata2010		all	9.0	mED60	prothrombin time		plasma	coagulation assay	PT_mED60	218.0	hr		28.99	28.04	0.95		2.0	sec	sec
+Ogata2010		all	9.0	mED60	prothrombin time		plasma	coagulation assay	PT_mED60	219.0	hr		33.35	28.61	4.74		3.0	sec	sec
+Ogata2010		all	9.0	mED60	prothrombin time		plasma	coagulation assay	PT_mED60	220.0	hr		32.78	26.52	6.26		4.0	sec	sec
+Ogata2010		all	9.0	mED60	prothrombin time		plasma	coagulation assay	PT_mED60	222.0	hr		28.61				6.0	sec	sec
+Ogata2010		all	9.0	mED60	prothrombin time		plasma	coagulation assay	PT_mED60	224.0	hr		24.81				8.0	sec	sec
+Ogata2010		all	9.0	mED60	prothrombin time		plasma	coagulation assay	PT_mED60	228.0	hr		21.39				12.0	sec	sec
+Ogata2010		all	9.0	mED60	prothrombin time		plasma	coagulation assay	PT_mED60	240.0	hr		18.35				24.0	sec	sec
+Ogata2010		all	9.0	mED60	prothrombin time		plasma	coagulation assay	PT_mED60	252.0	hr		15.13				36.0	sec	sec
+Ogata2010		all	9.0	mED60	prothrombin time		plasma	coagulation assay	PT_mED60	264.0	hr		14.56				48.0	sec	sec

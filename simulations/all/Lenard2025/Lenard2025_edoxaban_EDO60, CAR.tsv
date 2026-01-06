@@ -1,0 +1,19 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Lenard2025		all	12.0	EDO60, CAR	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60, CAR	0.0	hr		0.0					mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60, CAR	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60, CAR	0.25	hr		1.4505763988482972e-05					mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60, CAR	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60, CAR	0.5	hr		0.000126884380850202	25.33	8.066664477117387e-05			mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60, CAR	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60, CAR	0.75	hr		0.0001845242656799098	55.33	8.356779756887045e-05			mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60, CAR	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60, CAR	1.0	hr		0.00020180345875801467	69.56	7.488258541979133e-05			mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60, CAR	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60, CAR	1.5	hr		0.00020183995124603603	79.04	5.7621638585697135e-05			mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60, CAR	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60, CAR	2.0	hr		0.0001932277240729996	69.58	6.627035824675492e-05			mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60, CAR	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60, CAR	2.5	hr		0.00018461549689996316	61.7	7.203617135412676e-05			mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60, CAR	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60, CAR	3.0	hr		0.00015295826354145	55.41	5.185582547832529e-05			mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60, CAR	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60, CAR	3.5	hr		0.0001241656904926121	47.52	3.745953895390634e-05			mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60, CAR	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60, CAR	4.0	hr		0.00010404008334884265	42.81	2.5927912739162647e-05			mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60, CAR	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60, CAR	5.0	hr		8.104981589539793e-05	33.37	2.0162099631790805e-05			mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60, CAR	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60, CAR	6.0	hr		6.670826810301101e-05	30.23	1.1549872458754368e-05			mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60, CAR	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60, CAR	8.0	hr		4.375449313758763e-05	19.25	8.630473417047101e-06			mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60, CAR	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60, CAR	10.0	hr		2.9485930321243375e-05					mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60, CAR	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60, CAR	12.0	hr		2.0946688124249628e-05					mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60, CAR	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60, CAR	24.0	hr		7.243758872236151e-06					mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60, CAR	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60, CAR	48.0	hr		2.8646603096752536e-06					mole/meter^3	ng/ml

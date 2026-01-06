@@ -1,0 +1,5 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	mean_pm	mean_sd	mean_se	comments	mean_unit
+Mendell2015a		all	32.0	ED60, RIF	aPTT		plasma	coagulation assay	aPTT_ED60, RIF	0.0	hr	29.1					sec
+Mendell2015a		all	32.0	ED60, RIF	aPTT		plasma	coagulation assay	aPTT_ED60, RIF	2.0	hr	39.4	45.2	5.800000000000004			sec
+Mendell2015a		all	32.0	ED60, RIF	aPTT		plasma	coagulation assay	aPTT_ED60, RIF	4.0	hr	35.98	39.85	3.870000000000005			sec
+Mendell2015a		all	32.0	ED60, RIF	aPTT		plasma	coagulation assay	aPTT_ED60, RIF	24.0	hr	29.27	31.2	1.93			sec

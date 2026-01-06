@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Bathala2012	all	6.0	ED60	recovery	edoxaban	urine	scintillation counting	recovery_edoxaban_total_urine_ED60	0.0	hr	0.0								percent	percent
+Bathala2012	all	6.0	ED60	recovery	edoxaban	urine	scintillation counting	recovery_edoxaban_total_urine_ED60	168.0	hr	23.8				5.47610619469027				percent	percent

@@ -1,0 +1,15 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Mendell2015		healthyA	8.0	ED15	concentration	edoxaban-M4	plasma	LC MS/MS	M4_healthyA	0.0	hr		0.0					mole/meter^3	ng/ml
+Mendell2015		healthyA	8.0	ED15	concentration	edoxaban-M4	plasma	LC MS/MS	M4_healthyA	0.5	hr		3.0710172744721693e-06					mole/meter^3	ng/ml
+Mendell2015		healthyA	8.0	ED15	concentration	edoxaban-M4	plasma	LC MS/MS	M4_healthyA	1.0	hr		8.253358925143954e-06	4.2	1.9193857965451058e-07			mole/meter^3	ng/ml
+Mendell2015		healthyA	8.0	ED15	concentration	edoxaban-M4	plasma	LC MS/MS	M4_healthyA	2.0	hr		1.2284069097888677e-05	9.8	6.525911708253359e-06			mole/meter^3	ng/ml
+Mendell2015		healthyA	8.0	ED15	concentration	edoxaban-M4	plasma	LC MS/MS	M4_healthyA	3.0	hr		1.1516314779270633e-05	12.0	1.1516314779270633e-05			mole/meter^3	ng/ml
+Mendell2015		healthyA	8.0	ED15	concentration	edoxaban-M4	plasma	LC MS/MS	M4_healthyA	6.0	hr		1.0364683301343571e-05	12.9	1.4395393474088291e-05			mole/meter^3	ng/ml
+Mendell2015		healthyA	8.0	ED15	concentration	edoxaban-M4	plasma	LC MS/MS	M4_healthyA	8.0	hr		9.213051823416507e-06	11.0	1.1900191938579654e-05			mole/meter^3	ng/ml
+Mendell2015		healthyA	8.0	ED15	concentration	edoxaban-M4	plasma	LC MS/MS	M4_healthyA	10.0	hr		4.606525911708254e-06	5.7	6.333973128598848e-06			mole/meter^3	ng/ml
+Mendell2015		healthyA	8.0	ED15	concentration	edoxaban-M4	plasma	LC MS/MS	M4_healthyA	12.0	hr		3.0710172744721693e-06	3.9	4.414587332053743e-06			mole/meter^3	ng/ml
+Mendell2015		healthyA	8.0	ED15	concentration	edoxaban-M4	plasma	LC MS/MS	M4_healthyA	24.0	hr		1.9193857965451054e-06	2.8	3.45489443378119e-06			mole/meter^3	ng/ml
+Mendell2015		healthyA	8.0	ED15	concentration	edoxaban-M4	plasma	LC MS/MS	M4_healthyA	36.0	hr		1.3435700575815737e-06	2.0	2.4952015355086374e-06			mole/meter^3	ng/ml
+Mendell2015		healthyA	8.0	ED15	concentration	edoxaban-M4	plasma	LC MS/MS	M4_healthyA	48.0	hr		9.596928982725527e-07	0.7	3.8387715930902116e-07			mole/meter^3	ng/ml
+Mendell2015		healthyA	8.0	ED15	concentration	edoxaban-M4	plasma	LC MS/MS	M4_healthyA	60.0	hr		5.758157389635317e-07					mole/meter^3	ng/ml
+Mendell2015		healthyA	8.0	ED15	concentration	edoxaban-M4	plasma	LC MS/MS	M4_healthyA	72.0	hr		0.0					mole/meter^3	ng/ml

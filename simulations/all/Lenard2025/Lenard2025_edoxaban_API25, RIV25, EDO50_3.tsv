@@ -1,0 +1,18 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Lenard2025		all	12.0	API25, RIV25, EDO50	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_API25, RIV25, EDO50_3	0.0	hr		0.0					mole/meter^3	pg/ml
+Lenard2025		all	12.0	API25, RIV25, EDO50	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_API25, RIV25, EDO50_3	0.25	hr		9.25267033781096e-08	30.22	3.7386553977863654e-08			mole/meter^3	pg/ml
+Lenard2025		all	12.0	API25, RIV25, EDO50	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_API25, RIV25, EDO50_3	0.5	hr		1.8222523893456533e-07	77.74	4.037893799561362e-08			mole/meter^3	pg/ml
+Lenard2025		all	12.0	API25, RIV25, EDO50	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_API25, RIV25, EDO50_3	0.75	hr		2.1959354666841828e-07	99.86	3.738655397786365e-08			mole/meter^3	pg/ml
+Lenard2025		all	12.0	API25, RIV25, EDO50	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_API25, RIV25, EDO50_3	1.0	hr		2.285342062336468e-07	99.83	4.6381952275124165e-08			mole/meter^3	pg/ml
+Lenard2025		all	12.0	API25, RIV25, EDO50	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_API25, RIV25, EDO50_3	1.5	hr		2.2696502924872915e-07	102.26	4.0378937995613594e-08			mole/meter^3	pg/ml
+Lenard2025		all	12.0	API25, RIV25, EDO50	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_API25, RIV25, EDO50_3	2.0	hr		2.208890299931759e-07	93.2	5.083403581372774e-08			mole/meter^3	pg/ml
+Lenard2025		all	12.0	API25, RIV25, EDO50	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_API25, RIV25, EDO50_3	2.5	hr		2.148312769816333e-07	97.25	3.738655397786365e-08			mole/meter^3	pg/ml
+Lenard2025		all	12.0	API25, RIV25, EDO50	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_API25, RIV25, EDO50_3	3.0	hr		2.2373544405884047e-07	97.21	4.6363706031113515e-08			mole/meter^3	pg/ml
+Lenard2025		all	12.0	API25, RIV25, EDO50	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_API25, RIV25, EDO50_3	3.5	hr		2.341358031449226e-07	99.63	5.234847406661339e-08			mole/meter^3	pg/ml
+Lenard2025		all	12.0	API25, RIV25, EDO50	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_API25, RIV25, EDO50_3	4.0	hr		2.0413897799138046e-07	88.11	4.337132201336355e-08			mole/meter^3	pg/ml
+Lenard2025		all	12.0	API25, RIV25, EDO50	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_API25, RIV25, EDO50_3	5.0	hr		1.7259122209693135e-07	73.27	3.8900992230749314e-08			mole/meter^3	pg/ml
+Lenard2025		all	12.0	API25, RIV25, EDO50	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_API25, RIV25, EDO50_3	6.0	hr		1.2757773812260747e-07	55.98	2.543526415087455e-08			mole/meter^3	pg/ml
+Lenard2025		all	12.0	API25, RIV25, EDO50	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_API25, RIV25, EDO50_3	8.0	hr		8.539242196993749e-08	36.14	1.9450496115374644e-08			mole/meter^3	pg/ml
+Lenard2025		all	12.0	API25, RIV25, EDO50	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_API25, RIV25, EDO50_3	10.0	hr		5.6672833897142275e-08	22.04	1.6458112097624703e-08			mole/meter^3	pg/ml
+Lenard2025		all	12.0	API25, RIV25, EDO50	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_API25, RIV25, EDO50_3	12.0	hr		3.691215163358623e-08	13.68	1.1951289826989115e-08			mole/meter^3	pg/ml
+Lenard2025		all	12.0	API25, RIV25, EDO50	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_API25, RIV25, EDO50_3	24.0	hr		1.4177331596290902e-08					mole/meter^3	pg/ml

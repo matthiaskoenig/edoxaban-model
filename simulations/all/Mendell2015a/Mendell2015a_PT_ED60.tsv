@@ -1,0 +1,5 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	mean_pm	mean_sd	mean_se	comments	mean_unit
+Mendell2015a		all	32.0	ED60	prothrombin time		plasma	coagulation assay	PT_ED60	0.0	hr	10.83					sec
+Mendell2015a		all	32.0	ED60	prothrombin time		plasma	coagulation assay	PT_ED60	2.0	hr	13.04	13.98	0.9400000000000012			sec
+Mendell2015a		all	32.0	ED60	prothrombin time		plasma	coagulation assay	PT_ED60	4.0	hr	12.35	13.0	0.6500000000000004			sec
+Mendell2015a		all	32.0	ED60	prothrombin time		plasma	coagulation assay	PT_ED60	24.0	hr	11.15	11.59	0.4399999999999995			sec

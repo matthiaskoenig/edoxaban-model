@@ -1,0 +1,12 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Ogata2010		all	10.0	placebo	aPTT		plasma	coagulation assay	aPTT_placebo	0.5	hr		17.7	17.1	0.6			sec	sec
+Ogata2010		all	10.0	placebo	aPTT		plasma	coagulation assay	aPTT_placebo	1.0	hr		19.1	18.1	1.0			sec	sec
+Ogata2010		all	10.0	placebo	aPTT		plasma	coagulation assay	aPTT_placebo	2.0	hr		18.7	18.1	0.6			sec	sec
+Ogata2010		all	10.0	placebo	aPTT		plasma	coagulation assay	aPTT_placebo	3.0	hr		19.0	18.4	0.6			sec	sec
+Ogata2010		all	10.0	placebo	aPTT		plasma	coagulation assay	aPTT_placebo	4.0	hr		18.2	17.5	0.7			sec	sec
+Ogata2010		all	10.0	placebo	aPTT		plasma	coagulation assay	aPTT_placebo	6.0	hr		18.7	18.4	0.3			sec	sec
+Ogata2010		all	10.0	placebo	aPTT		plasma	coagulation assay	aPTT_placebo	8.0	hr		19.9	19.0	0.9			sec	sec
+Ogata2010		all	10.0	placebo	aPTT		plasma	coagulation assay	aPTT_placebo	12.0	hr		18.5	17.8	0.7			sec	sec
+Ogata2010		all	10.0	placebo	aPTT		plasma	coagulation assay	aPTT_placebo	24.0	hr		18.7	18.1	0.6			sec	sec
+Ogata2010		all	10.0	placebo	aPTT		plasma	coagulation assay	aPTT_placebo	36.0	hr		19.3	18.4	0.9			sec	sec
+Ogata2010		all	10.0	placebo	aPTT		plasma	coagulation assay	aPTT_placebo	48.0	hr		19.3	18.7	0.6			sec	sec

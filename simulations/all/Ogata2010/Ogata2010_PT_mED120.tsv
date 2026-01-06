@@ -1,0 +1,23 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Ogata2010		all	9.0	mED120	prothrombin time		plasma	coagulation assay	PT_mED120	0.5	hr		16.24	17.55	1.31			sec	sec
+Ogata2010		all	9.0	mED120	prothrombin time		plasma	coagulation assay	PT_mED120	1.0	hr		21.33	23.41	2.08			sec	sec
+Ogata2010		all	9.0	mED120	prothrombin time		plasma	coagulation assay	PT_mED120	2.0	hr		27.75	30.39	2.64			sec	sec
+Ogata2010		all	9.0	mED120	prothrombin time		plasma	coagulation assay	PT_mED120	3.0	hr		30.6	32.3	1.7			sec	sec
+Ogata2010		all	9.0	mED120	prothrombin time		plasma	coagulation assay	PT_mED120	4.0	hr		30.99	32.12	1.13			sec	sec
+Ogata2010		all	9.0	mED120	prothrombin time		plasma	coagulation assay	PT_mED120	6.0	hr		27.05	28.18	1.13			sec	sec
+Ogata2010		all	9.0	mED120	prothrombin time		plasma	coagulation assay	PT_mED120	8.0	hr		23.12	23.87	0.75			sec	sec
+Ogata2010		all	9.0	mED120	prothrombin time		plasma	coagulation assay	PT_mED120	12.0	hr		19.56	20.32	0.76			sec	sec
+Ogata2010		all	9.0	mED120	prothrombin time		plasma	coagulation assay	PT_mED120	24.0	hr		16.57	17.51	0.94			sec	sec
+Ogata2010		all	9.0	mED120	prothrombin time		plasma	coagulation assay	PT_mED120	36.0	hr		14.7	15.45	0.75			sec	sec
+Ogata2010		all	9.0	mED120	prothrombin time		plasma	coagulation assay	PT_mED120	40.0	hr							sec	sec
+Ogata2010		all	9.0	mED120	prothrombin time		plasma	coagulation assay	PT_mED120	216.0	hr		18.73	22.91	4.18		0.0	sec	sec
+Ogata2010		all	9.0	mED120	prothrombin time		plasma	coagulation assay	PT_mED120	217.0	hr		22.53	26.71	4.18		1.0	sec	sec
+Ogata2010		all	9.0	mED120	prothrombin time		plasma	coagulation assay	PT_mED120	218.0	hr		26.71	31.08	4.37		2.0	sec	sec
+Ogata2010		all	9.0	mED120	prothrombin time		plasma	coagulation assay	PT_mED120	219.0	hr		27.28	33.92	6.64		3.0	sec	sec
+Ogata2010		all	9.0	mED120	prothrombin time		plasma	coagulation assay	PT_mED120	220.0	hr		25.57	33.35	7.78		4.0	sec	sec
+Ogata2010		all	9.0	mED120	prothrombin time		plasma	coagulation assay	PT_mED120	222.0	hr		22.72	26.33	3.61		6.0	sec	sec
+Ogata2010		all	9.0	mED120	prothrombin time		plasma	coagulation assay	PT_mED120	224.0	hr		19.87	22.34	2.47		8.0	sec	sec
+Ogata2010		all	9.0	mED120	prothrombin time		plasma	coagulation assay	PT_mED120	228.0	hr		16.84				12.0	sec	sec
+Ogata2010		all	9.0	mED120	prothrombin time		plasma	coagulation assay	PT_mED120	240.0	hr		14.94				24.0	sec	sec
+Ogata2010		all	9.0	mED120	prothrombin time		plasma	coagulation assay	PT_mED120	252.0	hr		14.56				36.0	sec	sec
+Ogata2010		all	9.0	mED120	prothrombin time		plasma	coagulation assay	PT_mED120	264.0	hr		13.8				48.0	sec	sec

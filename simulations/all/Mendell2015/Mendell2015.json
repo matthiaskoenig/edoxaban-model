@@ -1,0 +1,2902 @@
+{
+  "experiment_id": "Mendell2015",
+  "base_path": "/home/mkoenig/git/edoxaban-model/src/pkdb_models/models/edoxaban",
+  "data_path": "[PosixPath('/home/mkoenig/git/edoxaban-model/src/pkdb_models/models/edoxaban/data/edoxaban')]",
+  "models": {
+    "model": {
+      "sid": null,
+      "name": null,
+      "language": "SBML",
+      "language_type": "SBML",
+      "source": {
+        "source": "/home/mkoenig/git/edoxaban-model/src/pkdb_models/models/edoxaban/models/results/models/edoxaban_body_flat.xml",
+        "path": "/home/mkoenig/git/edoxaban-model/src/pkdb_models/models/edoxaban/models/results/models/edoxaban_body_flat.xml",
+        "content": "None"
+      },
+      "changes": {}
+    }
+  },
+  "tasks": {
+    "task_healthyA": {
+      "model": "model",
+      "simulation": "healthyA"
+    },
+    "task_mildHI": {
+      "model": "model",
+      "simulation": "mildHI"
+    },
+    "task_healthyB": {
+      "model": "model",
+      "simulation": "healthyB"
+    },
+    "task_moderateHI": {
+      "model": "model",
+      "simulation": "moderateHI"
+    }
+  },
+  "simulations": {
+    "healthyA": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 4800,
+          "steps": 2000,
+          "changes": {
+            "GU__Ka_dis_edo": {
+              "_magnitude": 0.3559517961123874,
+              "_units": "GU__per_hr"
+            },
+            "GU__EDOABS_k": {
+              "_magnitude": 0.021312888266795352,
+              "_units": "GU__per_min"
+            },
+            "LI__EDO2M4_Vmax": {
+              "_magnitude": 0.02467742534326666,
+              "_units": "LI__per_min"
+            },
+            "LI__EDO2M6_f": {
+              "_magnitude": 0.20000000005912993,
+              "_units": "dimensionless"
+            },
+            "LI__EDO2MX_f": {
+              "_magnitude": 9.999946086529825,
+              "_units": "dimensionless"
+            },
+            "LI__MXEXBI_k": {
+              "_magnitude": 9.999998121216769e-05,
+              "_units": "LI__per_min"
+            },
+            "KI__EDOEX_k": {
+              "_magnitude": 1.5766419182037374,
+              "_units": "KI__per_min"
+            },
+            "KI__M4EX_k": {
+              "_magnitude": 1.7146667975857133,
+              "_units": "KI__per_min"
+            },
+            "KI__M6EX_k": {
+              "_magnitude": 0.5765035347258279,
+              "_units": "KI__per_min"
+            },
+            "KI__MXEX_k": {
+              "_magnitude": 2.8819072042706586,
+              "_units": "KI__per_min"
+            },
+            "Emax_PT": {
+              "_magnitude": 3.6762994520462455,
+              "_units": "dimensionless"
+            },
+            "EC50_edo_PT": {
+              "_magnitude": 0.0027062726583800974,
+              "_units": "millimolar"
+            },
+            "Emax_aPTT": {
+              "_magnitude": 1.9397792689345885,
+              "_units": "dimensionless"
+            },
+            "EC50_edo_aPTT": {
+              "_magnitude": 0.0008459875594125807,
+              "_units": "millimolar"
+            },
+            "BW": {
+              "_magnitude": 68.5,
+              "_units": "kilogram"
+            },
+            "PODOSE_edo": {
+              "_magnitude": 15,
+              "_units": "milligram"
+            },
+            "f_cirrhosis": {
+              "_magnitude": 0,
+              "_units": "dimensionless"
+            },
+            "PT_ref": {
+              "_magnitude": 11,
+              "_units": "second"
+            },
+            "aPTT_ref": {
+              "_magnitude": 29.8,
+              "_units": "second"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "mildHI": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 4800,
+          "steps": 2000,
+          "changes": {
+            "GU__Ka_dis_edo": {
+              "_magnitude": 0.3559517961123874,
+              "_units": "GU__per_hr"
+            },
+            "GU__EDOABS_k": {
+              "_magnitude": 0.021312888266795352,
+              "_units": "GU__per_min"
+            },
+            "LI__EDO2M4_Vmax": {
+              "_magnitude": 0.02467742534326666,
+              "_units": "LI__per_min"
+            },
+            "LI__EDO2M6_f": {
+              "_magnitude": 0.20000000005912993,
+              "_units": "dimensionless"
+            },
+            "LI__EDO2MX_f": {
+              "_magnitude": 9.999946086529825,
+              "_units": "dimensionless"
+            },
+            "LI__MXEXBI_k": {
+              "_magnitude": 9.999998121216769e-05,
+              "_units": "LI__per_min"
+            },
+            "KI__EDOEX_k": {
+              "_magnitude": 1.5766419182037374,
+              "_units": "KI__per_min"
+            },
+            "KI__M4EX_k": {
+              "_magnitude": 1.7146667975857133,
+              "_units": "KI__per_min"
+            },
+            "KI__M6EX_k": {
+              "_magnitude": 0.5765035347258279,
+              "_units": "KI__per_min"
+            },
+            "KI__MXEX_k": {
+              "_magnitude": 2.8819072042706586,
+              "_units": "KI__per_min"
+            },
+            "Emax_PT": {
+              "_magnitude": 3.6762994520462455,
+              "_units": "dimensionless"
+            },
+            "EC50_edo_PT": {
+              "_magnitude": 0.0027062726583800974,
+              "_units": "millimolar"
+            },
+            "Emax_aPTT": {
+              "_magnitude": 1.9397792689345885,
+              "_units": "dimensionless"
+            },
+            "EC50_edo_aPTT": {
+              "_magnitude": 0.0008459875594125807,
+              "_units": "millimolar"
+            },
+            "BW": {
+              "_magnitude": 65.9,
+              "_units": "kilogram"
+            },
+            "PODOSE_edo": {
+              "_magnitude": 15,
+              "_units": "milligram"
+            },
+            "f_cirrhosis": {
+              "_magnitude": 0.3994897959183674,
+              "_units": "dimensionless"
+            },
+            "PT_ref": {
+              "_magnitude": 12.5,
+              "_units": "second"
+            },
+            "aPTT_ref": {
+              "_magnitude": 31.5,
+              "_units": "second"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "healthyB": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 4800,
+          "steps": 2000,
+          "changes": {
+            "GU__Ka_dis_edo": {
+              "_magnitude": 0.3559517961123874,
+              "_units": "GU__per_hr"
+            },
+            "GU__EDOABS_k": {
+              "_magnitude": 0.021312888266795352,
+              "_units": "GU__per_min"
+            },
+            "LI__EDO2M4_Vmax": {
+              "_magnitude": 0.02467742534326666,
+              "_units": "LI__per_min"
+            },
+            "LI__EDO2M6_f": {
+              "_magnitude": 0.20000000005912993,
+              "_units": "dimensionless"
+            },
+            "LI__EDO2MX_f": {
+              "_magnitude": 9.999946086529825,
+              "_units": "dimensionless"
+            },
+            "LI__MXEXBI_k": {
+              "_magnitude": 9.999998121216769e-05,
+              "_units": "LI__per_min"
+            },
+            "KI__EDOEX_k": {
+              "_magnitude": 1.5766419182037374,
+              "_units": "KI__per_min"
+            },
+            "KI__M4EX_k": {
+              "_magnitude": 1.7146667975857133,
+              "_units": "KI__per_min"
+            },
+            "KI__M6EX_k": {
+              "_magnitude": 0.5765035347258279,
+              "_units": "KI__per_min"
+            },
+            "KI__MXEX_k": {
+              "_magnitude": 2.8819072042706586,
+              "_units": "KI__per_min"
+            },
+            "Emax_PT": {
+              "_magnitude": 3.6762994520462455,
+              "_units": "dimensionless"
+            },
+            "EC50_edo_PT": {
+              "_magnitude": 0.0027062726583800974,
+              "_units": "millimolar"
+            },
+            "Emax_aPTT": {
+              "_magnitude": 1.9397792689345885,
+              "_units": "dimensionless"
+            },
+            "EC50_edo_aPTT": {
+              "_magnitude": 0.0008459875594125807,
+              "_units": "millimolar"
+            },
+            "BW": {
+              "_magnitude": 79.6,
+              "_units": "kilogram"
+            },
+            "PODOSE_edo": {
+              "_magnitude": 15,
+              "_units": "milligram"
+            },
+            "f_cirrhosis": {
+              "_magnitude": 0,
+              "_units": "dimensionless"
+            },
+            "PT_ref": {
+              "_magnitude": 11,
+              "_units": "second"
+            },
+            "aPTT_ref": {
+              "_magnitude": 28.9,
+              "_units": "second"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "moderateHI": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 4800,
+          "steps": 2000,
+          "changes": {
+            "GU__Ka_dis_edo": {
+              "_magnitude": 0.3559517961123874,
+              "_units": "GU__per_hr"
+            },
+            "GU__EDOABS_k": {
+              "_magnitude": 0.021312888266795352,
+              "_units": "GU__per_min"
+            },
+            "LI__EDO2M4_Vmax": {
+              "_magnitude": 0.02467742534326666,
+              "_units": "LI__per_min"
+            },
+            "LI__EDO2M6_f": {
+              "_magnitude": 0.20000000005912993,
+              "_units": "dimensionless"
+            },
+            "LI__EDO2MX_f": {
+              "_magnitude": 9.999946086529825,
+              "_units": "dimensionless"
+            },
+            "LI__MXEXBI_k": {
+              "_magnitude": 9.999998121216769e-05,
+              "_units": "LI__per_min"
+            },
+            "KI__EDOEX_k": {
+              "_magnitude": 1.5766419182037374,
+              "_units": "KI__per_min"
+            },
+            "KI__M4EX_k": {
+              "_magnitude": 1.7146667975857133,
+              "_units": "KI__per_min"
+            },
+            "KI__M6EX_k": {
+              "_magnitude": 0.5765035347258279,
+              "_units": "KI__per_min"
+            },
+            "KI__MXEX_k": {
+              "_magnitude": 2.8819072042706586,
+              "_units": "KI__per_min"
+            },
+            "Emax_PT": {
+              "_magnitude": 3.6762994520462455,
+              "_units": "dimensionless"
+            },
+            "EC50_edo_PT": {
+              "_magnitude": 0.0027062726583800974,
+              "_units": "millimolar"
+            },
+            "Emax_aPTT": {
+              "_magnitude": 1.9397792689345885,
+              "_units": "dimensionless"
+            },
+            "EC50_edo_aPTT": {
+              "_magnitude": 0.0008459875594125807,
+              "_units": "millimolar"
+            },
+            "BW": {
+              "_magnitude": 82.3,
+              "_units": "kilogram"
+            },
+            "PODOSE_edo": {
+              "_magnitude": 15,
+              "_units": "milligram"
+            },
+            "f_cirrhosis": {
+              "_magnitude": 0.6979591836734694,
+              "_units": "dimensionless"
+            },
+            "PT_ref": {
+              "_magnitude": 13,
+              "_units": "second"
+            },
+            "aPTT_ref": {
+              "_magnitude": 33.1,
+              "_units": "second"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    }
+  },
+  "data": {
+    "task_healthyA__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_healthyA",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyA__Cve_edo": {
+      "type": "TASK",
+      "index": "Cve_edo",
+      "unit": null,
+      "task": "task_healthyA",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyA__Cve_m4": {
+      "type": "TASK",
+      "index": "Cve_m4",
+      "unit": null,
+      "task": "task_healthyA",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyA__Cve_m6": {
+      "type": "TASK",
+      "index": "Cve_m6",
+      "unit": null,
+      "task": "task_healthyA",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyA__Cve_mx": {
+      "type": "TASK",
+      "index": "Cve_mx",
+      "unit": null,
+      "task": "task_healthyA",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyA__Cve_edo_total": {
+      "type": "TASK",
+      "index": "Cve_edo_total",
+      "unit": null,
+      "task": "task_healthyA",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyA__Aurine_edo": {
+      "type": "TASK",
+      "index": "Aurine_edo",
+      "unit": null,
+      "task": "task_healthyA",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyA__Aurine_m4": {
+      "type": "TASK",
+      "index": "Aurine_m4",
+      "unit": null,
+      "task": "task_healthyA",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyA__Aurine_m6": {
+      "type": "TASK",
+      "index": "Aurine_m6",
+      "unit": null,
+      "task": "task_healthyA",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyA__Aurine_mx": {
+      "type": "TASK",
+      "index": "Aurine_mx",
+      "unit": null,
+      "task": "task_healthyA",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyA__Aurine_edo_total": {
+      "type": "TASK",
+      "index": "Aurine_edo_total",
+      "unit": null,
+      "task": "task_healthyA",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyA__Afeces_edo": {
+      "type": "TASK",
+      "index": "Afeces_edo",
+      "unit": null,
+      "task": "task_healthyA",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyA__Afeces_m4": {
+      "type": "TASK",
+      "index": "Afeces_m4",
+      "unit": null,
+      "task": "task_healthyA",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyA__Afeces_m6": {
+      "type": "TASK",
+      "index": "Afeces_m6",
+      "unit": null,
+      "task": "task_healthyA",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyA__Afeces_mx": {
+      "type": "TASK",
+      "index": "Afeces_mx",
+      "unit": null,
+      "task": "task_healthyA",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyA__Afeces_edo_total": {
+      "type": "TASK",
+      "index": "Afeces_edo_total",
+      "unit": null,
+      "task": "task_healthyA",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyA__KI__f_renal_function": {
+      "type": "TASK",
+      "index": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_healthyA",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyA__f_cirrhosis": {
+      "type": "TASK",
+      "index": "f_cirrhosis",
+      "unit": null,
+      "task": "task_healthyA",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyA__PT": {
+      "type": "TASK",
+      "index": "PT",
+      "unit": null,
+      "task": "task_healthyA",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyA__PT_change": {
+      "type": "TASK",
+      "index": "PT_change",
+      "unit": null,
+      "task": "task_healthyA",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyA__PT_ratio": {
+      "type": "TASK",
+      "index": "PT_ratio",
+      "unit": null,
+      "task": "task_healthyA",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyA__aPTT": {
+      "type": "TASK",
+      "index": "aPTT",
+      "unit": null,
+      "task": "task_healthyA",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyA__aPTT_change": {
+      "type": "TASK",
+      "index": "aPTT_change",
+      "unit": null,
+      "task": "task_healthyA",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyA__aPTT_ratio": {
+      "type": "TASK",
+      "index": "aPTT_ratio",
+      "unit": null,
+      "task": "task_healthyA",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyA__Xa_inhibition": {
+      "type": "TASK",
+      "index": "Xa_inhibition",
+      "unit": null,
+      "task": "task_healthyA",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyA__PODOSE_edo": {
+      "type": "TASK",
+      "index": "PODOSE_edo",
+      "unit": null,
+      "task": "task_healthyA",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyA__GU__F_edo_abs": {
+      "type": "TASK",
+      "index": "GU__F_edo_abs",
+      "unit": null,
+      "task": "task_healthyA",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyA__BW": {
+      "type": "TASK",
+      "index": "BW",
+      "unit": null,
+      "task": "task_healthyA",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_mildHI__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_mildHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_mildHI__Cve_edo": {
+      "type": "TASK",
+      "index": "Cve_edo",
+      "unit": null,
+      "task": "task_mildHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_mildHI__Cve_m4": {
+      "type": "TASK",
+      "index": "Cve_m4",
+      "unit": null,
+      "task": "task_mildHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_mildHI__Cve_m6": {
+      "type": "TASK",
+      "index": "Cve_m6",
+      "unit": null,
+      "task": "task_mildHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_mildHI__Cve_mx": {
+      "type": "TASK",
+      "index": "Cve_mx",
+      "unit": null,
+      "task": "task_mildHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_mildHI__Cve_edo_total": {
+      "type": "TASK",
+      "index": "Cve_edo_total",
+      "unit": null,
+      "task": "task_mildHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_mildHI__Aurine_edo": {
+      "type": "TASK",
+      "index": "Aurine_edo",
+      "unit": null,
+      "task": "task_mildHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_mildHI__Aurine_m4": {
+      "type": "TASK",
+      "index": "Aurine_m4",
+      "unit": null,
+      "task": "task_mildHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_mildHI__Aurine_m6": {
+      "type": "TASK",
+      "index": "Aurine_m6",
+      "unit": null,
+      "task": "task_mildHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_mildHI__Aurine_mx": {
+      "type": "TASK",
+      "index": "Aurine_mx",
+      "unit": null,
+      "task": "task_mildHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_mildHI__Aurine_edo_total": {
+      "type": "TASK",
+      "index": "Aurine_edo_total",
+      "unit": null,
+      "task": "task_mildHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_mildHI__Afeces_edo": {
+      "type": "TASK",
+      "index": "Afeces_edo",
+      "unit": null,
+      "task": "task_mildHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_mildHI__Afeces_m4": {
+      "type": "TASK",
+      "index": "Afeces_m4",
+      "unit": null,
+      "task": "task_mildHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_mildHI__Afeces_m6": {
+      "type": "TASK",
+      "index": "Afeces_m6",
+      "unit": null,
+      "task": "task_mildHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_mildHI__Afeces_mx": {
+      "type": "TASK",
+      "index": "Afeces_mx",
+      "unit": null,
+      "task": "task_mildHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_mildHI__Afeces_edo_total": {
+      "type": "TASK",
+      "index": "Afeces_edo_total",
+      "unit": null,
+      "task": "task_mildHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_mildHI__KI__f_renal_function": {
+      "type": "TASK",
+      "index": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_mildHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_mildHI__f_cirrhosis": {
+      "type": "TASK",
+      "index": "f_cirrhosis",
+      "unit": null,
+      "task": "task_mildHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_mildHI__PT": {
+      "type": "TASK",
+      "index": "PT",
+      "unit": null,
+      "task": "task_mildHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_mildHI__PT_change": {
+      "type": "TASK",
+      "index": "PT_change",
+      "unit": null,
+      "task": "task_mildHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_mildHI__PT_ratio": {
+      "type": "TASK",
+      "index": "PT_ratio",
+      "unit": null,
+      "task": "task_mildHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_mildHI__aPTT": {
+      "type": "TASK",
+      "index": "aPTT",
+      "unit": null,
+      "task": "task_mildHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_mildHI__aPTT_change": {
+      "type": "TASK",
+      "index": "aPTT_change",
+      "unit": null,
+      "task": "task_mildHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_mildHI__aPTT_ratio": {
+      "type": "TASK",
+      "index": "aPTT_ratio",
+      "unit": null,
+      "task": "task_mildHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_mildHI__Xa_inhibition": {
+      "type": "TASK",
+      "index": "Xa_inhibition",
+      "unit": null,
+      "task": "task_mildHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_mildHI__PODOSE_edo": {
+      "type": "TASK",
+      "index": "PODOSE_edo",
+      "unit": null,
+      "task": "task_mildHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_mildHI__GU__F_edo_abs": {
+      "type": "TASK",
+      "index": "GU__F_edo_abs",
+      "unit": null,
+      "task": "task_mildHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_mildHI__BW": {
+      "type": "TASK",
+      "index": "BW",
+      "unit": null,
+      "task": "task_mildHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyB__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_healthyB",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyB__Cve_edo": {
+      "type": "TASK",
+      "index": "Cve_edo",
+      "unit": null,
+      "task": "task_healthyB",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyB__Cve_m4": {
+      "type": "TASK",
+      "index": "Cve_m4",
+      "unit": null,
+      "task": "task_healthyB",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyB__Cve_m6": {
+      "type": "TASK",
+      "index": "Cve_m6",
+      "unit": null,
+      "task": "task_healthyB",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyB__Cve_mx": {
+      "type": "TASK",
+      "index": "Cve_mx",
+      "unit": null,
+      "task": "task_healthyB",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyB__Cve_edo_total": {
+      "type": "TASK",
+      "index": "Cve_edo_total",
+      "unit": null,
+      "task": "task_healthyB",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyB__Aurine_edo": {
+      "type": "TASK",
+      "index": "Aurine_edo",
+      "unit": null,
+      "task": "task_healthyB",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyB__Aurine_m4": {
+      "type": "TASK",
+      "index": "Aurine_m4",
+      "unit": null,
+      "task": "task_healthyB",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyB__Aurine_m6": {
+      "type": "TASK",
+      "index": "Aurine_m6",
+      "unit": null,
+      "task": "task_healthyB",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyB__Aurine_mx": {
+      "type": "TASK",
+      "index": "Aurine_mx",
+      "unit": null,
+      "task": "task_healthyB",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyB__Aurine_edo_total": {
+      "type": "TASK",
+      "index": "Aurine_edo_total",
+      "unit": null,
+      "task": "task_healthyB",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyB__Afeces_edo": {
+      "type": "TASK",
+      "index": "Afeces_edo",
+      "unit": null,
+      "task": "task_healthyB",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyB__Afeces_m4": {
+      "type": "TASK",
+      "index": "Afeces_m4",
+      "unit": null,
+      "task": "task_healthyB",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyB__Afeces_m6": {
+      "type": "TASK",
+      "index": "Afeces_m6",
+      "unit": null,
+      "task": "task_healthyB",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyB__Afeces_mx": {
+      "type": "TASK",
+      "index": "Afeces_mx",
+      "unit": null,
+      "task": "task_healthyB",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyB__Afeces_edo_total": {
+      "type": "TASK",
+      "index": "Afeces_edo_total",
+      "unit": null,
+      "task": "task_healthyB",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyB__KI__f_renal_function": {
+      "type": "TASK",
+      "index": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_healthyB",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyB__f_cirrhosis": {
+      "type": "TASK",
+      "index": "f_cirrhosis",
+      "unit": null,
+      "task": "task_healthyB",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyB__PT": {
+      "type": "TASK",
+      "index": "PT",
+      "unit": null,
+      "task": "task_healthyB",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyB__PT_change": {
+      "type": "TASK",
+      "index": "PT_change",
+      "unit": null,
+      "task": "task_healthyB",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyB__PT_ratio": {
+      "type": "TASK",
+      "index": "PT_ratio",
+      "unit": null,
+      "task": "task_healthyB",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyB__aPTT": {
+      "type": "TASK",
+      "index": "aPTT",
+      "unit": null,
+      "task": "task_healthyB",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyB__aPTT_change": {
+      "type": "TASK",
+      "index": "aPTT_change",
+      "unit": null,
+      "task": "task_healthyB",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyB__aPTT_ratio": {
+      "type": "TASK",
+      "index": "aPTT_ratio",
+      "unit": null,
+      "task": "task_healthyB",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyB__Xa_inhibition": {
+      "type": "TASK",
+      "index": "Xa_inhibition",
+      "unit": null,
+      "task": "task_healthyB",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyB__PODOSE_edo": {
+      "type": "TASK",
+      "index": "PODOSE_edo",
+      "unit": null,
+      "task": "task_healthyB",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyB__GU__F_edo_abs": {
+      "type": "TASK",
+      "index": "GU__F_edo_abs",
+      "unit": null,
+      "task": "task_healthyB",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_healthyB__BW": {
+      "type": "TASK",
+      "index": "BW",
+      "unit": null,
+      "task": "task_healthyB",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_moderateHI__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_moderateHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_moderateHI__Cve_edo": {
+      "type": "TASK",
+      "index": "Cve_edo",
+      "unit": null,
+      "task": "task_moderateHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_moderateHI__Cve_m4": {
+      "type": "TASK",
+      "index": "Cve_m4",
+      "unit": null,
+      "task": "task_moderateHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_moderateHI__Cve_m6": {
+      "type": "TASK",
+      "index": "Cve_m6",
+      "unit": null,
+      "task": "task_moderateHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_moderateHI__Cve_mx": {
+      "type": "TASK",
+      "index": "Cve_mx",
+      "unit": null,
+      "task": "task_moderateHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_moderateHI__Cve_edo_total": {
+      "type": "TASK",
+      "index": "Cve_edo_total",
+      "unit": null,
+      "task": "task_moderateHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_moderateHI__Aurine_edo": {
+      "type": "TASK",
+      "index": "Aurine_edo",
+      "unit": null,
+      "task": "task_moderateHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_moderateHI__Aurine_m4": {
+      "type": "TASK",
+      "index": "Aurine_m4",
+      "unit": null,
+      "task": "task_moderateHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_moderateHI__Aurine_m6": {
+      "type": "TASK",
+      "index": "Aurine_m6",
+      "unit": null,
+      "task": "task_moderateHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_moderateHI__Aurine_mx": {
+      "type": "TASK",
+      "index": "Aurine_mx",
+      "unit": null,
+      "task": "task_moderateHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_moderateHI__Aurine_edo_total": {
+      "type": "TASK",
+      "index": "Aurine_edo_total",
+      "unit": null,
+      "task": "task_moderateHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_moderateHI__Afeces_edo": {
+      "type": "TASK",
+      "index": "Afeces_edo",
+      "unit": null,
+      "task": "task_moderateHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_moderateHI__Afeces_m4": {
+      "type": "TASK",
+      "index": "Afeces_m4",
+      "unit": null,
+      "task": "task_moderateHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_moderateHI__Afeces_m6": {
+      "type": "TASK",
+      "index": "Afeces_m6",
+      "unit": null,
+      "task": "task_moderateHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_moderateHI__Afeces_mx": {
+      "type": "TASK",
+      "index": "Afeces_mx",
+      "unit": null,
+      "task": "task_moderateHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_moderateHI__Afeces_edo_total": {
+      "type": "TASK",
+      "index": "Afeces_edo_total",
+      "unit": null,
+      "task": "task_moderateHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_moderateHI__KI__f_renal_function": {
+      "type": "TASK",
+      "index": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_moderateHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_moderateHI__f_cirrhosis": {
+      "type": "TASK",
+      "index": "f_cirrhosis",
+      "unit": null,
+      "task": "task_moderateHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_moderateHI__PT": {
+      "type": "TASK",
+      "index": "PT",
+      "unit": null,
+      "task": "task_moderateHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_moderateHI__PT_change": {
+      "type": "TASK",
+      "index": "PT_change",
+      "unit": null,
+      "task": "task_moderateHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_moderateHI__PT_ratio": {
+      "type": "TASK",
+      "index": "PT_ratio",
+      "unit": null,
+      "task": "task_moderateHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_moderateHI__aPTT": {
+      "type": "TASK",
+      "index": "aPTT",
+      "unit": null,
+      "task": "task_moderateHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_moderateHI__aPTT_change": {
+      "type": "TASK",
+      "index": "aPTT_change",
+      "unit": null,
+      "task": "task_moderateHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_moderateHI__aPTT_ratio": {
+      "type": "TASK",
+      "index": "aPTT_ratio",
+      "unit": null,
+      "task": "task_moderateHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_moderateHI__Xa_inhibition": {
+      "type": "TASK",
+      "index": "Xa_inhibition",
+      "unit": null,
+      "task": "task_moderateHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_moderateHI__PODOSE_edo": {
+      "type": "TASK",
+      "index": "PODOSE_edo",
+      "unit": null,
+      "task": "task_moderateHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_moderateHI__GU__F_edo_abs": {
+      "type": "TASK",
+      "index": "GU__F_edo_abs",
+      "unit": null,
+      "task": "task_moderateHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_moderateHI__BW": {
+      "type": "TASK",
+      "index": "BW",
+      "unit": null,
+      "task": "task_moderateHI",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    }
+  },
+  "figures": {
+    "Fig_PK": {
+      "sid": "Fig_PK",
+      "name": "Mendell2015 (hepatic impairment)",
+      "num_rows": 1,
+      "num_cols": 3,
+      "width": 21.0,
+      "height": 5.0,
+      "subplots": [
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_PK__plot0",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_PK__plot0_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_PK__plot0_yaxis",
+              "name": "edoxaban plasma [nM]",
+              "label": "edoxaban plasma",
+              "unit": "nM",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_PK__plot0_curve0",
+                "name": "healthyA",
+                "x": "task_healthyA__time",
+                "y": "task_healthyA__Cve_edo",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_PK__plot0_curve1",
+                "name": "healthyA (n=8)",
+                "x": "edoxaban_healthyA__time",
+                "y": "edoxaban_healthyA__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_PK__plot0_curve2",
+                "name": "mildHI",
+                "x": "task_mildHI__time",
+                "y": "task_mildHI__Cve_edo",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_PK__plot0_curve3",
+                "name": "mildHI (n=8)",
+                "x": "edoxaban_mildHI__time",
+                "y": "edoxaban_mildHI__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#1f77b4ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_PK__plot0_curve4",
+                "name": "healthyB",
+                "x": "task_healthyB__time",
+                "y": "task_healthyB__Cve_edo",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              },
+              {
+                "sid": "Fig_PK__plot0_curve5",
+                "name": "healthyB (n=8)",
+                "x": "edoxaban_healthyB__time",
+                "y": "edoxaban_healthyB__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 5
+              },
+              {
+                "sid": "Fig_PK__plot0_curve6",
+                "name": "moderateHI",
+                "x": "task_moderateHI__time",
+                "y": "task_moderateHI__Cve_edo",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#00008bff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#00008bff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#00008bff",
+                    "second_color": null
+                  }
+                },
+                "order": 6
+              },
+              {
+                "sid": "Fig_PK__plot0_curve7",
+                "name": "moderateHI (n=8)",
+                "x": "edoxaban_moderateHI__time",
+                "y": "edoxaban_moderateHI__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#00008bff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#00008bff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#00008bff",
+                    "second_color": null
+                  }
+                },
+                "order": 7
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_PK__plot1",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_PK__plot1_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_PK__plot1_yaxis",
+              "name": "M4 plasma [nM]",
+              "label": "M4 plasma",
+              "unit": "nM",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_PK__plot1_curve0",
+                "name": "healthyA",
+                "x": "task_healthyA__time",
+                "y": "task_healthyA__Cve_m4",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_PK__plot1_curve1",
+                "name": "healthyA (n=8)",
+                "x": "M4_healthyA__time",
+                "y": "M4_healthyA__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_PK__plot1_curve2",
+                "name": "mildHI",
+                "x": "task_mildHI__time",
+                "y": "task_mildHI__Cve_m4",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_PK__plot1_curve3",
+                "name": "mildHI (n=8)",
+                "x": "M4_mildHI__time",
+                "y": "M4_mildHI__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#1f77b4ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_PK__plot1_curve4",
+                "name": "healthyB",
+                "x": "task_healthyB__time",
+                "y": "task_healthyB__Cve_m4",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              },
+              {
+                "sid": "Fig_PK__plot1_curve5",
+                "name": "healthyB (n=8)",
+                "x": "M4_healthyB__time",
+                "y": "M4_healthyB__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 5
+              },
+              {
+                "sid": "Fig_PK__plot1_curve6",
+                "name": "moderateHI",
+                "x": "task_moderateHI__time",
+                "y": "task_moderateHI__Cve_m4",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#00008bff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#00008bff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#00008bff",
+                    "second_color": null
+                  }
+                },
+                "order": 6
+              },
+              {
+                "sid": "Fig_PK__plot1_curve7",
+                "name": "moderateHI (n=8)",
+                "x": "M4_moderateHI__time",
+                "y": "M4_moderateHI__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#00008bff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#00008bff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#00008bff",
+                    "second_color": null
+                  }
+                },
+                "order": 7
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_PK__plot2",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_PK__plot2_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_PK__plot2_yaxis",
+              "name": "edoxaban urine [\u00b5mole]",
+              "label": "edoxaban urine",
+              "unit": "\u00b5mole",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_PK__plot2_curve0",
+                "name": "healthyA",
+                "x": "task_healthyA__time",
+                "y": "task_healthyA__Aurine_edo",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_PK__plot2_curve1",
+                "name": "healthyA\u00b1SD (n=8)",
+                "x": "edoxaban_urine_healthyA__time",
+                "y": "edoxaban_urine_healthyA__mean",
+                "xerr": null,
+                "yerr": "edoxaban_urine_healthyA__mean_sd",
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_PK__plot2_curve2",
+                "name": "mildHI",
+                "x": "task_mildHI__time",
+                "y": "task_mildHI__Aurine_edo",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_PK__plot2_curve3",
+                "name": "mildHI\u00b1SD (n=8)",
+                "x": "edoxaban_urine_mildHI__time",
+                "y": "edoxaban_urine_mildHI__mean",
+                "xerr": null,
+                "yerr": "edoxaban_urine_mildHI__mean_sd",
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#1f77b4ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_PK__plot2_curve4",
+                "name": "healthyB",
+                "x": "task_healthyB__time",
+                "y": "task_healthyB__Aurine_edo",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              },
+              {
+                "sid": "Fig_PK__plot2_curve5",
+                "name": "healthyB\u00b1SD (n=8)",
+                "x": "edoxaban_urine_healthyB__time",
+                "y": "edoxaban_urine_healthyB__mean",
+                "xerr": null,
+                "yerr": "edoxaban_urine_healthyB__mean_sd",
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 5
+              },
+              {
+                "sid": "Fig_PK__plot2_curve6",
+                "name": "moderateHI",
+                "x": "task_moderateHI__time",
+                "y": "task_moderateHI__Aurine_edo",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#00008bff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#00008bff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#00008bff",
+                    "second_color": null
+                  }
+                },
+                "order": 6
+              },
+              {
+                "sid": "Fig_PK__plot2_curve7",
+                "name": "moderateHI\u00b1SD (n=8)",
+                "x": "edoxaban_urine_moderateHI__time",
+                "y": "edoxaban_urine_moderateHI__mean",
+                "xerr": null,
+                "yerr": "edoxaban_urine_moderateHI__mean_sd",
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#00008bff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#00008bff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#00008bff",
+                    "second_color": null
+                  }
+                },
+                "order": 7
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 3,
+          "row_span": 1,
+          "col_span": 1
+        }
+      ]
+    },
+    "Fig_PD": {
+      "sid": "Fig_PD",
+      "name": "Mendell2015 (hepatic impairment)",
+      "num_rows": 1,
+      "num_cols": 2,
+      "width": 14.0,
+      "height": 5.0,
+      "subplots": [
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_PD__plot0",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_PD__plot0_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_PD__plot0_yaxis",
+              "name": "aPTT [s]",
+              "label": "aPTT",
+              "unit": "s",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_PD__plot0_curve0",
+                "name": "healthyA",
+                "x": "task_healthyA__time",
+                "y": "task_healthyA__aPTT",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_PD__plot0_curve1",
+                "name": "healthyA (n=8)",
+                "x": "aPTT_healthyA__time",
+                "y": "aPTT_healthyA__median",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_PD__plot0_curve2",
+                "name": "mildHI",
+                "x": "task_mildHI__time",
+                "y": "task_mildHI__aPTT",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_PD__plot0_curve3",
+                "name": "mildHI (n=8)",
+                "x": "aPTT_mildHI__time",
+                "y": "aPTT_mildHI__median",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#1f77b4ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_PD__plot0_curve4",
+                "name": "healthyB",
+                "x": "task_healthyB__time",
+                "y": "task_healthyB__aPTT",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              },
+              {
+                "sid": "Fig_PD__plot0_curve5",
+                "name": "healthyB (n=8)",
+                "x": "aPTT_healthyB__time",
+                "y": "aPTT_healthyB__median",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 5
+              },
+              {
+                "sid": "Fig_PD__plot0_curve6",
+                "name": "moderateHI",
+                "x": "task_moderateHI__time",
+                "y": "task_moderateHI__aPTT",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#00008bff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#00008bff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#00008bff",
+                    "second_color": null
+                  }
+                },
+                "order": 6
+              },
+              {
+                "sid": "Fig_PD__plot0_curve7",
+                "name": "moderateHI (n=8)",
+                "x": "aPTT_moderateHI__time",
+                "y": "aPTT_moderateHI__median",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#00008bff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#00008bff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#00008bff",
+                    "second_color": null
+                  }
+                },
+                "order": 7
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_PD__plot1",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_PD__plot1_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_PD__plot1_yaxis",
+              "name": "PT [s]",
+              "label": "PT",
+              "unit": "s",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_PD__plot1_curve0",
+                "name": "healthyA",
+                "x": "task_healthyA__time",
+                "y": "task_healthyA__PT",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_PD__plot1_curve1",
+                "name": "healthyA (n=8)",
+                "x": "PT_healthyA__time",
+                "y": "PT_healthyA__median",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_PD__plot1_curve2",
+                "name": "mildHI",
+                "x": "task_mildHI__time",
+                "y": "task_mildHI__PT",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_PD__plot1_curve3",
+                "name": "mildHI (n=8)",
+                "x": "PT_mildHI__time",
+                "y": "PT_mildHI__median",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#1f77b4ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_PD__plot1_curve4",
+                "name": "healthyB",
+                "x": "task_healthyB__time",
+                "y": "task_healthyB__PT",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              },
+              {
+                "sid": "Fig_PD__plot1_curve5",
+                "name": "healthyB (n=8)",
+                "x": "PT_healthyB__time",
+                "y": "PT_healthyB__median",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 5
+              },
+              {
+                "sid": "Fig_PD__plot1_curve6",
+                "name": "moderateHI",
+                "x": "task_moderateHI__time",
+                "y": "task_moderateHI__PT",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#00008bff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#00008bff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#00008bff",
+                    "second_color": null
+                  }
+                },
+                "order": 6
+              },
+              {
+                "sid": "Fig_PD__plot1_curve7",
+                "name": "moderateHI (n=8)",
+                "x": "PT_moderateHI__time",
+                "y": "PT_moderateHI__median",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#00008bff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#00008bff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#00008bff",
+                    "second_color": null
+                  }
+                },
+                "order": 7
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        }
+      ]
+    }
+  }
+}

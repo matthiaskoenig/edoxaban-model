@@ -1,0 +1,191 @@
+from typing import Dict
+
+from sbmlsim.data import DataSet, load_pkdb_dataframe
+from sbmlsim.fit import FitMapping, FitData
+from sbmlutils.console import console
+
+from pkdb_models.models.edoxaban.experiments.base_experiment import (
+    EdoxabanSimulationExperiment,
+)
+from pkdb_models.models.edoxaban.experiments.metadata import Tissue, Route, Dosing, ApplicationForm, Health, Health, \
+    Fasting, EdoxabanMappingMetaData, Coadministration
+
+from sbmlsim.plot import Axis, Figure
+from sbmlsim.simulation import Timecourse, TimecourseSim
+
+from pkdb_models.models.edoxaban.helpers import run_experiments
+
+
+class Lenard2025(EdoxabanSimulationExperiment):
+    """Simulation experiment of Lenard2025."""
+
+
+    colors = {
+        "API25, RIV25, EDO50_1": "black",
+        # "API25, RIV25, EDO50, CAR": "tab:blue",
+        "API25, RIV25, EDO50_2": "black",
+        # "API25, RIV25, EDO50, GAB": "tab:orange",
+        "API25, RIV25, EDO50_3": "black",
+        # "API25, RIV25, EDO50, PRE": "tab:red",
+
+        "EDO60, GAB": "tab:orange",
+        "EDO60, CAR": "tab:blue",
+        "EDO60, PRE": "tab:red",
+        "API25, RIV25, EDO50, GAB": "tab:orange",
+        "API25, RIV25, EDO50, CAR": "tab:blue",
+        "API25, RIV25, EDO50, PRE": "tab:red",
+        "EDO60": "black",
+        "EDO60_2": "black",
+        "EDO60_3": "black",
+    }
+
+    labels = {
+        "API25, RIV25, EDO50_1": "EDO50 (1)",
+         "API25, RIV25, EDO50, CAR": "EDO50, CAR",
+        "API25, RIV25, EDO50_2": "EDO50 (2)",
+         "API25, RIV25, EDO50, GAB": "EDO50, GAB",
+        "API25, RIV25, EDO50_3": "EDO50 (3)",
+         "API25, RIV25, EDO50, PRE": "EDO50, PRE",
+        "EDO60": "EDO60 (1)",
+        "EDO60_2": "EDO60 (2)",
+        "EDO60_3": "EDO60 (3)",
+        "EDO60, GAB": "EDO60, GAB",
+        "EDO60, CAR": "EDO60, CAR",
+        "EDO60, PRE": "EDO60, PRE"
+
+    }
+
+    interventions =  list(colors.keys())
+
+    infos_pk = {
+        "[Cve_edo]": "edoxaban",
+        "[Cve_m4]": "M4"
+    }
+
+    def datasets(self) -> Dict[str, DataSet]:
+        dsets = {}
+        for fig_id in ["Fig2", "Fig3", "Fig4"]:
+            df = load_pkdb_dataframe(f"{self.sid}_{fig_id}", data_path=self.data_path)
+            for label, df_label in df.groupby("label"):
+                dset = DataSet.from_df(df_label, self.ureg)
+                if label.startswith("edoxaban"):
+                        dset.unit_conversion("mean", 1 / self.Mr.edo)
+                if label.startswith("M4_"):
+                    dset.unit_conversion("mean", 1 / self.Mr.m4)
+                dsets[label] = dset
+        return dsets
+
+    def simulations(self) -> Dict[str, TimecourseSim]:
+        Q_ = self.Q_
+        tcsims = {}
+        for intervention in self.interventions:
+            dose = 60 if "EDO60" in intervention else 0.050
+            tcsims[f"{intervention}"] = TimecourseSim(
+                [Timecourse(
+                    start=0,
+                    end=50 * 60,  # [min]
+                    steps=500,
+                    changes={
+                        **self.default_changes(),
+                        "PODOSE_edo": Q_(dose, "mg")
+                    },
+                )])
+        return tcsims
+
+    def fit_mappings(self) -> Dict[str, FitMapping]:
+        mappings = {}
+        for intervention in self.interventions:
+            # PK
+            for ks, sid in enumerate(self.infos_pk):
+                name = self.infos_pk[sid]
+                if "M4" in name and intervention not in ["EDO60", "EDO60, CAR"]:
+                    continue
+
+                coadministration = Coadministration.NONE
+                if "CAR" in intervention:
+                    coadministration = Coadministration.CARBAMAZEPINE
+                elif "GAB" in intervention:
+                    coadministration = Coadministration.GABAPENTIN
+                elif "PRE" in intervention:
+                    coadministration = Coadministration.PREGABALIN
+
+                mappings[f"fm_{name}_{intervention}"] = FitMapping(
+                    self,
+                    reference=FitData(
+                        self,
+                        dataset=f"{name}_{intervention}",
+                        xid="time",
+                        yid="mean",
+                        yid_sd="mean_sd",
+                        count="count",
+                    ),
+                    observable=FitData(
+                        self, task=f"task_{intervention}", xid="time", yid=sid,
+                    ),
+                    metadata=EdoxabanMappingMetaData(
+                        tissue=Tissue.PLASMA,
+                        route=Route.PO,
+                        application_form=ApplicationForm.TABLET,
+                        dosing=Dosing.SINGLE,
+                        health=Health.HEALTHY,
+                        fasting=Fasting.NR,
+                        coadministration=coadministration
+                    ),
+                )
+
+        return mappings
+
+
+    def figures(self) -> Dict[str, Figure]:
+        return {
+            **self.figure_pk(),
+        }
+
+    def figure_pk(self) -> Dict[str, Figure]:
+        fig = Figure(
+            experiment=self,
+            sid="Fig1",
+            num_cols=3,
+            #num_cols=2,
+            name=f"{self.__class__.__name__} (healthy)",
+        )
+        plots = fig.create_plots(
+            xaxis=Axis(self.label_time, unit=self.unit_time), legend=True
+        )
+        plots[0].set_yaxis(self.label_edo_plasma, unit=self.unit_edo)
+        plots[1].set_yaxis(self.label_edo_plasma, unit=self.unit_edo)
+        plots[2].set_yaxis(self.label_m4_plasma, unit=self.unit_m4)
+
+        for intervention in self.interventions:
+            for ks, sid in enumerate(self.infos_pk):
+                    name = self.infos_pk[sid]
+                    if "M4" in name and  intervention not in ["EDO60, CAR", "EDO60"]:
+                        continue
+                    ks += 1 if "M4" in name or "EDO50" in intervention else 0
+                    #ks += 1 if "EDO50" in intervention else 0
+                    # simulation
+                    plots[ks].add_data(
+                        task=f"task_{intervention}",
+                        xid="time",
+                        yid=sid,
+                        label=self.labels[intervention],
+                        color=self.colors[f"{intervention}"],
+                    )
+                    # data
+                    plots[ks].add_data(
+                        dataset=f"{name}_{intervention}",
+                        xid="time",
+                        yid="mean",
+                        yid_sd="mean_sd",
+                        count="count",
+                        label=self.labels[intervention],
+                        color=self.colors[intervention],
+                    )
+
+        return {
+            fig.sid: fig
+        }
+
+
+if __name__ == "__main__":
+    run_experiments(Lenard2025, output_dir=Lenard2025.__name__)

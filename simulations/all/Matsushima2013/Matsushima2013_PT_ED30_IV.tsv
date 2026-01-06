@@ -1,0 +1,8 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Matsushima2013		all	35.0	ED30_IV	prothrombin time		plasma	coagulation assay	PT_ED30_IV	0.0	hr		10.53					sec	sec
+Matsushima2013		all	35.0	ED30_IV	prothrombin time		plasma	coagulation assay	PT_ED30_IV	2.0	hr		12.55					sec	sec
+Matsushima2013		all	35.0	ED30_IV	prothrombin time		plasma	coagulation assay	PT_ED30_IV	4.0	hr		11.87					sec	sec
+Matsushima2013		all	35.0	ED30_IV	prothrombin time		plasma	coagulation assay	PT_ED30_IV	8.0	hr		11.07					sec	sec
+Matsushima2013		all	35.0	ED30_IV	prothrombin time		plasma	coagulation assay	PT_ED30_IV	12.0	hr		10.79					sec	sec
+Matsushima2013		all	35.0	ED30_IV	prothrombin time		plasma	coagulation assay	PT_ED30_IV	24.0	hr		10.58					sec	sec
+Matsushima2013		all	35.0	ED30_IV	prothrombin time		plasma	coagulation assay	PT_ED30_IV	72.0	hr		10.59					sec	sec

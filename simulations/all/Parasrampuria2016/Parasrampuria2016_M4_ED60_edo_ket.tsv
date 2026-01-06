@@ -1,0 +1,20 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Parasrampuria2016		edo_ket	39.0	ED60	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED60_edo_ket	0.0	hr		0.0					mole/meter^3	ng/ml
+Parasrampuria2016		edo_ket	39.0	ED60	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED60_edo_ket	0.5	hr		2.476007677543186e-06	2.99	3.2629558541266794e-06			mole/meter^3	ng/ml
+Parasrampuria2016		edo_ket	39.0	ED60	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED60_edo_ket	1.0	hr		2.126679462571977e-05	18.32	1.3896353166986563e-05			mole/meter^3	ng/ml
+Parasrampuria2016		edo_ket	39.0	ED60	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED60_edo_ket	1.5	hr		3.2725527831094055e-05	27.26	1.959692898272553e-05			mole/meter^3	ng/ml
+Parasrampuria2016		edo_ket	39.0	ED60	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED60_edo_ket	2.0	hr		3.437619961612284e-05	27.27	1.7965451055662186e-05			mole/meter^3	ng/ml
+Parasrampuria2016		edo_ket	39.0	ED60	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED60_edo_ket	2.5	hr		3.3570057581573894e-05	25.58	1.5527831094049906e-05			mole/meter^3	ng/ml
+Parasrampuria2016		edo_ket	39.0	ED60	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED60_edo_ket	3.0	hr		3.113243761996161e-05	24.31	1.5527831094049906e-05			mole/meter^3	ng/ml
+Parasrampuria2016		edo_ket	39.0	ED60	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED60_edo_ket	3.5	hr		2.54510556621881e-05	19.65	1.2264875239923224e-05			mole/meter^3	ng/ml
+Parasrampuria2016		edo_ket	39.0	ED60	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED60_edo_ket	5.0	hr		2.1401151631477926e-05	16.26	9.808061420345489e-06			mole/meter^3	ng/ml
+Parasrampuria2016		edo_ket	39.0	ED60	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED60_edo_ket	6.0	hr		1.5719769673704412e-05	11.17	5.719769673704415e-06			mole/meter^3	ng/ml
+Parasrampuria2016		edo_ket	39.0	ED60	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED60_edo_ket	8.0	hr		1.0076775431861805e-05	8.65	6.525911708253359e-06			mole/meter^3	ng/ml
+Parasrampuria2016		edo_ket	39.0	ED60	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED60_edo_ket	12.0	hr		4.4913627639155465e-06	4.47	4.088291746641074e-06			mole/meter^3	ng/ml
+Parasrampuria2016		edo_ket	39.0	ED60	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED60_edo_ket	16.0	hr		2.9942418426103648e-06					mole/meter^3	ng/ml
+Parasrampuria2016		edo_ket	39.0	ED60	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED60_edo_ket	24.0	hr		1.6314779270633397e-06					mole/meter^3	ng/ml
+Parasrampuria2016		edo_ket	39.0	ED60	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED60_edo_ket	36.0	hr		1.1708253358925144e-06					mole/meter^3	ng/ml
+Parasrampuria2016		edo_ket	39.0	ED60	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED60_edo_ket	48.0	hr		7.677543186180423e-07					mole/meter^3	ng/ml
+Parasrampuria2016		edo_ket	39.0	ED60	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED60_edo_ket	60.0	hr		3.8387715930902116e-07					mole/meter^3	ng/ml
+Parasrampuria2016		edo_ket	39.0	ED60	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED60_edo_ket	72.0	hr		0.0					mole/meter^3	ng/ml
+Parasrampuria2016		edo_ket	39.0	ED60	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED60_edo_ket	96.0	hr		0.0					mole/meter^3	ng/ml

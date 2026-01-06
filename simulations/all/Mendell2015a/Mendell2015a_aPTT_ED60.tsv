@@ -1,0 +1,5 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	mean_pm	mean_sd	mean_se	comments	mean_unit
+Mendell2015a		all	32.0	ED60	aPTT		plasma	coagulation assay	aPTT_ED60	0.0	hr	28.84					sec
+Mendell2015a		all	32.0	ED60	aPTT		plasma	coagulation assay	aPTT_ED60	2.0	hr	37.64	42.56	4.920000000000002			sec
+Mendell2015a		all	32.0	ED60	aPTT		plasma	coagulation assay	aPTT_ED60	4.0	hr	35.46	39.76	4.299999999999997			sec
+Mendell2015a		all	32.0	ED60	aPTT		plasma	coagulation assay	aPTT_ED60	24.0	hr	30.32	32.69	2.369999999999997			sec

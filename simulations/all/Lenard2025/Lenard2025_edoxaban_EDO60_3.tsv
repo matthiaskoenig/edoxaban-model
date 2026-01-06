@@ -1,0 +1,19 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Lenard2025		all	12.0	EDO60	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60_3	0.0	hr		0.0					mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60_3	0.25	hr		1.6677067025752752e-05	20.3	2.036280831590817e-05			mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60_3	0.5	hr		0.00019450496115374648	156.35	9.077506395308527e-05			mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60_3	0.75	hr		0.00025933386612365846	183.76	7.59591138164209e-05			mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60_3	1.0	hr		0.00030934682095690603	218.27	8.891394706399691e-05			mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60_3	1.5	hr		0.00030009597524349615	216.24	9.44608052432407e-05			mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60_3	2.0	hr		0.00027230694561524517	191.88	7.780198446149859e-05			mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60_3	2.5	hr		0.00026674184119199066	188.83	7.780198446149863e-05			mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60_3	3.0	hr		0.00023154483649540745	161.42	6.29860343248342e-05			mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60_3	3.5	hr		0.0002093209112904109	145.18	5.557805925650207e-05			mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60_3	4.0	hr		0.00018153188166215983	121.83	4.0762109119837685e-05			mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60_3	5.0	hr		0.00014263088943141056	95.43	3.149301716241713e-05			mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60_3	6.0	hr		0.00011854584733732561	76.14	2.0381054559918842e-05			mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60_3	8.0	hr		7.594086757241022e-05	48.73	1.2973079491586657e-05			mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60_3	10.0	hr		5.557805925650206e-05	33.5	5.546858179243802e-06			mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60_3	12.0	hr		4.446609665400378e-05	27.41	5.546858179243802e-06			mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60_3	24.0	hr		1.2973079491586659e-05					mole/meter^3	ng/ml
+Lenard2025		all	12.0	EDO60	concentration	edoxaban	plasma	HPLC MS/MS	edoxaban_EDO60_3	48.0	hr		0.0					mole/meter^3	ng/ml

@@ -1,0 +1,14 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Chen2017b		all	12.0	ED90	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED90	0.0	hr		0.0					mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED90	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED90	0.5	hr		1.381957773512476e-05	18.5	2.1689059500959693e-05			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED90	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED90	1.0	hr		4.0499040307101725e-05	42.2	4.0499040307101725e-05			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED90	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED90	1.5	hr		7.216890595009597e-05	58.8	4.069097888675623e-05			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED90	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED90	2.0	hr		9.117082533589251e-05	62.3	2.8406909788867563e-05			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED90	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED90	3.0	hr		8.790786948176583e-05	58.4	2.4184261036468327e-05			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED90	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED90	4.0	hr		7.2936660268714e-05	50.3	2.3608445297504797e-05			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED90	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED90	6.0	hr		4.069097888675623e-05	31.0	1.8809980806142035e-05			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED90	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED90	8.0	hr		2.514395393474088e-05	18.0	9.404990403071018e-06			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED90	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED90	12.0	hr		1.3627639155470248e-05	9.6	4.798464491362764e-06			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED90	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED90	24.0	hr		5.758157389635317e-06	4.7	3.2629558541266794e-06			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED90	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED90	36.0	hr		2.4952015355086374e-06	1.7	7.677543186180423e-07			mole/meter^3	ng/ml
+Chen2017b		all	12.0	ED90	concentration	edoxaban-M4	plasma	LC MS/MS	M4_ED90	48.0	hr		0.0					mole/meter^3	ng/ml

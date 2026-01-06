@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Bathala2012	all	6.0	ED60	cumulative amount	edoxaban-M1	feces	scintillation counting	M1_feces_ED60	0.0	hr									µmole	µmole
+Bathala2012	all	6.0	ED60	cumulative amount	edoxaban-M1	feces	scintillation counting	M1_feces_ED60	168.0	hr									µmole	µmole

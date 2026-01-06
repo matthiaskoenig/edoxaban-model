@@ -1,0 +1,19 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Parasrampuria2016		edo_ery	33.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60_edo_ery	0.0	hr		0.0					mole/meter^3	ng/ml
+Parasrampuria2016		edo_ery	33.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60_edo_ery	0.5	hr		0.00020594535614843688	201.98	0.00016259228037908397			mole/meter^3	ng/ml
+Parasrampuria2016		edo_ery	33.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60_edo_ery	1.0	hr		0.0004010524433545355	314.85	0.0001734305493214222			mole/meter^3	ng/ml
+Parasrampuria2016		edo_ery	33.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60_edo_ery	1.5	hr		0.00041189071229687376	320.79	0.0001734305493214222			mole/meter^3	ng/ml
+Parasrampuria2016		edo_ery	33.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60_edo_ery	2.0	hr		0.000379375905469859	297.03	0.00016259228037908397			mole/meter^3	ng/ml
+Parasrampuria2016		edo_ery	33.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60_edo_ery	2.5	hr		0.0003576993675851826	285.15	0.00016259228037908397			mole/meter^3	ng/ml
+Parasrampuria2016		edo_ery	33.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60_edo_ery	3.0	hr		0.00031434629181582976	261.39	0.00016259228037908397			mole/meter^3	ng/ml
+Parasrampuria2016		edo_ery	33.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60_edo_ery	3.5	hr		0.0002384601629754515	196.04	0.00011923920460973108			mole/meter^3	ng/ml
+Parasrampuria2016		edo_ery	33.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60_edo_ery	5.0	hr		0.00019510708720609865	154.46	8.672439778271643e-05			mole/meter^3	ng/ml
+Parasrampuria2016		edo_ery	33.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60_edo_ery	6.0	hr		0.00016259228037908397	124.75	6.502961365402931e-05			mole/meter^3	ng/ml
+Parasrampuria2016		edo_ery	33.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60_edo_ery	8.0	hr		0.00010840093566739287					mole/meter^3	ng/ml
+Parasrampuria2016		edo_ery	33.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60_edo_ery	12.0	hr		4.4447850409993106e-05					mole/meter^3	ng/ml
+Parasrampuria2016		edo_ery	33.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60_edo_ery	16.0	hr		3.251480682701466e-05					mole/meter^3	ng/ml
+Parasrampuria2016		edo_ery	33.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60_edo_ery	24.0	hr		2.160355290863376e-05					mole/meter^3	ng/ml
+Parasrampuria2016		edo_ery	33.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60_edo_ery	36.0	hr		1.268113958741593e-05					mole/meter^3	ng/ml
+Parasrampuria2016		edo_ery	33.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60_edo_ery	48.0	hr		3.7587262661981035e-06					mole/meter^3	ng/ml
+Parasrampuria2016		edo_ery	33.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60_edo_ery	60.0	hr		3.2843239219206726e-06					mole/meter^3	ng/ml
+Parasrampuria2016		edo_ery	33.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60_edo_ery	72.0	hr		0.0					mole/meter^3	ng/ml

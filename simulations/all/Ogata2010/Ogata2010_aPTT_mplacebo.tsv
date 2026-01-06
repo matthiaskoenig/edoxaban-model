@@ -1,0 +1,23 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Ogata2010		all	9.0	mplacebo	aPTT		plasma	coagulation assay	aPTT_mplacebo	0.5	hr		32.7	34.08	1.38			sec	sec
+Ogata2010		all	9.0	mplacebo	aPTT		plasma	coagulation assay	aPTT_mplacebo	1.0	hr		33.22	34.25	1.03			sec	sec
+Ogata2010		all	9.0	mplacebo	aPTT		plasma	coagulation assay	aPTT_mplacebo	2.0	hr		32.19	33.05	0.86			sec	sec
+Ogata2010		all	9.0	mplacebo	aPTT		plasma	coagulation assay	aPTT_mplacebo	3.0	hr		32.7	33.56	0.86			sec	sec
+Ogata2010		all	9.0	mplacebo	aPTT		plasma	coagulation assay	aPTT_mplacebo	4.0	hr		32.36	33.56	1.2			sec	sec
+Ogata2010		all	9.0	mplacebo	aPTT		plasma	coagulation assay	aPTT_mplacebo	6.0	hr		33.73	34.94	1.21			sec	sec
+Ogata2010		all	9.0	mplacebo	aPTT		plasma	coagulation assay	aPTT_mplacebo	8.0	hr		32.88	33.73	0.85			sec	sec
+Ogata2010		all	9.0	mplacebo	aPTT		plasma	coagulation assay	aPTT_mplacebo	12.0	hr		32.53	33.39	0.86			sec	sec
+Ogata2010		all	9.0	mplacebo	aPTT		plasma	coagulation assay	aPTT_mplacebo	24.0	hr		32.7	33.39	0.69			sec	sec
+Ogata2010		all	9.0	mplacebo	aPTT		plasma	coagulation assay	aPTT_mplacebo	36.0	hr		33.05	33.56	0.51			sec	sec
+Ogata2010		all	9.0	mplacebo	aPTT		plasma	coagulation assay	aPTT_mplacebo	40.0	hr							sec	sec
+Ogata2010		all	9.0	mplacebo	aPTT		plasma	coagulation assay	aPTT_mplacebo	216.0	hr		34.07	35.26	1.19		0.0	sec	sec
+Ogata2010		all	9.0	mplacebo	aPTT		plasma	coagulation assay	aPTT_mplacebo	217.0	hr		34.42	36.28	1.86		1.0	sec	sec
+Ogata2010		all	9.0	mplacebo	aPTT		plasma	coagulation assay	aPTT_mplacebo	218.0	hr		33.41	35.11	1.7		2.0	sec	sec
+Ogata2010		all	9.0	mplacebo	aPTT		plasma	coagulation assay	aPTT_mplacebo	219.0	hr		33.43	35.12	1.69		3.0	sec	sec
+Ogata2010		all	9.0	mplacebo	aPTT		plasma	coagulation assay	aPTT_mplacebo	220.0	hr		33.27	34.62	1.35		4.0	sec	sec
+Ogata2010		all	9.0	mplacebo	aPTT		plasma	coagulation assay	aPTT_mplacebo	222.0	hr		34.99	37.02	2.03		6.0	sec	sec
+Ogata2010		all	9.0	mplacebo	aPTT		plasma	coagulation assay	aPTT_mplacebo	224.0	hr		34.67	36.88	2.21		8.0	sec	sec
+Ogata2010		all	9.0	mplacebo	aPTT		plasma	coagulation assay	aPTT_mplacebo	228.0	hr		34.69	36.72	2.03		12.0	sec	sec
+Ogata2010		all	9.0	mplacebo	aPTT		plasma	coagulation assay	aPTT_mplacebo	240.0	hr		33.86	35.56	1.7		24.0	sec	sec
+Ogata2010		all	9.0	mplacebo	aPTT		plasma	coagulation assay	aPTT_mplacebo	252.0	hr		33.2	33.54	0.34		36.0	sec	sec
+Ogata2010		all	9.0	mplacebo	aPTT		plasma	coagulation assay	aPTT_mplacebo	264.0	hr		33.05	33.22	0.17		48.0	sec	sec

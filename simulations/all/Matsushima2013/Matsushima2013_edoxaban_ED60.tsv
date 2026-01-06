@@ -1,0 +1,17 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Matsushima2013		all	35.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	0.0	hr		1.1288951169401779e-05					mole/meter^3	ng/ml
+Matsushima2013		all	35.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	0.25	hr		0.00015863649467757064					mole/meter^3	ng/ml
+Matsushima2013		all	35.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	0.5	hr		0.0006673363038218583					mole/meter^3	ng/ml
+Matsushima2013		all	35.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	1.0	hr		0.0008290418167420237					mole/meter^3	ng/ml
+Matsushima2013		all	35.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	1.5	hr		0.0008024223713548566					mole/meter^3	ng/ml
+Matsushima2013		all	35.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	2.0	hr		0.0006681208923143171					mole/meter^3	ng/ml
+Matsushima2013		all	35.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	3.0	hr		0.0005069591174656698					mole/meter^3	ng/ml
+Matsushima2013		all	35.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	4.0	hr		0.0002653003879151477					mole/meter^3	ng/ml
+Matsushima2013		all	35.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	6.0	hr		0.0001615650168412832					mole/meter^3	ng/ml
+Matsushima2013		all	35.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	8.0	hr		0.00011138784581193962					mole/meter^3	ng/ml
+Matsushima2013		all	35.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	12.0	hr		2.4422597608282336e-05					mole/meter^3	ng/ml
+Matsushima2013		all	35.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	24.0	hr		1.861664276408701e-05					mole/meter^3	ng/ml
+Matsushima2013		all	35.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	36.0	hr		1.059194464819417e-05					mole/meter^3	ng/ml
+Matsushima2013		all	35.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	48.0	hr		5.90630918625401e-06					mole/meter^3	ng/ml
+Matsushima2013		all	35.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	60.0	hr		1.5509307409069842e-06					mole/meter^3	ng/ml
+Matsushima2013		all	35.0	ED60	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED60	72.0	hr		1.0163157913943416e-06					mole/meter^3	ng/ml

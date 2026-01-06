@@ -1,0 +1,18 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Lenard2024		all	12.0	API25, RIV25, EDO50, CLAR	concentration	apixaban	plasma	HPLC MS/MS	apixaban_API25, RIV25, EDO50, CLAR	0.0	hr		0.0					pg/ml	pg/ml
+Lenard2024		all	12.0	API25, RIV25, EDO50, CLAR	concentration	apixaban	plasma	HPLC MS/MS	apixaban_API25, RIV25, EDO50, CLAR	0.25	hr		129.81	187.5	57.69			pg/ml	pg/ml
+Lenard2024		all	12.0	API25, RIV25, EDO50, CLAR	concentration	apixaban	plasma	HPLC MS/MS	apixaban_API25, RIV25, EDO50, CLAR	0.5	hr		475.96	562.5	86.54			pg/ml	pg/ml
+Lenard2024		all	12.0	API25, RIV25, EDO50, CLAR	concentration	apixaban	plasma	HPLC MS/MS	apixaban_API25, RIV25, EDO50, CLAR	0.75	hr		625.0	740.38	115.38			pg/ml	pg/ml
+Lenard2024		all	12.0	API25, RIV25, EDO50, CLAR	concentration	apixaban	plasma	HPLC MS/MS	apixaban_API25, RIV25, EDO50, CLAR	1.0	hr		673.08	774.04	100.96			pg/ml	pg/ml
+Lenard2024		all	12.0	API25, RIV25, EDO50, CLAR	concentration	apixaban	plasma	HPLC MS/MS	apixaban_API25, RIV25, EDO50, CLAR	1.5	hr		687.5	802.88	115.38			pg/ml	pg/ml
+Lenard2024		all	12.0	API25, RIV25, EDO50, CLAR	concentration	apixaban	plasma	HPLC MS/MS	apixaban_API25, RIV25, EDO50, CLAR	2.0	hr		706.73	826.92	120.19			pg/ml	pg/ml
+Lenard2024		all	12.0	API25, RIV25, EDO50, CLAR	concentration	apixaban	plasma	HPLC MS/MS	apixaban_API25, RIV25, EDO50, CLAR	2.5	hr		754.81	884.62	129.81			pg/ml	pg/ml
+Lenard2024		all	12.0	API25, RIV25, EDO50, CLAR	concentration	apixaban	plasma	HPLC MS/MS	apixaban_API25, RIV25, EDO50, CLAR	3.0	hr		677.88	802.88	125.0			pg/ml	pg/ml
+Lenard2024		all	12.0	API25, RIV25, EDO50, CLAR	concentration	apixaban	plasma	HPLC MS/MS	apixaban_API25, RIV25, EDO50, CLAR	3.5	hr		591.35	673.08	81.73			pg/ml	pg/ml
+Lenard2024		all	12.0	API25, RIV25, EDO50, CLAR	concentration	apixaban	plasma	HPLC MS/MS	apixaban_API25, RIV25, EDO50, CLAR	4.0	hr		548.08	615.38	67.3			pg/ml	pg/ml
+Lenard2024		all	12.0	API25, RIV25, EDO50, CLAR	concentration	apixaban	plasma	HPLC MS/MS	apixaban_API25, RIV25, EDO50, CLAR	5.0	hr		485.58	557.69	72.1100000000001			pg/ml	pg/ml
+Lenard2024		all	12.0	API25, RIV25, EDO50, CLAR	concentration	apixaban	plasma	HPLC MS/MS	apixaban_API25, RIV25, EDO50, CLAR	6.0	hr		423.08	509.62	86.54			pg/ml	pg/ml
+Lenard2024		all	12.0	API25, RIV25, EDO50, CLAR	concentration	apixaban	plasma	HPLC MS/MS	apixaban_API25, RIV25, EDO50, CLAR	8.0	hr		278.85	326.92	48.07			pg/ml	pg/ml
+Lenard2024		all	12.0	API25, RIV25, EDO50, CLAR	concentration	apixaban	plasma	HPLC MS/MS	apixaban_API25, RIV25, EDO50, CLAR	10.0	hr		225.96	264.42	38.46			pg/ml	pg/ml
+Lenard2024		all	12.0	API25, RIV25, EDO50, CLAR	concentration	apixaban	plasma	HPLC MS/MS	apixaban_API25, RIV25, EDO50, CLAR	12.0	hr		158.65	192.31	33.66			pg/ml	pg/ml
+Lenard2024		all	12.0	API25, RIV25, EDO50, CLAR	concentration	apixaban	plasma	HPLC MS/MS	apixaban_API25, RIV25, EDO50, CLAR	24.0	hr		52.88	76.92	24.04			pg/ml	pg/ml

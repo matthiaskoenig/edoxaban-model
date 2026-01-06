@@ -1,0 +1,15 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Mendell2015		moderateHI	8.0	ED15	concentration	edoxaban	plasma	LC MS/MS	edoxaban_moderateHI	0.0	hr		0.0					mole/meter^3	ng/ml
+Mendell2015		moderateHI	8.0	ED15	concentration	edoxaban	plasma	LC MS/MS	edoxaban_moderateHI	0.5	hr		9.542785617580622e-05	22.5	5.437380715179781e-05			mole/meter^3	ng/ml
+Mendell2015		moderateHI	8.0	ED15	concentration	edoxaban	plasma	LC MS/MS	edoxaban_moderateHI	1.0	hr		9.761740545708667e-05	24.9	5.218425787051736e-05			mole/meter^3	ng/ml
+Mendell2015		moderateHI	8.0	ED15	concentration	edoxaban	plasma	LC MS/MS	edoxaban_moderateHI	2.0	hr		9.196106981377883e-05	27.3	4.2148823664648636e-05			mole/meter^3	ng/ml
+Mendell2015		moderateHI	8.0	ED15	concentration	edoxaban	plasma	LC MS/MS	edoxaban_moderateHI	3.0	hr		7.864131168598946e-05	31.0	2.2077955252911188e-05			mole/meter^3	ng/ml
+Mendell2015		moderateHI	8.0	ED15	concentration	edoxaban	plasma	LC MS/MS	edoxaban_moderateHI	6.0	hr		5.765813107371848e-05	30.4	2.1895492812804483e-06			mole/meter^3	ng/ml
+Mendell2015		moderateHI	8.0	ED15	concentration	edoxaban	plasma	LC MS/MS	edoxaban_moderateHI	8.0	hr		4.105404902400841e-05	27.3	8.758197125121793e-06			mole/meter^3	ng/ml
+Mendell2015		moderateHI	8.0	ED15	concentration	edoxaban	plasma	LC MS/MS	edoxaban_moderateHI	10.0	hr		2.882906553685924e-05	24.3	1.5509307409069845e-05			mole/meter^3	ng/ml
+Mendell2015		moderateHI	8.0	ED15	concentration	edoxaban	plasma	LC MS/MS	edoxaban_moderateHI	12.0	hr		1.9888405971630743e-05	16.4	1.0035434205868722e-05			mole/meter^3	ng/ml
+Mendell2015		moderateHI	8.0	ED15	concentration	edoxaban	plasma	LC MS/MS	edoxaban_moderateHI	24.0	hr		1.3502220567896101e-05	9.7	2.3720117213871525e-06			mole/meter^3	ng/ml
+Mendell2015		moderateHI	8.0	ED15	concentration	edoxaban	plasma	LC MS/MS	edoxaban_moderateHI	36.0	hr		9.48804688554861e-06	6.7	2.736936601600561e-06			mole/meter^3	ng/ml
+Mendell2015		moderateHI	8.0	ED15	concentration	edoxaban	plasma	LC MS/MS	edoxaban_moderateHI	48.0	hr		6.568647843841345e-06					mole/meter^3	ng/ml
+Mendell2015		moderateHI	8.0	ED15	concentration	edoxaban	plasma	LC MS/MS	edoxaban_moderateHI	60.0	hr		2.1895492812804483e-06					mole/meter^3	ng/ml
+Mendell2015		moderateHI	8.0	ED15	concentration	edoxaban	plasma	LC MS/MS	edoxaban_moderateHI	72.0	hr		0.0					mole/meter^3	ng/ml

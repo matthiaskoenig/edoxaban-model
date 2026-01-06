@@ -1,0 +1,7 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	mean_sd	mean_se	lower_quartile	median	upper_quartile	min	max	comments	mean_unit	median_unit
+Mendell2015		healthyB	8.0	ED15	prothrombin time		plasma	coagulation assay	PT_healthyB	0.0	hr				10.2	11.0	11.7	10.0	12.0		sec	sec
+Mendell2015		healthyB	8.0	ED15	prothrombin time		plasma	coagulation assay	PT_healthyB	2.0	hr				12.0		12.9	11.0	13.9		sec	sec
+Mendell2015		healthyB	8.0	ED15	prothrombin time		plasma	coagulation assay	PT_healthyB	4.0	hr				11.9		12.9	10.9	14.0		sec	sec
+Mendell2015		healthyB	8.0	ED15	prothrombin time		plasma	coagulation assay	PT_healthyB	24.0	hr				10.9		11.6	9.9	11.9		sec	sec
+Mendell2015		healthyB	8.0	ED15	prothrombin time		plasma	coagulation assay	PT_healthyB	48.0	hr				10.2	10.9	11.8	9.9	11.8		sec	sec
+Mendell2015		healthyB	8.0	ED15	prothrombin time		plasma	coagulation assay	PT_healthyB	72.0	hr				10.9		12.0	9.9			sec	sec

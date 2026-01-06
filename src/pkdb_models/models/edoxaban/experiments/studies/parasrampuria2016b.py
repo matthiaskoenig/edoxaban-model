@@ -1,0 +1,267 @@
+from typing import Dict
+
+from sbmlsim.data import DataSet, load_pkdb_dataframe
+from sbmlsim.fit import FitMapping, FitData
+from sbmlutils.console import console
+
+from pkdb_models.models.edoxaban.experiments.base_experiment import (
+    EdoxabanSimulationExperiment,
+)
+from pkdb_models.models.edoxaban.experiments.metadata import Tissue, Route, Dosing, ApplicationForm, Health, Health, \
+    Fasting, EdoxabanMappingMetaData, Coadministration
+
+from sbmlsim.plot import Axis, Figure
+from sbmlsim.simulation import Timecourse, TimecourseSim
+
+
+from pkdb_models.models.edoxaban.helpers import run_experiments
+
+class Parasrampuria2016b(EdoxabanSimulationExperiment):
+    """Simulation experiment of Parasrampuria2016b."""
+
+
+    #fasting_states = ["Fasting", "Fed"]
+    colors = {
+        "ED60": "black",
+        "multiED60": "black",
+        # "multiRIV20, ED60": "tab:blue",
+        # "multiDAB150, ED60": "darkblue"
+    }
+    interventions = list(colors.keys())
+
+    bodyweight = 74.1 #kg
+    dose = 60 #mg
+
+
+    infos_pk = {
+        "[Cve_edo]": "edoxaban"
+    }
+    infos_pd = {
+        "aPTT": "aPTT",
+        "PT": "PT"
+    }
+
+    pt_baseline= {
+        "ED60": 13.25,
+        "multiED60": 13.25  # assuming identical value
+    }
+
+    aptt_baseline = {
+        "ED60": 26.95,
+        "multiED60": 26.95  # assuming identical value
+    }
+
+    def datasets(self) -> Dict[str, DataSet]:
+        dsets = {}
+        for fig_id in ["Fig2", "Fig3", "Fig4", "Fig5"] :
+            df = load_pkdb_dataframe(f"{self.sid}_{fig_id}", data_path=self.data_path)
+            for label, df_label in df.groupby("label"):
+                dset = DataSet.from_df(df_label, self.ureg)
+                if label.startswith("edoxaban"):
+                        dset.unit_conversion("mean", 1 / self.Mr.edo)
+                dsets[label] = dset
+        return dsets
+
+    def simulations(self) -> Dict[str, TimecourseSim]:
+        Q_ = self.Q_
+        tcsims = {}
+
+        for intervention in self.interventions:
+
+            if "multi" in intervention:
+                tc0 = Timecourse(
+                    start=0,
+                    end=24 * 60,
+                    steps=500,
+                    changes={
+                        **self.default_changes(),
+                        "BW": Q_(self.bodyweight, "kg"),
+                        "PODOSE_edo": Q_(self.dose, "mg"),
+                        "PT_ref": Q_(self.pt_baseline[intervention], "s"),
+                        "aPTT_ref": Q_(self.aptt_baseline[intervention], "s")
+                    },
+                )
+                tc1 = Timecourse(
+                    start=0,
+                    end=24 * 60,
+                    steps=500,
+                    changes={
+                        "PODOSE_edo": Q_(self.dose, "mg")
+                    },
+                )
+                tc2 = Timecourse(
+                    start=0,
+                    end=25 * 60,
+                    steps=500,
+                    changes={
+                        "PODOSE_edo": Q_(self.dose, "mg")
+
+                    },
+                )
+                tcsims[intervention] = TimecourseSim(
+                    [tc0, tc1, tc1, tc2],
+                )
+            else:
+                tcsims[intervention] = TimecourseSim([
+                    Timecourse(
+                        start=0,
+                        end=24 * 60,
+                        steps=500,
+                        changes={
+                            **self.default_changes(),
+                            "BW": Q_(self.bodyweight, "kg"),
+                            "PODOSE_edo": Q_(self.dose, "mg"),
+                            "PT_ref": Q_(self.pt_baseline[intervention], "s"),
+                            "aPTT_ref": Q_(self.aptt_baseline[intervention], "s")
+                        },
+                    )
+                ])
+
+        return tcsims
+
+    def fit_mappings(self) -> Dict[str, FitMapping]:
+        mappings = {}
+        for intervention in self.interventions:
+            # PK
+            for ks, sid in enumerate(self.infos_pk):
+                name = self.infos_pk[sid]
+                mappings[f"fm_{name}_{intervention}"] = FitMapping(
+                    self,
+                    reference=FitData(
+                        self,
+                        dataset=f"{name}_{intervention}",
+                        xid="time",
+                        yid="mean",
+                        yid_sd="mean_sd",
+                        count="count",
+                    ),
+                    observable=FitData(
+                        self, task=f"task_{intervention}", xid="time", yid=sid,
+                    ),
+                    metadata=EdoxabanMappingMetaData(
+                        tissue=Tissue.URINE if "urine" in name else Tissue.PLASMA,
+                        route=Route.PO,
+                        application_form=ApplicationForm.TABLET,
+                        dosing=Dosing.MULTIPLE if "multi" in intervention else Dosing.SINGLE,
+                        health=Health.HEALTHY,
+                        fasting=Fasting.FASTED,
+                        coadministration=Coadministration.NONE
+                    )
+                )
+            # PD
+            for ks, sid in enumerate(self.infos_pd):
+                name = self.infos_pd[sid]
+                mappings[f"fm_{intervention}_{name}"] = FitMapping(
+                    self,
+                    reference=FitData(
+                        self,
+                        dataset=f"{name}_{intervention}",
+                        xid="time",
+                        yid="mean",
+                        yid_sd="mean_sd",
+                        count="count",
+                    ),
+                    observable=FitData(
+                        self, task=f"task_{intervention}", xid="time", yid=sid,
+                    ),
+                    metadata=EdoxabanMappingMetaData(
+                        tissue=Tissue.PLASMA,
+                        route=Route.PO,
+                        application_form= ApplicationForm.TABLET,
+                        dosing=Dosing.MULTIPLE if "multi" in intervention else Dosing.SINGLE,
+                        health=Health.HEALTHY,
+                        fasting=Fasting.FASTED,
+                        coadministration=Coadministration.NONE
+                    ),
+                )
+
+        return mappings
+
+    def figures(self) -> Dict[str, Figure]:
+        return {
+            **self.figure_pk(),
+            **self.figure_pd()
+        }
+
+    def figure_pk(self) -> Dict[str, Figure]:
+        fig = Figure(
+            experiment=self,
+            sid="Fig1",
+            num_cols=1,
+            name=f"{self.__class__.__name__} (healthy)",
+        )
+        plots = fig.create_plots(
+            xaxis=Axis(self.label_time, unit=self.unit_time), legend=True
+        )
+        plots[0].set_yaxis(self.label_edo_plasma, unit=self.unit_edo)
+
+        for intervention in self.interventions:
+            for ks, sid in enumerate(self.infos_pk):
+                name = self.infos_pk[sid]
+                # simulation
+                plots[ks].add_data(
+                    task=f"task_{intervention}",
+                    xid="time",
+                    yid=sid,
+                    label=intervention,
+                    color=self.colors[intervention],
+                )
+
+                # data
+                plots[ks].add_data(
+                    dataset=f"{name}_{intervention}",
+                    xid="time",
+                    yid="mean",
+                    yid_sd="mean_sd",
+                    count="count",
+                    label=intervention,
+                    color=self.colors[intervention],
+                )
+
+        return {
+            fig.sid: fig
+        }
+
+    def figure_pd(self) -> Dict[str, Figure]:
+        fig = Figure(
+            experiment=self,
+            sid="Fig2",
+            num_cols=2,
+            name=f"{self.__class__.__name__} (healthy)",
+        )
+        plots = fig.create_plots(
+            xaxis=Axis(self.label_time, unit=self.unit_time),
+            legend=True,
+        )
+        plots[0].set_yaxis(self.labels["aPTT"], unit=self.units["aPTT"])
+        plots[1].set_yaxis(self.labels["PT"], unit=self.units["PT"])
+
+
+        for intervention in self.interventions:
+            for ks, sid in enumerate(self.infos_pd):
+                name = self.infos_pd[sid]
+                # simulation
+                plots[ks].add_data(
+                    task=f"task_{intervention}",
+                    xid="time",
+                    yid=sid,
+                    label=intervention,
+                    color=self.colors[intervention],
+                )
+                # data
+                plots[ks].add_data(
+                    dataset=f"{name}_{intervention}",
+                    xid="time",
+                    yid="mean",
+                    yid_sd="mean_sd",
+                    count="count",
+                    label=intervention,
+                    color=self.colors[intervention],
+                )
+
+        return {
+            fig.sid: fig
+        }
+
+if __name__ == "__main__":
+    run_experiments(Parasrampuria2016b, output_dir=Parasrampuria2016b.__name__)

@@ -1,0 +1,21 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Liu2022		fed	32.0	ref	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fedR	0.0	hr		0.0					mole/meter^3	ng/ml
+Liu2022		fed	32.0	ref	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fedR	0.25	hr		7.955362388652297e-06					mole/meter^3	ng/ml
+Liu2022		fed	32.0	ref	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fedR	0.5	hr		0.00016321265267544676	110.18	3.7824463834119756e-05			mole/meter^3	ng/ml
+Liu2022		fed	32.0	ref	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fedR	0.75	hr		0.0002547905513650015	160.36	3.780621759010912e-05			mole/meter^3	ng/ml
+Liu2022		fed	32.0	ref	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fedR	1.0	hr		0.00032843239219206726	198.55	3.384678263979362e-05			mole/meter^3	ng/ml
+Liu2022		fed	32.0	ref	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fedR	1.25	hr		0.0003762010590120024	223.64	3.185794204263049e-05			mole/meter^3	ng/ml
+Liu2022		fed	32.0	ref	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fedR	1.5	hr		0.00039411887063048074	229.09	2.3884333409967563e-05			mole/meter^3	ng/ml
+Liu2022		fed	32.0	ref	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fedR	1.75	hr		0.0004180032040404483	238.91	1.7917811618478325e-05			mole/meter^3	ng/ml
+Liu2022		fed	32.0	ref	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fedR	2.0	hr		0.00041004784165179597	234.55	1.7917811618478376e-05			mole/meter^3	ng/ml
+Liu2022		fed	32.0	ref	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fedR	2.5	hr		0.0003901411894361546	219.27	9.9442029858154e-06			mole/meter^3	ng/ml
+Liu2022		fed	32.0	ref	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fedR	3.0	hr		0.00036426801542902395	199.64	0.0			mole/meter^3	ng/ml
+Liu2022		fed	32.0	ref	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fedR	3.5	hr		0.0003403836820190564	188.73	3.977681194326109e-06			mole/meter^3	ng/ml
+Liu2022		fed	32.0	ref	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fedR	4.0	hr		0.0003144922617679151	172.36	0.0			mole/meter^3	ng/ml
+Liu2022		fed	32.0	ref	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fedR	4.5	hr		0.0002886190877607845	162.55	7.973608632662974e-06			mole/meter^3	ng/ml
+Liu2022		fed	32.0	ref	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fedR	5.0	hr		0.00024283926153801242					mole/meter^3	ng/ml
+Liu2022		fed	32.0	ref	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fedR	6.0	hr		0.00019705943531524037					mole/meter^3	ng/ml
+Liu2022		fed	32.0	ref	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fedR	8.0	hr		0.00012938411627966384					mole/meter^3	ng/ml
+Liu2022		fed	32.0	ref	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fedR	12.0	hr		6.170879724408732e-05					mole/meter^3	ng/ml
+Liu2022		fed	32.0	ref	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fedR	24.0	hr		1.5928971021315262e-05					mole/meter^3	ng/ml
+Liu2022		fed	32.0	ref	concentration	edoxaban	plasma	LC MS/MS	edoxaban_fedR	48.0	hr		0.0					mole/meter^3	ng/ml

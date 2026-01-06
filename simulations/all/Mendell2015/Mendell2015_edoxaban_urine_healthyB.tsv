@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	cv	median	min	max	mean_sd	mean_se	comments	mean_unit	median_unit
+Mendell2015	healthyB	8.0	ED15	cumulative amount	edoxaban	urine	LC MS/MS	edoxaban_urine_healthyB	0.0	hr	0.0								mole	mg
+Mendell2015	healthyB	8.0	ED15	cumulative amount	edoxaban	urine	LC MS/MS	edoxaban_urine_healthyB	72.0	hr	9.305584445441907e-06					1.8246244010670405e-06			mole	mg

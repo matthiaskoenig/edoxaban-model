@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <title>Mendell2015a</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <!--<link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/default.min.css">
+</head>
+
+<body>
+<div id="app">
+    <!-- Vue app-->
+    <v-app>
+        <v-content>
+
+            <a href="../index.html">Experiments</a>
+            <h1>Mendell2015a</h1>
+
+            <h2>Models</h2>
+            <p>
+            <ul>
+                <li><strong>model</strong>: <a href="../../../../src/pkdb_models/models/edoxaban/models/results/models/edoxaban_body_flat.xml">../../../../src/pkdb_models/models/edoxaban/models/results/models/edoxaban_body_flat.xml</a></li>
+            </ul>
+            </p>
+
+            <h2>Datasets</h2>
+            <p>
+            <ul>
+                <li><strong>M4_ED60</strong>: <a href="Mendell2015a_M4_ED60.tsv">Mendell2015a_M4_ED60.tsv</a></li>
+                <li><strong>M4_ED60, RIF</strong>: <a href="Mendell2015a_M4_ED60, RIF.tsv">Mendell2015a_M4_ED60, RIF.tsv</a></li>
+                <li><strong>M6_ED60</strong>: <a href="Mendell2015a_M6_ED60.tsv">Mendell2015a_M6_ED60.tsv</a></li>
+                <li><strong>M6_ED60, RIF</strong>: <a href="Mendell2015a_M6_ED60, RIF.tsv">Mendell2015a_M6_ED60, RIF.tsv</a></li>
+                <li><strong>edoxaban_ED60</strong>: <a href="Mendell2015a_edoxaban_ED60.tsv">Mendell2015a_edoxaban_ED60.tsv</a></li>
+                <li><strong>edoxaban_ED60, RIF</strong>: <a href="Mendell2015a_edoxaban_ED60, RIF.tsv">Mendell2015a_edoxaban_ED60, RIF.tsv</a></li>
+                <li><strong>PT_ED60</strong>: <a href="Mendell2015a_PT_ED60.tsv">Mendell2015a_PT_ED60.tsv</a></li>
+                <li><strong>PT_ED60, RIF</strong>: <a href="Mendell2015a_PT_ED60, RIF.tsv">Mendell2015a_PT_ED60, RIF.tsv</a></li>
+                <li><strong>aPTT_ED60</strong>: <a href="Mendell2015a_aPTT_ED60.tsv">Mendell2015a_aPTT_ED60.tsv</a></li>
+                <li><strong>aPTT_ED60, RIF</strong>: <a href="Mendell2015a_aPTT_ED60, RIF.tsv">Mendell2015a_aPTT_ED60, RIF.tsv</a></li>
+            </ul>
+            </p>
+
+            <h2>Figures</h2>
+            <p>
+            <ul>
+                <li><strong>Fig1</strong>: <a href="Mendell2015a_Fig1.svg">Mendell2015a_Fig1.svg</a></li>
+                <li><strong>Fig_PD</strong>: <a href="Mendell2015a_Fig_PD.svg">Mendell2015a_Fig_PD.svg</a></li>
+            </ul>
+            </p>
+
+            <h3>Fig1</h3>
+            <p>
+            <table>
+                <tr>
+                    <td>
+                        <!--<v-img src="Mendell2015a_Fig1.svg" max-width="600" width="600"></v-img>-->
+                        <img src="Mendell2015a_Fig1.svg" width="600">
+                    </td>
+                    <!--
+                    <td>
+                    </td>
+                    -->
+                </tr>
+            </table>
+            </p>
+            <h3>Fig_PD</h3>
+            <p>
+            <table>
+                <tr>
+                    <td>
+                        <!--<v-img src="Mendell2015a_Fig_PD.svg" max-width="600" width="600"></v-img>-->
+                        <img src="Mendell2015a_Fig_PD.svg" width="600">
+                    </td>
+                    <!--
+                    <td>
+                    </td>
+                    -->
+                </tr>
+            </table>
+            </p>
+
+            <h2>Code</h2>
+            <p>
+                <a href="../../../../src/pkdb_models/models/edoxaban/experiments/studies/mendell2015a.py">../../../../src/pkdb_models/models/edoxaban/experiments/studies/mendell2015a.py</a>
+            <pre>
+<code class="python">from typing import Dict
+
+from sbmlsim.data import DataSet, load_pkdb_dataframe
+from sbmlsim.fit import FitMapping, FitData
+from sbmlutils.console import console
+
+from pkdb_models.models.edoxaban.experiments.base_experiment import (
+    EdoxabanSimulationExperiment,
+)
+from pkdb_models.models.edoxaban.experiments.metadata import Tissue, Route, Dosing, ApplicationForm, Health, Health, \
+    Fasting, EdoxabanMappingMetaData, Coadministration
+
+from sbmlsim.plot import Axis, Figure
+from sbmlsim.simulation import Timecourse, TimecourseSim
+
+from pkdb_models.models.edoxaban.helpers import run_experiments
+
+
+class Mendell2015a(EdoxabanSimulationExperiment):
+    """Simulation experiment of Mendell2015a."""
+
+    colors = {
+        "ED60, RIF": "tab:blue",
+        "ED60": "black",
+    }
+    interventions = list(colors.keys())
+
+    pts = {
+        "ED60": 10.8,
+        "ED60, RIF": 10.53
+    }
+    aptts = {
+        "ED60": 28.38,
+        "ED60, RIF": 28.27
+    }
+
+    infos_pk = {
+        "[Cve_edo]": "edoxaban",
+        "[Cve_m4]": "M4",
+        "[Cve_m6]": "M6",
+    }
+    infos_pd = {
+        "PT": "PT",
+        "aPTT": "aPTT"
+    }
+
+    def datasets(self) -> Dict[str, DataSet]:
+        dsets = {}
+        for fig_id in ["Fig1", "Fig2"]:
+            df = load_pkdb_dataframe(f"{self.sid}_{fig_id}", data_path=self.data_path)
+            for label, df_label in df.groupby("label"):
+                dset = DataSet.from_df(df_label, self.ureg)
+                if label.startswith("edoxaban"):
+                        dset.unit_conversion("mean", 1 / self.Mr.edo)
+                if label.startswith("M4_"):
+                    dset.unit_conversion("mean", 1 / self.Mr.m4)
+                if label.startswith("M6_"):
+                    dset.unit_conversion("mean", 1 / self.Mr.m6)
+                dsets[label] = dset
+        return dsets
+
+
+    def simulations(self) -> Dict[str, TimecourseSim]:
+        Q_ = self.Q_
+        tcsims = {}
+
+        for intervention in self.interventions:
+
+            tcsims[intervention] = TimecourseSim([
+                Timecourse(
+                    start=0,
+                    end=73 * 60,
+                    steps=800,
+                    changes={
+                        **self.default_changes(),
+                        "PODOSE_edo": Q_(60, "mg"),
+                        "PT_ref": Q_(self.pts[intervention], "s"),
+                        "aPTT_ref": Q_(self.aptts[intervention], "s")
+                    },
+                )
+            ])
+
+        return tcsims
+
+
+    def fit_mappings(self) -> Dict[str, FitMapping]:
+        mappings = {}
+        for intervention in self.interventions:
+            # PK
+            for k, sid in enumerate(self.infos_pk.keys()):
+                name = self.infos_pk[sid]
+                mappings[f"fm_{name}_{intervention}"] = FitMapping(
+                    self,
+                    reference=FitData(
+                        self,
+                        dataset=f"{name}_{intervention}",
+                        xid="time",
+                        yid="mean",
+                        yid_sd="mean_sd",
+                        count="count",
+                    ),
+                    observable=FitData(
+                        self,
+                        task=f"task_{intervention}",
+                        xid="time",
+                        yid=sid,
+                    ),
+                    metadata=EdoxabanMappingMetaData(
+                        tissue=Tissue.URINE,
+                        route=Route.PO,
+                        application_form=ApplicationForm.TABLET,
+                        dosing=Dosing.SINGLE,
+                        health=Health.HEALTHY,
+                        fasting=Fasting.FASTED,
+                    ),
+                )
+            # PD
+            for ks, sid in enumerate(self.infos_pd):
+                name = self.infos_pd[sid]
+                mappings[f"fm_{intervention}_{name}"] = FitMapping(
+                    self,
+                    reference=FitData(
+                        self,
+                        dataset=f"{name}_{intervention}",
+                        xid="time",
+                        yid="mean",
+                        yid_sd="mean_sd",
+                        count="count",
+                    ),
+                    observable=FitData(
+                        self, task=f"task_{intervention}", xid="time", yid=sid,
+                    ),
+                    metadata=EdoxabanMappingMetaData(
+                        tissue=Tissue.PLASMA,
+                        route=Route.PO,
+                        application_form=ApplicationForm.TABLET,
+                        dosing=Dosing.SINGLE,
+                        health=Health.HEALTHY,
+                        fasting=Fasting.FASTED,
+                        coadministration=Coadministration.RIFAMPIN if "RIF" in intervention else Coadministration.NONE
+                    ),
+                )
+
+        return mappings
+
+    def figures(self) -> Dict[str, Figure]:
+        return {
+            **self.figure_pk(),
+            **self.figure_pd(),
+        }
+
+    def figure_pk(self) -> Dict[str, Figure]:
+
+        fig = Figure(
+            experiment=self,
+            sid="Fig1",
+            num_cols=3,
+            name=f"{self.__class__.__name__} (healthy)"
+        )
+        plots = fig.create_plots(
+            xaxis=Axis(self.label_time, unit=self.unit_time), legend=True
+        )
+        plots[0].set_yaxis(self.label_edo_plasma, unit=self.unit_edo)
+        plots[1].set_yaxis(self.label_m4_plasma, unit=self.unit_m4)
+        plots[2].set_yaxis(self.label_m6_plasma, unit=self.unit_m6)
+
+        for intervention in self.interventions:
+            for ks, sid in enumerate(self.infos_pk):
+                name = self.infos_pk[sid]
+                # simulation
+                plots[ks].add_data(
+                    task=f"task_{intervention}",
+                    xid="time",
+                    yid=sid,
+                    label=intervention,
+                    color=self.colors[intervention],
+                )
+
+                # data
+                plots[ks].add_data(
+                    dataset=f"{name}_{intervention}",
+                    xid="time",
+                    yid="mean",
+                    yid_sd="mean_sd",
+                    count="count",
+                    label=intervention,
+                    color=self.colors[intervention],
+                )
+
+        return {
+            fig.sid: fig,
+        }
+
+    def figure_pd(self) -> Dict[str, Figure]:
+        fig = Figure(
+            experiment=self,
+            sid="Fig_PD",
+            num_cols=2,
+            name=f"{self.__class__.__name__} (healthy)"
+        )
+        plots = fig.create_plots(
+            xaxis=Axis(self.label_time, unit=self.unit_time),
+            legend=True,
+        )
+        plots[0].set_yaxis(self.labels["PT"], unit=self.units["PT"])
+        plots[1].set_yaxis(self.labels["aPTT"], unit=self.units["aPTT"])
+
+
+        for intervention in self.interventions:
+            for ks, sid in enumerate(self.infos_pd):
+                name = self.infos_pd[sid]
+                plots[ks].add_data(
+                    task=f"task_{intervention}",
+                    xid="time",
+                    yid=sid,
+                    label=f"{intervention}",
+                    color=self.colors[intervention],
+                )
+                plots[ks].add_data(
+                    dataset=f"{name}_{intervention}",
+                    xid="time",
+                    yid="mean",
+                    yid_sd=None,
+                    count="count",
+                    label=f"{intervention}",
+                    color=self.colors[intervention],
+                )
+
+        return {
+            fig.sid: fig,
+        }
+
+if __name__ == "__main__":
+    run_experiments(Mendell2015a, output_dir=Mendell2015a.__name__)
+</code>
+        </pre>
+            </p>
+
+        </v-content>
+    </v-app>
+</div>
+
+
+<!-- loading dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+<script src="https://cdn.jsdelivr.net/npm/vuetify@2.2.6/dist/vuetify.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+    const app = new Vue({
+        el: '#app',
+        vuetify: new Vuetify(),
+        delimiters: ['${', '}'],
+        data() {
+            return {}
+        }
+    })
+</script>
+
+
+</body>
+</html>

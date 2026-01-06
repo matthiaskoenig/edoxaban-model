@@ -1,0 +1,23 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Ogata2010		all	9.0	mED60	aPTT		plasma	coagulation assay	aPTT_mED60	0.5	hr		36.48	38.37	1.89			sec	sec
+Ogata2010		all	9.0	mED60	aPTT		plasma	coagulation assay	aPTT_mED60	1.0	hr		39.57	42.32	2.75			sec	sec
+Ogata2010		all	9.0	mED60	aPTT		plasma	coagulation assay	aPTT_mED60	2.0	hr		40.77	43.69	2.92			sec	sec
+Ogata2010		all	9.0	mED60	aPTT		plasma	coagulation assay	aPTT_mED60	3.0	hr		41.63	42.83	1.2			sec	sec
+Ogata2010		all	9.0	mED60	aPTT		plasma	coagulation assay	aPTT_mED60	4.0	hr		41.46	43.18	1.72			sec	sec
+Ogata2010		all	9.0	mED60	aPTT		plasma	coagulation assay	aPTT_mED60	6.0	hr		41.63	42.83	1.2			sec	sec
+Ogata2010		all	9.0	mED60	aPTT		plasma	coagulation assay	aPTT_mED60	8.0	hr		37.85	39.91	2.06			sec	sec
+Ogata2010		all	9.0	mED60	aPTT		plasma	coagulation assay	aPTT_mED60	12.0	hr		36.31	37.68	1.37			sec	sec
+Ogata2010		all	9.0	mED60	aPTT		plasma	coagulation assay	aPTT_mED60	24.0	hr		34.59	35.79	1.2			sec	sec
+Ogata2010		all	9.0	mED60	aPTT		plasma	coagulation assay	aPTT_mED60	36.0	hr		34.94	36.14	1.2			sec	sec
+Ogata2010		all	9.0	mED60	aPTT		plasma	coagulation assay	aPTT_mED60	40.0	hr							sec	sec
+Ogata2010		all	9.0	mED60	aPTT		plasma	coagulation assay	aPTT_mED60	216.0	hr		42.72	44.92	2.2		0.0	sec	sec
+Ogata2010		all	9.0	mED60	aPTT		plasma	coagulation assay	aPTT_mED60	217.0	hr		46.45	48.15	1.7		1.0	sec	sec
+Ogata2010		all	9.0	mED60	aPTT		plasma	coagulation assay	aPTT_mED60	218.0	hr		48.33	51.38	3.05		2.0	sec	sec
+Ogata2010		all	9.0	mED60	aPTT		plasma	coagulation assay	aPTT_mED60	219.0	hr		48.85	51.05	2.2		3.0	sec	sec
+Ogata2010		all	9.0	mED60	aPTT		plasma	coagulation assay	aPTT_mED60	220.0	hr		47.68	50.05	2.37		4.0	sec	sec
+Ogata2010		all	9.0	mED60	aPTT		plasma	coagulation assay	aPTT_mED60	222.0	hr		47.7	50.07	2.37		6.0	sec	sec
+Ogata2010		all	9.0	mED60	aPTT		plasma	coagulation assay	aPTT_mED60	224.0	hr		43.66	45.69	2.03		8.0	sec	sec
+Ogata2010		all	9.0	mED60	aPTT		plasma	coagulation assay	aPTT_mED60	228.0	hr		40.79	42.66	1.87		12.0	sec	sec
+Ogata2010		all	9.0	mED60	aPTT		plasma	coagulation assay	aPTT_mED60	240.0	hr		37.59	39.28	1.69		24.0	sec	sec
+Ogata2010		all	9.0	mED60	aPTT		plasma	coagulation assay	aPTT_mED60	252.0	hr		37.27	38.63	1.36		36.0	sec	sec
+Ogata2010		all	9.0	mED60	aPTT		plasma	coagulation assay	aPTT_mED60	264.0	hr		35.93	37.46	1.53		48.0	sec	sec

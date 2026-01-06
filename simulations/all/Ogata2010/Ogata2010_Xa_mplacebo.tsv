@@ -1,0 +1,21 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Ogata2010		all	9.0	mplacebo	Anti-factor Xa activity		plasma	coagulation assay	Xa_mplacebo	0.5	hr		0.0					IU/mL	IU/mL
+Ogata2010		all	9.0	mplacebo	Anti-factor Xa activity		plasma	coagulation assay	Xa_mplacebo	1.0	hr		0.0					IU/mL	IU/mL
+Ogata2010		all	9.0	mplacebo	Anti-factor Xa activity		plasma	coagulation assay	Xa_mplacebo	2.0	hr		0.0					IU/mL	IU/mL
+Ogata2010		all	9.0	mplacebo	Anti-factor Xa activity		plasma	coagulation assay	Xa_mplacebo	3.0	hr		0.0					IU/mL	IU/mL
+Ogata2010		all	9.0	mplacebo	Anti-factor Xa activity		plasma	coagulation assay	Xa_mplacebo	4.0	hr		0.0					IU/mL	IU/mL
+Ogata2010		all	9.0	mplacebo	Anti-factor Xa activity		plasma	coagulation assay	Xa_mplacebo	6.0	hr		0.0					IU/mL	IU/mL
+Ogata2010		all	9.0	mplacebo	Anti-factor Xa activity		plasma	coagulation assay	Xa_mplacebo	8.0	hr		0.0					IU/mL	IU/mL
+Ogata2010		all	9.0	mplacebo	Anti-factor Xa activity		plasma	coagulation assay	Xa_mplacebo	12.0	hr		0.0					IU/mL	IU/mL
+Ogata2010		all	9.0	mplacebo	Anti-factor Xa activity		plasma	coagulation assay	Xa_mplacebo	24.0	hr		0.0					IU/mL	IU/mL
+Ogata2010		all	9.0	mplacebo	Anti-factor Xa activity		plasma	coagulation assay	Xa_mplacebo	36.0	hr		0.0					IU/mL	IU/mL
+Ogata2010		all	9.0	mplacebo	Anti-factor Xa activity		plasma	coagulation assay	Xa_mplacebo	216.0	hr		0.0				0.0	IU/mL	IU/mL
+Ogata2010		all	9.0	mplacebo	Anti-factor Xa activity		plasma	coagulation assay	Xa_mplacebo	217.0	hr		0.0				1.0	IU/mL	IU/mL
+Ogata2010		all	9.0	mplacebo	Anti-factor Xa activity		plasma	coagulation assay	Xa_mplacebo	218.0	hr		0.0				2.0	IU/mL	IU/mL
+Ogata2010		all	9.0	mplacebo	Anti-factor Xa activity		plasma	coagulation assay	Xa_mplacebo	219.0	hr		0.0				3.0	IU/mL	IU/mL
+Ogata2010		all	9.0	mplacebo	Anti-factor Xa activity		plasma	coagulation assay	Xa_mplacebo	220.0	hr		0.0				4.0	IU/mL	IU/mL
+Ogata2010		all	9.0	mplacebo	Anti-factor Xa activity		plasma	coagulation assay	Xa_mplacebo	222.0	hr		0.0				6.0	IU/mL	IU/mL
+Ogata2010		all	9.0	mplacebo	Anti-factor Xa activity		plasma	coagulation assay	Xa_mplacebo	224.0	hr		0.0				8.0	IU/mL	IU/mL
+Ogata2010		all	9.0	mplacebo	Anti-factor Xa activity		plasma	coagulation assay	Xa_mplacebo	228.0	hr		0.0				12.0	IU/mL	IU/mL
+Ogata2010		all	9.0	mplacebo	Anti-factor Xa activity		plasma	coagulation assay	Xa_mplacebo	240.0	hr		0.0				24.0	IU/mL	IU/mL
+Ogata2010		all	9.0	mplacebo	Anti-factor Xa activity		plasma	coagulation assay	Xa_mplacebo	252.0	hr		0.0				36.0	IU/mL	IU/mL

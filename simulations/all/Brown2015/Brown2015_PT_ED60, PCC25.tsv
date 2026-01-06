@@ -1,0 +1,16 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	mean_pm	mean_sd	mean_se	comments	mean_unit
+Brown2015		cohort1	12.0	ED60, PCC25	PT (change relative)		plasma	coagulation assay	PT_ED60, PCC25	0.0	hr	0.0					sec
+Brown2015		cohort1	12.0	ED60, PCC25	PT (change relative)		plasma	coagulation assay	PT_ED60, PCC25	0.5	hr	2.41	5.63	3.22			sec
+Brown2015		cohort1	12.0	ED60, PCC25	PT (change relative)		plasma	coagulation assay	PT_ED60, PCC25	1.0	hr	4.6	8.39	3.790000000000001			sec
+Brown2015		cohort1	12.0	ED60, PCC25	PT (change relative)		plasma	coagulation assay	PT_ED60, PCC25	1.5	hr	6.09	9.42	3.33			sec
+Brown2015		cohort1	12.0	ED60, PCC25	PT (change relative)		plasma	coagulation assay	PT_ED60, PCC25	2.0	hr	5.63	8.27	2.64			sec
+Brown2015		cohort1	12.0	ED60, PCC25	PT (change relative)		plasma	coagulation assay	PT_ED60, PCC25	3.0	hr	5.17	7.35	2.18			sec
+Brown2015		cohort1	12.0	ED60, PCC25	PT (change relative)		plasma	coagulation assay	PT_ED60, PCC25	4.0	hr	4.25	6.55	2.3			sec
+Brown2015		cohort1	12.0	ED60, PCC25	PT (change relative)		plasma	coagulation assay	PT_ED60, PCC25	6.0	hr	3.33	5.86	2.53			sec
+Brown2015		cohort1	12.0	ED60, PCC25	PT (change relative)		plasma	coagulation assay	PT_ED60, PCC25	8.0	hr	2.98	5.28	2.3000000000000003			sec
+Brown2015		cohort1	12.0	ED60, PCC25	PT (change relative)		plasma	coagulation assay	PT_ED60, PCC25	12.0	hr	2.4	4.71	2.31			sec
+Brown2015		cohort1	12.0	ED60, PCC25	PT (change relative)		plasma	coagulation assay	PT_ED60, PCC25	24.0	hr	1.37	3.55	2.18			sec
+Brown2015		cohort1	12.0	ED60, PCC25	PT (change relative)		plasma	coagulation assay	PT_ED60, PCC25	36.0	hr	0.44	2.4	1.96			sec
+Brown2015		cohort1	12.0	ED60, PCC25	PT (change relative)		plasma	coagulation assay	PT_ED60, PCC25	48.0	hr	0.23	1.13	0.8999999999999999			sec
+Brown2015		cohort1	12.0	ED60, PCC25	PT (change relative)		plasma	coagulation assay	PT_ED60, PCC25	60.0	hr	0.17	0.54	0.37			sec
+Brown2015		cohort1	12.0	ED60, PCC25	PT (change relative)		plasma	coagulation assay	PT_ED60, PCC25	72.0	hr	0.0					sec

@@ -1,0 +1,19 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	timeraw	mean_unit	value_unit
+Ogata2010		all	9.0	ED150	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED150	0.0	hr		0.0				fasted		mole/meter^3	ng/ml
+Ogata2010		all	9.0	ED150	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED150	0.5	hr		0.0005163687055019725				fasted		mole/meter^3	ng/ml
+Ogata2010		all	9.0	ED150	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED150	1.0	hr		0.0007028453192910239				fasted		mole/meter^3	ng/ml
+Ogata2010		all	9.0	ED150	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED150	1.5	hr		0.0006951818968065424				fasted		mole/meter^3	ng/ml
+Ogata2010		all	9.0	ED150	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED150	2.0	hr		0.0007537523400807944				fasted		mole/meter^3	ng/ml
+Ogata2010		all	9.0	ED150	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED150	2.5	hr		0.0006840516879600334				fasted		mole/meter^3	ng/ml
+Ogata2010		all	9.0	ED150	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED150	3.0	hr		0.000623291695404501				fasted		mole/meter^3	ng/ml
+Ogata2010		all	9.0	ED150	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED150	3.5	hr		0.0005869816698232669				fasted		mole/meter^3	ng/ml
+Ogata2010		all	9.0	ED150	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED150	4.0	hr		0.0005340675621923228				fasted		mole/meter^3	ng/ml
+Ogata2010		all	9.0	ED150	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED150	4.5	hr		0.0004771392808790311				fasted		mole/meter^3	ng/ml
+Ogata2010		all	9.0	ED150	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED150	5.0	hr		0.00046144751102985453				fasted		mole/meter^3	ng/ml
+Ogata2010		all	9.0	ED150	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED150	6.0	hr		0.0003722233778176762				fasted		mole/meter^3	ng/ml
+Ogata2010		all	9.0	ED150	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED150	8.0	hr		0.0002680373245167482				fasted		mole/meter^3	ng/ml
+Ogata2010		all	9.0	ED150	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED150	12.0	hr		0.00018100274058585042				fasted		mole/meter^3	ng/ml
+Ogata2010		all	9.0	ED150	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED150	16.0	hr		0.00013629944275970793				fasted		mole/meter^3	ng/ml
+Ogata2010		all	9.0	ED150	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED150	24.0	hr		9.177860737367214e-05				fasted		mole/meter^3	ng/ml
+Ogata2010		all	9.0	ED150	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED150	36.0	hr		4.3608523185502266e-05				fasted		mole/meter^3	ng/ml
+Ogata2010		all	9.0	ED150	concentration	edoxaban	plasma	LC MS/MS	edoxaban_ED150	48.0	hr		2.846414065664583e-05				fasted		mole/meter^3	ng/ml

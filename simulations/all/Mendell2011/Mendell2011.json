@@ -1,0 +1,2803 @@
+{
+  "experiment_id": "Mendell2011",
+  "base_path": "/home/mkoenig/git/edoxaban-model/src/pkdb_models/models/edoxaban",
+  "data_path": "[PosixPath('/home/mkoenig/git/edoxaban-model/src/pkdb_models/models/edoxaban/data/edoxaban')]",
+  "models": {
+    "model": {
+      "sid": null,
+      "name": null,
+      "language": "SBML",
+      "language_type": "SBML",
+      "source": {
+        "source": "/home/mkoenig/git/edoxaban-model/src/pkdb_models/models/edoxaban/models/results/models/edoxaban_body_flat.xml",
+        "path": "/home/mkoenig/git/edoxaban-model/src/pkdb_models/models/edoxaban/models/results/models/edoxaban_body_flat.xml",
+        "content": "None"
+      },
+      "changes": {}
+    }
+  },
+  "tasks": {
+    "task_japanFed": {
+      "model": "model",
+      "simulation": "japanFed"
+    },
+    "task_caucasFed": {
+      "model": "model",
+      "simulation": "caucasFed"
+    },
+    "task_japanFast": {
+      "model": "model",
+      "simulation": "japanFast"
+    },
+    "task_caucasFast": {
+      "model": "model",
+      "simulation": "caucasFast"
+    }
+  },
+  "simulations": {
+    "japanFed": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 1500,
+          "steps": 500,
+          "changes": {
+            "GU__Ka_dis_edo": {
+              "_magnitude": 0.3559517961123874,
+              "_units": "GU__per_hr"
+            },
+            "GU__EDOABS_k": {
+              "_magnitude": 0.021312888266795352,
+              "_units": "GU__per_min"
+            },
+            "LI__EDO2M4_Vmax": {
+              "_magnitude": 0.02467742534326666,
+              "_units": "LI__per_min"
+            },
+            "LI__EDO2M6_f": {
+              "_magnitude": 0.20000000005912993,
+              "_units": "dimensionless"
+            },
+            "LI__EDO2MX_f": {
+              "_magnitude": 9.999946086529825,
+              "_units": "dimensionless"
+            },
+            "LI__MXEXBI_k": {
+              "_magnitude": 9.999998121216769e-05,
+              "_units": "LI__per_min"
+            },
+            "KI__EDOEX_k": {
+              "_magnitude": 1.5766419182037374,
+              "_units": "KI__per_min"
+            },
+            "KI__M4EX_k": {
+              "_magnitude": 1.7146667975857133,
+              "_units": "KI__per_min"
+            },
+            "KI__M6EX_k": {
+              "_magnitude": 0.5765035347258279,
+              "_units": "KI__per_min"
+            },
+            "KI__MXEX_k": {
+              "_magnitude": 2.8819072042706586,
+              "_units": "KI__per_min"
+            },
+            "Emax_PT": {
+              "_magnitude": 3.6762994520462455,
+              "_units": "dimensionless"
+            },
+            "EC50_edo_PT": {
+              "_magnitude": 0.0027062726583800974,
+              "_units": "millimolar"
+            },
+            "Emax_aPTT": {
+              "_magnitude": 1.9397792689345885,
+              "_units": "dimensionless"
+            },
+            "EC50_edo_aPTT": {
+              "_magnitude": 0.0008459875594125807,
+              "_units": "millimolar"
+            },
+            "BW": {
+              "_magnitude": 67.2,
+              "_units": "kilogram"
+            },
+            "PODOSE_edo": {
+              "_magnitude": 60,
+              "_units": "milligram"
+            },
+            "GU__F_edo_abs": {
+              "_magnitude": 1.0,
+              "_units": "dimensionless"
+            },
+            "PT_ref": {
+              "_magnitude": 12.4,
+              "_units": "second"
+            },
+            "aPTT_ref": {
+              "_magnitude": 34.8,
+              "_units": "second"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "caucasFed": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 1500,
+          "steps": 500,
+          "changes": {
+            "GU__Ka_dis_edo": {
+              "_magnitude": 0.3559517961123874,
+              "_units": "GU__per_hr"
+            },
+            "GU__EDOABS_k": {
+              "_magnitude": 0.021312888266795352,
+              "_units": "GU__per_min"
+            },
+            "LI__EDO2M4_Vmax": {
+              "_magnitude": 0.02467742534326666,
+              "_units": "LI__per_min"
+            },
+            "LI__EDO2M6_f": {
+              "_magnitude": 0.20000000005912993,
+              "_units": "dimensionless"
+            },
+            "LI__EDO2MX_f": {
+              "_magnitude": 9.999946086529825,
+              "_units": "dimensionless"
+            },
+            "LI__MXEXBI_k": {
+              "_magnitude": 9.999998121216769e-05,
+              "_units": "LI__per_min"
+            },
+            "KI__EDOEX_k": {
+              "_magnitude": 1.5766419182037374,
+              "_units": "KI__per_min"
+            },
+            "KI__M4EX_k": {
+              "_magnitude": 1.7146667975857133,
+              "_units": "KI__per_min"
+            },
+            "KI__M6EX_k": {
+              "_magnitude": 0.5765035347258279,
+              "_units": "KI__per_min"
+            },
+            "KI__MXEX_k": {
+              "_magnitude": 2.8819072042706586,
+              "_units": "KI__per_min"
+            },
+            "Emax_PT": {
+              "_magnitude": 3.6762994520462455,
+              "_units": "dimensionless"
+            },
+            "EC50_edo_PT": {
+              "_magnitude": 0.0027062726583800974,
+              "_units": "millimolar"
+            },
+            "Emax_aPTT": {
+              "_magnitude": 1.9397792689345885,
+              "_units": "dimensionless"
+            },
+            "EC50_edo_aPTT": {
+              "_magnitude": 0.0008459875594125807,
+              "_units": "millimolar"
+            },
+            "BW": {
+              "_magnitude": 75.6,
+              "_units": "kilogram"
+            },
+            "PODOSE_edo": {
+              "_magnitude": 60,
+              "_units": "milligram"
+            },
+            "GU__F_edo_abs": {
+              "_magnitude": 1.0,
+              "_units": "dimensionless"
+            },
+            "PT_ref": {
+              "_magnitude": 12.5,
+              "_units": "second"
+            },
+            "aPTT_ref": {
+              "_magnitude": 37.4,
+              "_units": "second"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "japanFast": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 1500,
+          "steps": 500,
+          "changes": {
+            "GU__Ka_dis_edo": {
+              "_magnitude": 0.3559517961123874,
+              "_units": "GU__per_hr"
+            },
+            "GU__EDOABS_k": {
+              "_magnitude": 0.021312888266795352,
+              "_units": "GU__per_min"
+            },
+            "LI__EDO2M4_Vmax": {
+              "_magnitude": 0.02467742534326666,
+              "_units": "LI__per_min"
+            },
+            "LI__EDO2M6_f": {
+              "_magnitude": 0.20000000005912993,
+              "_units": "dimensionless"
+            },
+            "LI__EDO2MX_f": {
+              "_magnitude": 9.999946086529825,
+              "_units": "dimensionless"
+            },
+            "LI__MXEXBI_k": {
+              "_magnitude": 9.999998121216769e-05,
+              "_units": "LI__per_min"
+            },
+            "KI__EDOEX_k": {
+              "_magnitude": 1.5766419182037374,
+              "_units": "KI__per_min"
+            },
+            "KI__M4EX_k": {
+              "_magnitude": 1.7146667975857133,
+              "_units": "KI__per_min"
+            },
+            "KI__M6EX_k": {
+              "_magnitude": 0.5765035347258279,
+              "_units": "KI__per_min"
+            },
+            "KI__MXEX_k": {
+              "_magnitude": 2.8819072042706586,
+              "_units": "KI__per_min"
+            },
+            "Emax_PT": {
+              "_magnitude": 3.6762994520462455,
+              "_units": "dimensionless"
+            },
+            "EC50_edo_PT": {
+              "_magnitude": 0.0027062726583800974,
+              "_units": "millimolar"
+            },
+            "Emax_aPTT": {
+              "_magnitude": 1.9397792689345885,
+              "_units": "dimensionless"
+            },
+            "EC50_edo_aPTT": {
+              "_magnitude": 0.0008459875594125807,
+              "_units": "millimolar"
+            },
+            "BW": {
+              "_magnitude": 67.2,
+              "_units": "kilogram"
+            },
+            "PODOSE_edo": {
+              "_magnitude": 60,
+              "_units": "milligram"
+            },
+            "GU__F_edo_abs": {
+              "_magnitude": 0.82,
+              "_units": "dimensionless"
+            },
+            "PT_ref": {
+              "_magnitude": 12.8,
+              "_units": "second"
+            },
+            "aPTT_ref": {
+              "_magnitude": 35.5,
+              "_units": "second"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "caucasFast": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 1500,
+          "steps": 500,
+          "changes": {
+            "GU__Ka_dis_edo": {
+              "_magnitude": 0.3559517961123874,
+              "_units": "GU__per_hr"
+            },
+            "GU__EDOABS_k": {
+              "_magnitude": 0.021312888266795352,
+              "_units": "GU__per_min"
+            },
+            "LI__EDO2M4_Vmax": {
+              "_magnitude": 0.02467742534326666,
+              "_units": "LI__per_min"
+            },
+            "LI__EDO2M6_f": {
+              "_magnitude": 0.20000000005912993,
+              "_units": "dimensionless"
+            },
+            "LI__EDO2MX_f": {
+              "_magnitude": 9.999946086529825,
+              "_units": "dimensionless"
+            },
+            "LI__MXEXBI_k": {
+              "_magnitude": 9.999998121216769e-05,
+              "_units": "LI__per_min"
+            },
+            "KI__EDOEX_k": {
+              "_magnitude": 1.5766419182037374,
+              "_units": "KI__per_min"
+            },
+            "KI__M4EX_k": {
+              "_magnitude": 1.7146667975857133,
+              "_units": "KI__per_min"
+            },
+            "KI__M6EX_k": {
+              "_magnitude": 0.5765035347258279,
+              "_units": "KI__per_min"
+            },
+            "KI__MXEX_k": {
+              "_magnitude": 2.8819072042706586,
+              "_units": "KI__per_min"
+            },
+            "Emax_PT": {
+              "_magnitude": 3.6762994520462455,
+              "_units": "dimensionless"
+            },
+            "EC50_edo_PT": {
+              "_magnitude": 0.0027062726583800974,
+              "_units": "millimolar"
+            },
+            "Emax_aPTT": {
+              "_magnitude": 1.9397792689345885,
+              "_units": "dimensionless"
+            },
+            "EC50_edo_aPTT": {
+              "_magnitude": 0.0008459875594125807,
+              "_units": "millimolar"
+            },
+            "BW": {
+              "_magnitude": 75.6,
+              "_units": "kilogram"
+            },
+            "PODOSE_edo": {
+              "_magnitude": 60,
+              "_units": "milligram"
+            },
+            "GU__F_edo_abs": {
+              "_magnitude": 0.82,
+              "_units": "dimensionless"
+            },
+            "PT_ref": {
+              "_magnitude": 12.5,
+              "_units": "second"
+            },
+            "aPTT_ref": {
+              "_magnitude": 33.7,
+              "_units": "second"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    }
+  },
+  "data": {
+    "task_japanFed__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_japanFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFed__Cve_edo": {
+      "type": "TASK",
+      "index": "Cve_edo",
+      "unit": null,
+      "task": "task_japanFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFed__Cve_m4": {
+      "type": "TASK",
+      "index": "Cve_m4",
+      "unit": null,
+      "task": "task_japanFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFed__Cve_m6": {
+      "type": "TASK",
+      "index": "Cve_m6",
+      "unit": null,
+      "task": "task_japanFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFed__Cve_mx": {
+      "type": "TASK",
+      "index": "Cve_mx",
+      "unit": null,
+      "task": "task_japanFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFed__Cve_edo_total": {
+      "type": "TASK",
+      "index": "Cve_edo_total",
+      "unit": null,
+      "task": "task_japanFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFed__Aurine_edo": {
+      "type": "TASK",
+      "index": "Aurine_edo",
+      "unit": null,
+      "task": "task_japanFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFed__Aurine_m4": {
+      "type": "TASK",
+      "index": "Aurine_m4",
+      "unit": null,
+      "task": "task_japanFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFed__Aurine_m6": {
+      "type": "TASK",
+      "index": "Aurine_m6",
+      "unit": null,
+      "task": "task_japanFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFed__Aurine_mx": {
+      "type": "TASK",
+      "index": "Aurine_mx",
+      "unit": null,
+      "task": "task_japanFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFed__Aurine_edo_total": {
+      "type": "TASK",
+      "index": "Aurine_edo_total",
+      "unit": null,
+      "task": "task_japanFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFed__Afeces_edo": {
+      "type": "TASK",
+      "index": "Afeces_edo",
+      "unit": null,
+      "task": "task_japanFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFed__Afeces_m4": {
+      "type": "TASK",
+      "index": "Afeces_m4",
+      "unit": null,
+      "task": "task_japanFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFed__Afeces_m6": {
+      "type": "TASK",
+      "index": "Afeces_m6",
+      "unit": null,
+      "task": "task_japanFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFed__Afeces_mx": {
+      "type": "TASK",
+      "index": "Afeces_mx",
+      "unit": null,
+      "task": "task_japanFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFed__Afeces_edo_total": {
+      "type": "TASK",
+      "index": "Afeces_edo_total",
+      "unit": null,
+      "task": "task_japanFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFed__KI__f_renal_function": {
+      "type": "TASK",
+      "index": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_japanFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFed__f_cirrhosis": {
+      "type": "TASK",
+      "index": "f_cirrhosis",
+      "unit": null,
+      "task": "task_japanFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFed__PT": {
+      "type": "TASK",
+      "index": "PT",
+      "unit": null,
+      "task": "task_japanFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFed__PT_change": {
+      "type": "TASK",
+      "index": "PT_change",
+      "unit": null,
+      "task": "task_japanFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFed__PT_ratio": {
+      "type": "TASK",
+      "index": "PT_ratio",
+      "unit": null,
+      "task": "task_japanFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFed__aPTT": {
+      "type": "TASK",
+      "index": "aPTT",
+      "unit": null,
+      "task": "task_japanFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFed__aPTT_change": {
+      "type": "TASK",
+      "index": "aPTT_change",
+      "unit": null,
+      "task": "task_japanFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFed__aPTT_ratio": {
+      "type": "TASK",
+      "index": "aPTT_ratio",
+      "unit": null,
+      "task": "task_japanFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFed__Xa_inhibition": {
+      "type": "TASK",
+      "index": "Xa_inhibition",
+      "unit": null,
+      "task": "task_japanFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFed__PODOSE_edo": {
+      "type": "TASK",
+      "index": "PODOSE_edo",
+      "unit": null,
+      "task": "task_japanFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFed__GU__F_edo_abs": {
+      "type": "TASK",
+      "index": "GU__F_edo_abs",
+      "unit": null,
+      "task": "task_japanFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFed__BW": {
+      "type": "TASK",
+      "index": "BW",
+      "unit": null,
+      "task": "task_japanFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFed__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_caucasFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFed__Cve_edo": {
+      "type": "TASK",
+      "index": "Cve_edo",
+      "unit": null,
+      "task": "task_caucasFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFed__Cve_m4": {
+      "type": "TASK",
+      "index": "Cve_m4",
+      "unit": null,
+      "task": "task_caucasFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFed__Cve_m6": {
+      "type": "TASK",
+      "index": "Cve_m6",
+      "unit": null,
+      "task": "task_caucasFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFed__Cve_mx": {
+      "type": "TASK",
+      "index": "Cve_mx",
+      "unit": null,
+      "task": "task_caucasFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFed__Cve_edo_total": {
+      "type": "TASK",
+      "index": "Cve_edo_total",
+      "unit": null,
+      "task": "task_caucasFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFed__Aurine_edo": {
+      "type": "TASK",
+      "index": "Aurine_edo",
+      "unit": null,
+      "task": "task_caucasFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFed__Aurine_m4": {
+      "type": "TASK",
+      "index": "Aurine_m4",
+      "unit": null,
+      "task": "task_caucasFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFed__Aurine_m6": {
+      "type": "TASK",
+      "index": "Aurine_m6",
+      "unit": null,
+      "task": "task_caucasFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFed__Aurine_mx": {
+      "type": "TASK",
+      "index": "Aurine_mx",
+      "unit": null,
+      "task": "task_caucasFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFed__Aurine_edo_total": {
+      "type": "TASK",
+      "index": "Aurine_edo_total",
+      "unit": null,
+      "task": "task_caucasFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFed__Afeces_edo": {
+      "type": "TASK",
+      "index": "Afeces_edo",
+      "unit": null,
+      "task": "task_caucasFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFed__Afeces_m4": {
+      "type": "TASK",
+      "index": "Afeces_m4",
+      "unit": null,
+      "task": "task_caucasFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFed__Afeces_m6": {
+      "type": "TASK",
+      "index": "Afeces_m6",
+      "unit": null,
+      "task": "task_caucasFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFed__Afeces_mx": {
+      "type": "TASK",
+      "index": "Afeces_mx",
+      "unit": null,
+      "task": "task_caucasFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFed__Afeces_edo_total": {
+      "type": "TASK",
+      "index": "Afeces_edo_total",
+      "unit": null,
+      "task": "task_caucasFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFed__KI__f_renal_function": {
+      "type": "TASK",
+      "index": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_caucasFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFed__f_cirrhosis": {
+      "type": "TASK",
+      "index": "f_cirrhosis",
+      "unit": null,
+      "task": "task_caucasFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFed__PT": {
+      "type": "TASK",
+      "index": "PT",
+      "unit": null,
+      "task": "task_caucasFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFed__PT_change": {
+      "type": "TASK",
+      "index": "PT_change",
+      "unit": null,
+      "task": "task_caucasFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFed__PT_ratio": {
+      "type": "TASK",
+      "index": "PT_ratio",
+      "unit": null,
+      "task": "task_caucasFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFed__aPTT": {
+      "type": "TASK",
+      "index": "aPTT",
+      "unit": null,
+      "task": "task_caucasFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFed__aPTT_change": {
+      "type": "TASK",
+      "index": "aPTT_change",
+      "unit": null,
+      "task": "task_caucasFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFed__aPTT_ratio": {
+      "type": "TASK",
+      "index": "aPTT_ratio",
+      "unit": null,
+      "task": "task_caucasFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFed__Xa_inhibition": {
+      "type": "TASK",
+      "index": "Xa_inhibition",
+      "unit": null,
+      "task": "task_caucasFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFed__PODOSE_edo": {
+      "type": "TASK",
+      "index": "PODOSE_edo",
+      "unit": null,
+      "task": "task_caucasFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFed__GU__F_edo_abs": {
+      "type": "TASK",
+      "index": "GU__F_edo_abs",
+      "unit": null,
+      "task": "task_caucasFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFed__BW": {
+      "type": "TASK",
+      "index": "BW",
+      "unit": null,
+      "task": "task_caucasFed",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFast__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_japanFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFast__Cve_edo": {
+      "type": "TASK",
+      "index": "Cve_edo",
+      "unit": null,
+      "task": "task_japanFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFast__Cve_m4": {
+      "type": "TASK",
+      "index": "Cve_m4",
+      "unit": null,
+      "task": "task_japanFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFast__Cve_m6": {
+      "type": "TASK",
+      "index": "Cve_m6",
+      "unit": null,
+      "task": "task_japanFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFast__Cve_mx": {
+      "type": "TASK",
+      "index": "Cve_mx",
+      "unit": null,
+      "task": "task_japanFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFast__Cve_edo_total": {
+      "type": "TASK",
+      "index": "Cve_edo_total",
+      "unit": null,
+      "task": "task_japanFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFast__Aurine_edo": {
+      "type": "TASK",
+      "index": "Aurine_edo",
+      "unit": null,
+      "task": "task_japanFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFast__Aurine_m4": {
+      "type": "TASK",
+      "index": "Aurine_m4",
+      "unit": null,
+      "task": "task_japanFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFast__Aurine_m6": {
+      "type": "TASK",
+      "index": "Aurine_m6",
+      "unit": null,
+      "task": "task_japanFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFast__Aurine_mx": {
+      "type": "TASK",
+      "index": "Aurine_mx",
+      "unit": null,
+      "task": "task_japanFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFast__Aurine_edo_total": {
+      "type": "TASK",
+      "index": "Aurine_edo_total",
+      "unit": null,
+      "task": "task_japanFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFast__Afeces_edo": {
+      "type": "TASK",
+      "index": "Afeces_edo",
+      "unit": null,
+      "task": "task_japanFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFast__Afeces_m4": {
+      "type": "TASK",
+      "index": "Afeces_m4",
+      "unit": null,
+      "task": "task_japanFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFast__Afeces_m6": {
+      "type": "TASK",
+      "index": "Afeces_m6",
+      "unit": null,
+      "task": "task_japanFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFast__Afeces_mx": {
+      "type": "TASK",
+      "index": "Afeces_mx",
+      "unit": null,
+      "task": "task_japanFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFast__Afeces_edo_total": {
+      "type": "TASK",
+      "index": "Afeces_edo_total",
+      "unit": null,
+      "task": "task_japanFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFast__KI__f_renal_function": {
+      "type": "TASK",
+      "index": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_japanFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFast__f_cirrhosis": {
+      "type": "TASK",
+      "index": "f_cirrhosis",
+      "unit": null,
+      "task": "task_japanFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFast__PT": {
+      "type": "TASK",
+      "index": "PT",
+      "unit": null,
+      "task": "task_japanFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFast__PT_change": {
+      "type": "TASK",
+      "index": "PT_change",
+      "unit": null,
+      "task": "task_japanFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFast__PT_ratio": {
+      "type": "TASK",
+      "index": "PT_ratio",
+      "unit": null,
+      "task": "task_japanFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFast__aPTT": {
+      "type": "TASK",
+      "index": "aPTT",
+      "unit": null,
+      "task": "task_japanFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFast__aPTT_change": {
+      "type": "TASK",
+      "index": "aPTT_change",
+      "unit": null,
+      "task": "task_japanFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFast__aPTT_ratio": {
+      "type": "TASK",
+      "index": "aPTT_ratio",
+      "unit": null,
+      "task": "task_japanFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFast__Xa_inhibition": {
+      "type": "TASK",
+      "index": "Xa_inhibition",
+      "unit": null,
+      "task": "task_japanFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFast__PODOSE_edo": {
+      "type": "TASK",
+      "index": "PODOSE_edo",
+      "unit": null,
+      "task": "task_japanFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFast__GU__F_edo_abs": {
+      "type": "TASK",
+      "index": "GU__F_edo_abs",
+      "unit": null,
+      "task": "task_japanFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_japanFast__BW": {
+      "type": "TASK",
+      "index": "BW",
+      "unit": null,
+      "task": "task_japanFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFast__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_caucasFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFast__Cve_edo": {
+      "type": "TASK",
+      "index": "Cve_edo",
+      "unit": null,
+      "task": "task_caucasFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFast__Cve_m4": {
+      "type": "TASK",
+      "index": "Cve_m4",
+      "unit": null,
+      "task": "task_caucasFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFast__Cve_m6": {
+      "type": "TASK",
+      "index": "Cve_m6",
+      "unit": null,
+      "task": "task_caucasFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFast__Cve_mx": {
+      "type": "TASK",
+      "index": "Cve_mx",
+      "unit": null,
+      "task": "task_caucasFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFast__Cve_edo_total": {
+      "type": "TASK",
+      "index": "Cve_edo_total",
+      "unit": null,
+      "task": "task_caucasFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFast__Aurine_edo": {
+      "type": "TASK",
+      "index": "Aurine_edo",
+      "unit": null,
+      "task": "task_caucasFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFast__Aurine_m4": {
+      "type": "TASK",
+      "index": "Aurine_m4",
+      "unit": null,
+      "task": "task_caucasFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFast__Aurine_m6": {
+      "type": "TASK",
+      "index": "Aurine_m6",
+      "unit": null,
+      "task": "task_caucasFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFast__Aurine_mx": {
+      "type": "TASK",
+      "index": "Aurine_mx",
+      "unit": null,
+      "task": "task_caucasFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFast__Aurine_edo_total": {
+      "type": "TASK",
+      "index": "Aurine_edo_total",
+      "unit": null,
+      "task": "task_caucasFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFast__Afeces_edo": {
+      "type": "TASK",
+      "index": "Afeces_edo",
+      "unit": null,
+      "task": "task_caucasFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFast__Afeces_m4": {
+      "type": "TASK",
+      "index": "Afeces_m4",
+      "unit": null,
+      "task": "task_caucasFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFast__Afeces_m6": {
+      "type": "TASK",
+      "index": "Afeces_m6",
+      "unit": null,
+      "task": "task_caucasFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFast__Afeces_mx": {
+      "type": "TASK",
+      "index": "Afeces_mx",
+      "unit": null,
+      "task": "task_caucasFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFast__Afeces_edo_total": {
+      "type": "TASK",
+      "index": "Afeces_edo_total",
+      "unit": null,
+      "task": "task_caucasFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFast__KI__f_renal_function": {
+      "type": "TASK",
+      "index": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_caucasFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFast__f_cirrhosis": {
+      "type": "TASK",
+      "index": "f_cirrhosis",
+      "unit": null,
+      "task": "task_caucasFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFast__PT": {
+      "type": "TASK",
+      "index": "PT",
+      "unit": null,
+      "task": "task_caucasFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFast__PT_change": {
+      "type": "TASK",
+      "index": "PT_change",
+      "unit": null,
+      "task": "task_caucasFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFast__PT_ratio": {
+      "type": "TASK",
+      "index": "PT_ratio",
+      "unit": null,
+      "task": "task_caucasFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFast__aPTT": {
+      "type": "TASK",
+      "index": "aPTT",
+      "unit": null,
+      "task": "task_caucasFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFast__aPTT_change": {
+      "type": "TASK",
+      "index": "aPTT_change",
+      "unit": null,
+      "task": "task_caucasFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFast__aPTT_ratio": {
+      "type": "TASK",
+      "index": "aPTT_ratio",
+      "unit": null,
+      "task": "task_caucasFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFast__Xa_inhibition": {
+      "type": "TASK",
+      "index": "Xa_inhibition",
+      "unit": null,
+      "task": "task_caucasFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFast__PODOSE_edo": {
+      "type": "TASK",
+      "index": "PODOSE_edo",
+      "unit": null,
+      "task": "task_caucasFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFast__GU__F_edo_abs": {
+      "type": "TASK",
+      "index": "GU__F_edo_abs",
+      "unit": null,
+      "task": "task_caucasFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_caucasFast__BW": {
+      "type": "TASK",
+      "index": "BW",
+      "unit": null,
+      "task": "task_caucasFast",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    }
+  },
+  "figures": {
+    "Fig_PK_japan": {
+      "sid": "Fig_PK_japan",
+      "name": "Mendell2011 (healthy, Japanese)",
+      "num_rows": 1,
+      "num_cols": 2,
+      "width": 14.0,
+      "height": 5.0,
+      "subplots": [
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_PK_japan__plot0",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_PK_japan__plot0_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_PK_japan__plot0_yaxis",
+              "name": "edoxaban plasma [nM]",
+              "label": "edoxaban plasma",
+              "unit": "nM",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_PK_japan__plot0_curve0",
+                "name": "Fast",
+                "x": "task_japanFast__time",
+                "y": "task_japanFast__Cve_edo",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_PK_japan__plot0_curve1",
+                "name": "Fast (n=16)",
+                "x": "edoxaban_japanFast__time",
+                "y": "edoxaban_japanFast__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_PK_japan__plot0_curve2",
+                "name": "Fed",
+                "x": "task_japanFed__time",
+                "y": "task_japanFed__Cve_edo",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_PK_japan__plot0_curve3",
+                "name": "Fed (n=16)",
+                "x": "edoxaban_japanFed__time",
+                "y": "edoxaban_japanFed__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#1f77b4ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_PK_japan__plot1",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_PK_japan__plot1_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_PK_japan__plot1_yaxis",
+              "name": "edoxaban urine [\u00b5mole]",
+              "label": "edoxaban urine",
+              "unit": "\u00b5mole",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_PK_japan__plot1_curve0",
+                "name": "Fast",
+                "x": "task_japanFast__time",
+                "y": "task_japanFast__Aurine_edo",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_PK_japan__plot1_curve1",
+                "name": "Fast\u00b1SD (n=16)",
+                "x": "edoxaban_urine_japanFast__time",
+                "y": "edoxaban_urine_japanFast__mean",
+                "xerr": null,
+                "yerr": "edoxaban_urine_japanFast__mean_sd",
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_PK_japan__plot1_curve2",
+                "name": "Fed",
+                "x": "task_japanFed__time",
+                "y": "task_japanFed__Aurine_edo",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_PK_japan__plot1_curve3",
+                "name": "Fed\u00b1SD (n=16)",
+                "x": "edoxaban_urine_japanFed__time",
+                "y": "edoxaban_urine_japanFed__mean",
+                "xerr": null,
+                "yerr": "edoxaban_urine_japanFed__mean_sd",
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#1f77b4ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        }
+      ]
+    },
+    "Fig_PK_caucas": {
+      "sid": "Fig_PK_caucas",
+      "name": "Mendell2011 (healthy, Caucasian)",
+      "num_rows": 1,
+      "num_cols": 2,
+      "width": 14.0,
+      "height": 5.0,
+      "subplots": [
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_PK_caucas__plot0",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_PK_caucas__plot0_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_PK_caucas__plot0_yaxis",
+              "name": "edoxaban plasma [nM]",
+              "label": "edoxaban plasma",
+              "unit": "nM",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_PK_caucas__plot0_curve0",
+                "name": "Fast",
+                "x": "task_caucasFast__time",
+                "y": "task_caucasFast__Cve_edo",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_PK_caucas__plot0_curve1",
+                "name": "Fast (n=16)",
+                "x": "edoxaban_caucasFast__time",
+                "y": "edoxaban_caucasFast__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_PK_caucas__plot0_curve2",
+                "name": "Fed",
+                "x": "task_caucasFed__time",
+                "y": "task_caucasFed__Cve_edo",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_PK_caucas__plot0_curve3",
+                "name": "Fed (n=16)",
+                "x": "edoxaban_caucasFed__time",
+                "y": "edoxaban_caucasFed__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#1f77b4ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_PK_caucas__plot1",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_PK_caucas__plot1_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_PK_caucas__plot1_yaxis",
+              "name": "edoxaban urine [\u00b5mole]",
+              "label": "edoxaban urine",
+              "unit": "\u00b5mole",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_PK_caucas__plot1_curve0",
+                "name": "Fast",
+                "x": "task_caucasFast__time",
+                "y": "task_caucasFast__Aurine_edo",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_PK_caucas__plot1_curve1",
+                "name": "Fast\u00b1SD (n=16)",
+                "x": "edoxaban_urine_caucasFast__time",
+                "y": "edoxaban_urine_caucasFast__mean",
+                "xerr": null,
+                "yerr": "edoxaban_urine_caucasFast__mean_sd",
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_PK_caucas__plot1_curve2",
+                "name": "Fed",
+                "x": "task_caucasFed__time",
+                "y": "task_caucasFed__Aurine_edo",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_PK_caucas__plot1_curve3",
+                "name": "Fed\u00b1SD (n=16)",
+                "x": "edoxaban_urine_caucasFed__time",
+                "y": "edoxaban_urine_caucasFed__mean",
+                "xerr": null,
+                "yerr": "edoxaban_urine_caucasFed__mean_sd",
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#1f77b4ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        }
+      ]
+    },
+    "Fig_PD_japan": {
+      "sid": "Fig_PD_japan",
+      "name": "Mendell2011 (healthy, Japanese)",
+      "num_rows": 1,
+      "num_cols": 2,
+      "width": 14.0,
+      "height": 5.0,
+      "subplots": [
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_PD_japan__plot0",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_PD_japan__plot0_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_PD_japan__plot0_yaxis",
+              "name": "aPTT [s]",
+              "label": "aPTT",
+              "unit": "s",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_PD_japan__plot0_curve0",
+                "name": "Fast",
+                "x": "task_japanFast__time",
+                "y": "task_japanFast__aPTT",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_PD_japan__plot0_curve1",
+                "name": "Fast (n=16)",
+                "x": "aPTT_japanFast__time",
+                "y": "aPTT_japanFast__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_PD_japan__plot0_curve2",
+                "name": "Fed",
+                "x": "task_japanFed__time",
+                "y": "task_japanFed__aPTT",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_PD_japan__plot0_curve3",
+                "name": "Fed (n=16)",
+                "x": "aPTT_japanFed__time",
+                "y": "aPTT_japanFed__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#1f77b4ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_PD_japan__plot1",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_PD_japan__plot1_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_PD_japan__plot1_yaxis",
+              "name": "PT [s]",
+              "label": "PT",
+              "unit": "s",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_PD_japan__plot1_curve0",
+                "name": "Fast",
+                "x": "task_japanFast__time",
+                "y": "task_japanFast__PT",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_PD_japan__plot1_curve1",
+                "name": "Fast (n=16)",
+                "x": "PT_japanFast__time",
+                "y": "PT_japanFast__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_PD_japan__plot1_curve2",
+                "name": "Fed",
+                "x": "task_japanFed__time",
+                "y": "task_japanFed__PT",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_PD_japan__plot1_curve3",
+                "name": "Fed (n=16)",
+                "x": "PT_japanFed__time",
+                "y": "PT_japanFed__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#1f77b4ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        }
+      ]
+    },
+    "Fig_PD_caucas": {
+      "sid": "Fig_PD_caucas",
+      "name": "Mendell2011 (healthy, Caucasian)",
+      "num_rows": 1,
+      "num_cols": 2,
+      "width": 14.0,
+      "height": 5.0,
+      "subplots": [
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_PD_caucas__plot0",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_PD_caucas__plot0_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_PD_caucas__plot0_yaxis",
+              "name": "aPTT [s]",
+              "label": "aPTT",
+              "unit": "s",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_PD_caucas__plot0_curve0",
+                "name": "Fast",
+                "x": "task_caucasFast__time",
+                "y": "task_caucasFast__aPTT",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_PD_caucas__plot0_curve1",
+                "name": "Fast (n=16)",
+                "x": "aPTT_caucasFast__time",
+                "y": "aPTT_caucasFast__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_PD_caucas__plot0_curve2",
+                "name": "Fed",
+                "x": "task_caucasFed__time",
+                "y": "task_caucasFed__aPTT",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_PD_caucas__plot0_curve3",
+                "name": "Fed (n=16)",
+                "x": "aPTT_caucasFed__time",
+                "y": "aPTT_caucasFed__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#1f77b4ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_PD_caucas__plot1",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_PD_caucas__plot1_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_PD_caucas__plot1_yaxis",
+              "name": "PT [s]",
+              "label": "PT",
+              "unit": "s",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_PD_caucas__plot1_curve0",
+                "name": "Fast",
+                "x": "task_caucasFast__time",
+                "y": "task_caucasFast__PT",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_PD_caucas__plot1_curve1",
+                "name": "Fast (n=16)",
+                "x": "PT_caucasFast__time",
+                "y": "PT_caucasFast__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_PD_caucas__plot1_curve2",
+                "name": "Fed",
+                "x": "task_caucasFed__time",
+                "y": "task_caucasFed__PT",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_PD_caucas__plot1_curve3",
+                "name": "Fed (n=16)",
+                "x": "PT_caucasFed__time",
+                "y": "PT_caucasFed__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#1f77b4ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        }
+      ]
+    }
+  }
+}

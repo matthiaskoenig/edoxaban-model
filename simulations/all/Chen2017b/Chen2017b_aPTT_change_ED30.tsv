@@ -1,0 +1,7 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Chen2017b		all	12.0	ED30	aPTT (change)		plasma	coagulation assay	aPTT_change_ED30	0.0	hr		0.0					sec	sec
+Chen2017b		all	12.0	ED30	aPTT (change)		plasma	coagulation assay	aPTT_change_ED30	1.0	hr		12.0	17.3	5.3			sec	sec
+Chen2017b		all	12.0	ED30	aPTT (change)		plasma	coagulation assay	aPTT_change_ED30	2.0	hr		10.9	14.0	3.1			sec	sec
+Chen2017b		all	12.0	ED30	aPTT (change)		plasma	coagulation assay	aPTT_change_ED30	6.0	hr		5.9	7.9	2.0			sec	sec
+Chen2017b		all	12.0	ED30	aPTT (change)		plasma	coagulation assay	aPTT_change_ED30	12.0	hr		1.0	2.4	1.4			sec	sec
+Chen2017b		all	12.0	ED30	aPTT (change)		plasma	coagulation assay	aPTT_change_ED30	24.0	hr		0.7	1.5	0.8			sec	sec

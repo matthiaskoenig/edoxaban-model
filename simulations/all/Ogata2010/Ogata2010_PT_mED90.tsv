@@ -1,0 +1,23 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Ogata2010		all	9.0	mED90	prothrombin time		plasma	coagulation assay	PT_mED90	0.5	hr		14.72	25.48	10.76			sec	sec
+Ogata2010		all	9.0	mED90	prothrombin time		plasma	coagulation assay	PT_mED90	1.0	hr		23.78	37.56	13.78			sec	sec
+Ogata2010		all	9.0	mED90	prothrombin time		plasma	coagulation assay	PT_mED90	2.0	hr		34.17	33.62	0.55			sec	sec
+Ogata2010		all	9.0	mED90	prothrombin time		plasma	coagulation assay	PT_mED90	3.0	hr		32.48	29.67	2.81			sec	sec
+Ogata2010		all	9.0	mED90	prothrombin time		plasma	coagulation assay	PT_mED90	4.0	hr		28.73	27.99	0.74			sec	sec
+Ogata2010		all	9.0	mED90	prothrombin time		plasma	coagulation assay	PT_mED90	6.0	hr		25.91	23.68	2.23			sec	sec
+Ogata2010		all	9.0	mED90	prothrombin time		plasma	coagulation assay	PT_mED90	8.0	hr		21.98	20.13	1.85			sec	sec
+Ogata2010		all	9.0	mED90	prothrombin time		plasma	coagulation assay	PT_mED90	12.0	hr		19.75	17.51	2.24			sec	sec
+Ogata2010		all	9.0	mED90	prothrombin time		plasma	coagulation assay	PT_mED90	24.0	hr		17.13					sec	sec
+Ogata2010		all	9.0	mED90	prothrombin time		plasma	coagulation assay	PT_mED90	36.0	hr		14.51					sec	sec
+Ogata2010		all	9.0	mED90	prothrombin time		plasma	coagulation assay	PT_mED90	40.0	hr							sec	sec
+Ogata2010		all	9.0	mED90	prothrombin time		plasma	coagulation assay	PT_mED90	216.0	hr		14.37	26.9	12.53		0.0	sec	sec
+Ogata2010		all	9.0	mED90	prothrombin time		plasma	coagulation assay	PT_mED90	217.0	hr		20.82	31.46	10.64		1.0	sec	sec
+Ogata2010		all	9.0	mED90	prothrombin time		plasma	coagulation assay	PT_mED90	218.0	hr		24.43	34.11	9.68		2.0	sec	sec
+Ogata2010		all	9.0	mED90	prothrombin time		plasma	coagulation assay	PT_mED90	219.0	hr		27.85	34.11	6.26		3.0	sec	sec
+Ogata2010		all	9.0	mED90	prothrombin time		plasma	coagulation assay	PT_mED90	220.0	hr		30.89	29.94	0.95		4.0	sec	sec
+Ogata2010		all	9.0	mED90	prothrombin time		plasma	coagulation assay	PT_mED90	222.0	hr		31.84	26.33	5.51		6.0	sec	sec
+Ogata2010		all	9.0	mED90	prothrombin time		plasma	coagulation assay	PT_mED90	224.0	hr		25.38	22.34	3.04		8.0	sec	sec
+Ogata2010		all	9.0	mED90	prothrombin time		plasma	coagulation assay	PT_mED90	228.0	hr		21.2				12.0	sec	sec
+Ogata2010		all	9.0	mED90	prothrombin time		plasma	coagulation assay	PT_mED90	240.0	hr		16.84				24.0	sec	sec
+Ogata2010		all	9.0	mED90	prothrombin time		plasma	coagulation assay	PT_mED90	252.0	hr		13.99				36.0	sec	sec
+Ogata2010		all	9.0	mED90	prothrombin time		plasma	coagulation assay	PT_mED90	264.0	hr		13.42				48.0	sec	sec

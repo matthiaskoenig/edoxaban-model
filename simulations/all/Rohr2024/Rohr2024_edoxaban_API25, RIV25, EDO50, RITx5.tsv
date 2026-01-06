@@ -1,0 +1,12 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Rohr2024		all	8.0	API25, RIV25, EDO50, RITx5	concentration	edoxaban	plasma	LC MS/MS	edoxaban_API25, RIV25, EDO50, RITx5	0.5	hr		2.7573723948925115e-07	290.04	2.534768217962332e-07			mole/meter^3	pg/ml
+Rohr2024		all	8.0	API25, RIV25, EDO50, RITx5	concentration	edoxaban	plasma	LC MS/MS	edoxaban_API25, RIV25, EDO50, RITx5	1.0	hr		3.456021078061081e-07	241.77	9.553733363987024e-08			mole/meter^3	pg/ml
+Rohr2024		all	8.0	API25, RIV25, EDO50, RITx5	concentration	edoxaban	plasma	LC MS/MS	edoxaban_API25, RIV25, EDO50, RITx5	1.5	hr		3.2733761755142703e-07	221.67	7.71268734331038e-08			mole/meter^3	pg/ml
+Rohr2024		all	8.0	API25, RIV25, EDO50, RITx5	concentration	edoxaban	plasma	LC MS/MS	edoxaban_API25, RIV25, EDO50, RITx5	2.0	hr		3.0535089351856916e-07	201.58	6.245689324852478e-08			mole/meter^3	pg/ml
+Rohr2024		all	8.0	API25, RIV25, EDO50, RITx5	concentration	edoxaban	plasma	LC MS/MS	edoxaban_API25, RIV25, EDO50, RITx5	2.5	hr		2.83382415729722e-07	185.51	5.510365691222461e-08			mole/meter^3	pg/ml
+Rohr2024		all	8.0	API25, RIV25, EDO50, RITx5	concentration	edoxaban	plasma	LC MS/MS	edoxaban_API25, RIV25, EDO50, RITx5	3.0	hr		2.7243466932331984e-07	177.51	5.1454408110090536e-08			mole/meter^3	pg/ml
+Rohr2024		all	8.0	API25, RIV25, EDO50, RITx5	concentration	edoxaban	plasma	LC MS/MS	edoxaban_API25, RIV25, EDO50, RITx5	4.0	hr		2.4687168146437056e-07	157.45	4.041543048363494e-08			mole/meter^3	pg/ml
+Rohr2024		all	8.0	API25, RIV25, EDO50, RITx5	concentration	edoxaban	plasma	LC MS/MS	edoxaban_API25, RIV25, EDO50, RITx5	6.0	hr		1.8472497436402715e-07	117.35	2.939469910119002e-08			mole/meter^3	pg/ml
+Rohr2024		all	8.0	API25, RIV25, EDO50, RITx5	concentration	edoxaban	plasma	LC MS/MS	edoxaban_API25, RIV25, EDO50, RITx5	8.0	hr		1.262640085538392e-07	81.28	2.2041462764889846e-08			mole/meter^3	pg/ml
+Rohr2024		all	8.0	API25, RIV25, EDO50, RITx5	concentration	edoxaban	plasma	LC MS/MS	edoxaban_API25, RIV25, EDO50, RITx5	23.0	hr		2.2023216520879176e-08	16.09	7.3349900922895014e-09			mole/meter^3	pg/ml
+Rohr2024		all	8.0	API25, RIV25, EDO50, RITx5	concentration	edoxaban	plasma	LC MS/MS	edoxaban_API25, RIV25, EDO50, RITx5	24.0	hr		2.218743271697521e-08					mole/meter^3	pg/ml
