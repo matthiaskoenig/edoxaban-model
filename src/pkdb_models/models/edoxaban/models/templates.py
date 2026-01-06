@@ -54,9 +54,8 @@ model_annotations = [
     (BQB.HAS_PROPERTY, "go/GO:0007596"),  # blood coagulation
 
     # model reference
-    # TODO: update
     # (BQB.IS_DESCRIBED_BY, "doi/10.20944/preprints202507.1945.v1"),  # preprint
-    # (BQB.IS_DESCRIBED_BY, "doi/10.5281/zenodo.15157735"),
+    (BQB.IS_DESCRIBED_BY, "doi/10.5281/zenodo.18165479"),
 ]
 
 creators = [

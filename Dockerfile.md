@@ -3,7 +3,7 @@
 ## Build image
 To build the latest image use:
 ```bash
-docker build -f Dockerfile -t matthiaskoenig/edoxaban:0.7.0 -t matthiaskoenig/edoxaban:latest .
+docker build -f Dockerfile -t matthiaskoenig/edoxaban:0.7.1 -t matthiaskoenig/edoxaban:latest .
 ```
 
 ## Push images

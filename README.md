@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13987865.svg)](https://doi.org/10.5281/zenodo.13987865)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18165479.svg)](https://doi.org/10.5281/zenodo.18165479)
 [![GitHub Action](https://github.com/matthiaskoenig/edoxaban-model/actions/workflows/python.yml/badge.svg)](https://github.com/matthiaskoenig/edoxaban-model/actions/workflows/python.yml)
 [![GitHub Action](https://github.com/matthiaskoenig/edoxaban-model/actions/workflows/docker.yml/badge.svg)](https://github.com/matthiaskoenig/edoxaban-model/actions/workflows/docker.yml)
 
@@ -25,7 +25,7 @@ To cite the model repository
 
 > Babaeva, M., Myshkina, M. & König, M. (2025).
 > *Physiologically based pharmacokinetic/ pharmacodynamic (PBPK/PD) model of edoxaban.*   
-> Zenodo. [https://doi.org/10.5281/zenodo.13987865](https://doi.org/10.5281/zenodo.13987865)
+> Zenodo. [https://doi.org/10.5281/zenodo.18165479](https://doi.org/10.5281/zenodo.18165479)
 
 ## License
 
